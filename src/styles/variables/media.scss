@@ -1,0 +1,42 @@
+$desktop: 1260px;
+$tablet: 960px;
+$mobile: 480px;
+
+@mixin media_custom($min, $max: '') {
+  $query: '';
+  @if $max == '' {
+    $query: '(max-width: ' + $min + ')';
+  } @else if $min == '' {
+    $query: '(min-width: ' + $max + ')';
+  } @else {
+    $query: '(min-width: ' + $min + ') and (' + 'max-width: ' + $max + ')';
+  }
+
+  @media #{$query} {
+    @content;
+  }
+}
+
+@mixin media_mobile_xs {
+  @include media_custom($mobile) {
+    @content;
+  }
+}
+
+@mixin media_mobile {
+  @include media_custom($mobile, $tablet) {
+    @content;
+  }
+}
+
+@mixin media_tablet {
+  @include media_custom($tablet, $desktop) {
+    @content;
+  }
+}
+
+@mixin media_desktop {
+  @include media_custom('', $desktop) {
+    @content;
+  }
+}

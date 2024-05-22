@@ -1,0 +1,138 @@
+@import 'media.scss';
+
+@font-face {
+  font-family: 'helvetica medium';
+  src: url('../../assets/fonts/helveticaneue-light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica condensed bold';
+  src: url('../../assets/fonts/helveticaneuecondensedbold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'druk text trial bold';
+  src: url('../../assets/fonts/druktextboldtrial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'druk text trial super';
+  src: url('../../assets/fonts/druktextsupertrial.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin paragraphs {
+  font-family: 'helvetica medium', sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+  @include media_mobile_xs {
+    font-size: 20px;
+  }
+  @include media_mobile {
+    font-size: 20px;
+  }
+  @include media_tablet {
+    font-size: 20px;
+  }
+  @include media_desktop {
+    font-size: 20px;
+  }
+}
+
+@mixin navbar {
+  font-family: 'helvetica medium', sans-serif;
+  letter-spacing: -2px;
+  font-size: 30px;
+  @include media_mobile_xs {
+    font-size: 30px;
+  }
+  @include media_mobile {
+    font-size: 30px;
+  }
+  @include media_tablet {
+    font-size: 30px;
+  }
+  @include media_desktop {
+    font-size: 30px;
+  }
+}
+
+@mixin navbar_big {
+  font-family: 'helvetica medium', sans-serif;
+  letter-spacing: normal;
+  font-size: 160px;
+  @include media_mobile_xs {
+    font-size: 160px;
+  }
+  @include media_mobile {
+    font-size: 160px;
+  }
+  @include media_tablet {
+    font-size: 160px;
+  }
+  @include media_desktop {
+    font-size: 160px;
+  }
+}
+
+@mixin titles {
+  font-family: 'helvetica medium', sans-serif;
+  letter-spacing: -2px;
+  font-size: 26px;
+  @include media_mobile_xs {
+    font-size: 26px;
+  }
+  @include media_mobile {
+    font-size: 26px;
+  }
+  @include media_tablet {
+    font-size: 26px;
+  }
+  @include media_desktop {
+    font-size: 26px;
+  }
+}
+
+@mixin title_bold {
+  font-family: 'druk text trial bold', sans-serif;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  font-size: 36px;
+  @include media_mobile_xs {
+    font-size: 36px;
+  }
+  @include media_mobile {
+    font-size: 36px;
+  }
+  @include media_tablet {
+    font-size: 36px;
+  }
+  @include media_desktop {
+    font-size: 36px;
+  }
+}
+
+@mixin title_super {
+  font-family: 'druk text trial super', sans-serif;
+  text-transform: uppercase;
+  font-size: 200px;
+  @include media_mobile_xs {
+    font-size: 200px;
+  }
+  @include media_mobile {
+    font-size: 200px;
+  }
+  @include media_tablet {
+    font-size: 200px;
+  }
+  @include media_desktop {
+    font-size: 200px;
+  }
+}
