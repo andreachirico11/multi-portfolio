@@ -1,52 +1,84 @@
 @import '../../styles/media.scss';
+@import '../../styles/typography.scss';
 
 :host {
   position: relative;
   height: 100vh;
   overflow: hidden;
-}
-
-:host,
-h3 {
   display: block;
   width: 100vw;
-}
 
-.img-container,
-nav,
-h3 {
-  position: absolute;
-}
-
-.img-container {
-  width: 1266px;
-  height: 844px;
-  right: -20%;
-
-  @include media_tablet {
-    width: 1621px;
-    height: 1080px;
+  .img-container,
+  nav,
+  .footer {
+    position: absolute;
   }
 
-  @include media_desktop {
-    width: 1537px;
-    height: 1024px;
-    left: 0;
+  .img-container {
+    width: 1266px;
+    height: 844px;
+    right: -20%;
+
+    @include media_tablet {
+      width: 1621px;
+      height: 1080px;
+    }
+
+    @include media_desktop {
+      width: 1537px;
+      height: 1024px;
+      left: 0;
+    }
   }
-}
 
-nav {
-  text-transform: uppercase;
-  text-align: right;
-  right: 8%;
-  top: 8%;
+  nav {
+    text-transform: uppercase;
+    text-align: right;
+    right: 8%;
+    top: 8%;
 
-  @include media_desktop {
-    right: 5%;
+    @include media_desktop {
+      right: 5%;
+    }
   }
-}
 
-h3 {
-  bottom: 8%;
-  text-align: center;
+  .footer {
+    bottom: 8%;
+    display: block;
+    width: 100vw;
+    text-align: center;
+  }
+
+  &.full-screen {
+    nav {
+      text-align: center;
+      right: 0;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ul {
+        @include navbar_big;
+        rotate: 90deg;
+        width: fit-content;
+        height: fit-content;
+
+        @include media_tablet {
+          rotate: 0deg;
+          width: unset;
+          height: unset;
+        }
+
+        @include media_desktop {
+          rotate: 0deg;
+          width: unset;
+          height: unset;
+        }
+      }
+    }
+  }
 }

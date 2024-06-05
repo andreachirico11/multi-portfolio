@@ -1,25 +1,23 @@
+@if (navbarConfig.backgroundImage) {
 <div class="img-container">
-  <img ngSrc="assets/nav.png" fill>
+  <img [ngSrc]="navbarConfig.backgroundImage" fill>
 </div>
-
+}
 
 <nav class="text-primary">
   <ul>
+    @for (anchor of navbarConfig.anchors; track anchor.label) {
     <li>
-      <a routerLink="/about">about</a>
+      <a [routerLink]="anchor.routerLink || null">
+        {{anchor.label}}
+      </a>
     </li>
-    <li>
-      <a routerLink="/contact">mail</a>
-    </li>
-    <li>
-      <a>bandcamp</a>
-    </li>
-    <li>
-      <a>spotify</a>
-    </li>
-    <li>
-      <a routerLink="/vimeo">vimeo</a>
-    </li>
+    }
   </ul>
 </nav>
-<h3 class="text-primary">scroll down</h3>
+
+@if (navbarConfig.hasFooter) {
+<div class="footer">
+  <ng-content></ng-content>
+</div>
+}

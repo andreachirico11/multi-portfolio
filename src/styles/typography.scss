@@ -77,13 +77,13 @@
   letter-spacing: normal;
   font-size: 160px;
   @include media_mobile_xs {
-    font-size: 160px;
+    font-size: 50px;
   }
   @include media_mobile {
-    font-size: 160px;
+    font-size: 50px;
   }
   @include media_tablet {
-    font-size: 160px;
+    font-size: 120px;
   }
   @include media_desktop {
     font-size: 160px;
