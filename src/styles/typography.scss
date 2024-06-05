@@ -2,28 +2,35 @@
 
 @font-face {
   font-family: 'helvetica medium';
-  src: url('../../assets/fonts/helveticaneue-light.woff2') format('woff2');
+  src: url('../assets/fonts/helveticaneue-light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica light';
+  src: url('../assets/fonts/helveticaneue-light-2.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'helvetica condensed bold';
-  src: url('../../assets/fonts/helveticaneuecondensedbold.woff2') format('woff2');
+  src: url('../assets/fonts/helveticaneuecondensedbold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'druk text trial bold';
-  src: url('../../assets/fonts/druktextboldtrial.woff2') format('woff2');
+  src: url('../assets/fonts/druktextboldtrial.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'druk text trial super';
-  src: url('../../assets/fonts/druktextsupertrial.woff2') format('woff2');
+  src: url('../assets/fonts/druktextsupertrial.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,18 +38,31 @@
 @mixin paragraphs {
   font-family: 'helvetica medium', sans-serif;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: normal;
+
   @include media_mobile_xs {
-    font-size: 20px;
+    font-size: 14px;
   }
   @include media_mobile {
-    font-size: 20px;
+    font-size: 14px;
   }
   @include media_tablet {
-    font-size: 20px;
+    font-size: 14px;
   }
   @include media_desktop {
-    font-size: 20px;
+    font-size: 14px;
+  }
+}
+
+@mixin paragraphs-title {
+  font-family: 'helvetica medium', sans-serif;
+  letter-spacing: -0.5px;
+  font-weight: normal;
+  font-size: 20px;
+
+  @include media_desktop {
+    font-size: 26px;
   }
 }
 
@@ -50,18 +70,6 @@
   font-family: 'helvetica medium', sans-serif;
   letter-spacing: -2px;
   font-size: 30px;
-  @include media_mobile_xs {
-    font-size: 30px;
-  }
-  @include media_mobile {
-    font-size: 30px;
-  }
-  @include media_tablet {
-    font-size: 30px;
-  }
-  @include media_desktop {
-    font-size: 30px;
-  }
 }
 
 @mixin navbar_big {

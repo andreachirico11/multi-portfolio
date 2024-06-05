@@ -1,6 +1,4 @@
-$desktop: 1260px;
-$tablet: 960px;
-$mobile: 480px;
+@import 'variables.scss';
 
 @mixin media_custom($min, $max: '') {
   $query: '';

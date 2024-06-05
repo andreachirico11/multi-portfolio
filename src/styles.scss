@@ -1,7 +1,28 @@
-@import './styles/variables/typography.scss';
-@import './styles/variables/colors.scss';
+@import './styles/typography.scss';
+@import './styles/variables.scss';
+@import './styles/themes.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   @include paragraphs;
   color: $black;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  @include navbar;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  @include paragraphs-title;
 }
