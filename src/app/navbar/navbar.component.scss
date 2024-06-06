@@ -3,31 +3,20 @@
 
 :host {
   position: relative;
-  height: 100vh;
   overflow: hidden;
   display: block;
   width: 100vw;
+  height: 100vh;
 
-  .img-container,
   nav,
   .footer {
     position: absolute;
   }
 
   .img-container {
-    width: 1266px;
-    height: 844px;
-    right: -20%;
-
-    @include media_tablet {
-      width: 1621px;
-      height: 1080px;
-    }
-
-    @include media_desktop {
-      width: 1537px;
-      height: 1024px;
-      left: 0;
+    img {
+      object-fit: cover;
+      object-position: 90% 100%;
     }
   }
 
@@ -64,19 +53,22 @@
       ul {
         @include navbar_big;
         rotate: 90deg;
-        width: fit-content;
-        height: fit-content;
+        height: 80vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         @include media_tablet {
-          rotate: 0deg;
+          rotate: initial;
           width: unset;
           height: unset;
         }
 
         @include media_desktop {
-          rotate: 0deg;
-          width: unset;
-          height: unset;
+          rotate: initial;
+          line-height: 20vh;
         }
       }
     }

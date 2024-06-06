@@ -1,0 +1,31 @@
+@import '../styles/media.scss';
+
+span.media-query-util {
+  width: 0;
+  height: 0;
+
+  span {
+    display: none;
+  }
+
+  @include media_mobile_xs {
+    span.media_mobile_xs {
+      display: unset;
+    }
+  }
+  @include media_mobile {
+    span.media_mobile {
+      display: unset;
+    }
+  }
+  @include media_tablet {
+    span.media_tablet {
+      display: unset;
+    }
+  }
+  @include media_desktop {
+    span.media_desktop {
+      display: unset;
+    }
+  }
+}
