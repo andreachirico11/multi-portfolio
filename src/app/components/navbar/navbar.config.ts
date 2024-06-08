@@ -7,3 +7,5 @@ export interface NavbarConfig {
     routerLink?: string;
   }[];
 }
+
+export type NavbarType = "NAVBAR";

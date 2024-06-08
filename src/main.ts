@@ -1,6 +1,14 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
+import { getAppCofing } from './app/app.config';
 import { AppComponent } from './app/app.component';
+import { AppConfiguration } from './app/types,interfaces/AppConfiguration';
+import { environment } from './environments/environment';
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+console.log(environment);
+
+
+fetch(environment.configUrl)
+  .then((r) => r.json())
+  .then((config: AppConfiguration) => {
+    return bootstrapApplication(AppComponent, getAppCofing(config));
+  }).catch((err) => console.error(err));

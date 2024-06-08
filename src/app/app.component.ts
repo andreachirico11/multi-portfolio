@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from './navbar/navbar.component';
-import { NavbarConfig } from './navbar/navbarConfig';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarConfig } from './components/navbar/navbar.config';
 
 @Component({
   selector: 'mp-root',
@@ -34,4 +34,5 @@ export class AppComponent {
       { label: 'lessons', routerLink: '/lessons' },
     ],
   };
+
 }

@@ -27,7 +27,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/appConfigs"
             ],
             "styles": [
               "src/styles.scss"
@@ -40,7 +41,7 @@
             }
           },
           "configurations": {
-            "production": {
+            "production-gerry": {
               "budgets": [
                 {
                   "type": "initial",
@@ -53,12 +54,24 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/gerry/environment.prod.ts"
+                }
+              ]
             },
-            "development": {
+            "development-gerry": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/gerry/environment.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -66,14 +79,14 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": {
-              "buildTarget": "multi-portfolio:build:production"
+            "production-gerry": {
+              "buildTarget": "multi-portfolio:build:production-gerry"
             },
-            "development": {
-              "buildTarget": "multi-portfolio:build:development"
+            "development-gerry": {
+              "buildTarget": "multi-portfolio:build:development-gerry"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development-gerry"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -92,7 +105,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/appConfigs"
             ],
             "styles": [
               "src/styles.scss"

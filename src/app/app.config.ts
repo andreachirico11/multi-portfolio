@@ -1,9 +1,24 @@
-import { ApplicationConfig } from '@angular/core';
+import { APP_INITIALIZER, ApplicationConfig, Injectable, Injector } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
-import { routes } from './app.routes';
+import { provideHttpClient } from '@angular/common/http';
 import { provideClientHydration } from '@angular/platform-browser';
+import { ConfigService } from './config.service';
+import { AppConfiguration } from './types,interfaces/AppConfiguration';
 
-export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideClientHydration()]
-};
+export const getAppCofing = (c: AppConfiguration): ApplicationConfig => ({
+  providers: [
+    provideRouter([]),
+    provideClientHydration(),
+    provideHttpClient(),
+    ConfigService,
+    {
+      provide: APP_INITIALIZER,
+      deps: [ConfigService],
+      useFactory(configService: ConfigService) {
+        return () => configService.load(c);
+      },
+      multi: true,
+    },
+  ],
+});

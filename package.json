@@ -1,12 +1,12 @@
 {
   "name": "multi-portfolio",
   "version": "0.0.0",
+  "config": {
+    "appId": "gerry"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "start": "ng serve --configuration development-%npm_package_config_appId%",
     "serve:ssr:multi-portfolio": "node dist/multi-portfolio/server/server.mjs"
   },
   "private": true,

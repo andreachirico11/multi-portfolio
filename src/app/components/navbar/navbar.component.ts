@@ -1,7 +1,7 @@
 import { NgIf, NgOptimizedImage } from '@angular/common';
 import { Component, HostBinding, Input } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { NavbarConfig } from './navbarConfig';
+import { NavbarConfig } from './navbar.config';
 
 @Component({
   selector: 'mp-nav',

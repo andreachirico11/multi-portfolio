@@ -1,0 +1,26 @@
+{
+  "appId": "GerryApp",
+  "routes": [
+    {
+      "title": "about",
+      "path": "about",
+      "lazy": true,
+      "componentId": "about_1",
+      "componentType": "ABOUT"
+    },
+    {
+      "title": "contact",
+      "path": "contact",
+      "lazy": true,
+      "componentId": "contact_1",
+      "componentType": "CONTACT"
+    },
+    {
+      "title": "vimeo",
+      "path": "vimeo",
+      "lazy": true,
+      "componentId": "vimeo_1",
+      "componentType": "VIMEO"
+    }
+  ]
+}
