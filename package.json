@@ -7,6 +7,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --configuration development-%npm_package_config_appId%",
+    "build": "ng build --configuration production-%npm_package_config_appId%",
     "serve:ssr:multi-portfolio": "node dist/multi-portfolio/server/server.mjs"
   },
   "private": true,
