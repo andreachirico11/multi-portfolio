@@ -1,3 +1,5 @@
-@for (paragraph of config.paragraphs; track paragraph.content) {
-  <mp-about-paragraph [config]="paragraph"/>
-}
+<div>
+  @for (paragraph of config.paragraphs; track paragraph.content) {
+    <mp-about-paragraph [config]="paragraph"/>
+  }
+</div>

@@ -5,7 +5,7 @@
   position: relative;
   overflow: hidden;
   display: block;
-  width: 100vw;
+  width: auto;
   height: 100vh;
 
   nav,
@@ -40,8 +40,6 @@
 
   &.full-screen {
     nav {
-      text-align: center;
-      right: 0;
       top: 0;
       left: 0;
       width: 100vw;
