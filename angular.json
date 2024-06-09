@@ -41,7 +41,7 @@
             }
           },
           "configurations": {
-            "production-gerry": {
+            "production": {
               "budgets": [
                 {
                   "type": "initial",
@@ -57,19 +57,19 @@
               "outputHashing": "all",
               "fileReplacements": [
                 {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/gerry/environment.prod.ts"
+                  "replace": "src/environment.sample.ts",
+                  "with": "src/environment.ts"
                 }
               ]
             },
-            "development-gerry": {
+            "development": {
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
               "fileReplacements": [
                 {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/gerry/environment.ts"
+                  "replace": "src/environment.sample.ts",
+                  "with": "src/environment.ts"
                 }
               ]
             }
@@ -79,14 +79,14 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production-gerry": {
-              "buildTarget": "multi-portfolio:build:production-gerry"
+            "production": {
+              "buildTarget": "multi-portfolio:build:production"
             },
-            "development-gerry": {
-              "buildTarget": "multi-portfolio:build:development-gerry"
+            "development": {
+              "buildTarget": "multi-portfolio:build:development"
             }
           },
-          "defaultConfiguration": "development-gerry"
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

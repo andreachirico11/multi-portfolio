@@ -4,7 +4,7 @@ import { ConmponentConfigs } from './types,interfaces/ComponentConfigs';
 import { HttpClient } from '@angular/common/http';
 import { first, map } from 'rxjs';
 import { ComponentIdentity } from './types,interfaces/ComponentIdentity';
-import { environment } from '../environments/environment';
+import { environment } from '../environment.sample';
 
 export const ConfigResolver: ResolveFn<ConmponentConfigs> = ({ data }: ActivatedRouteSnapshot) =>
   inject(HttpClient)

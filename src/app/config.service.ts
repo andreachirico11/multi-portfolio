@@ -1,7 +1,6 @@
 import { Injectable, Injector } from '@angular/core';
 import { ROUTES } from '@angular/router';
 import { AppConfiguration, MpRouteConfiguration } from './types,interfaces/AppConfiguration';
-import { MpRoute } from './types,interfaces/Mproute';
 import { ComponentTypes } from './types,interfaces/ComponentTypes';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -9,8 +8,7 @@ import { VimeoComponent } from './components/vimeo/vimeo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ConfigResolver } from './config.resolver';
 import { HttpClient } from '@angular/common/http';
-import { ConmponentConfigs } from './types,interfaces/ComponentConfigs';
-import { first, map, tap } from 'rxjs';
+import { MpRoute } from './types,interfaces/MpRoute';
 
 @Injectable()
 export class ConfigService {
