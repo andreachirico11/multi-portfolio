@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ConfigResolver } from './config.resolver';
 import { HttpClient } from '@angular/common/http';
 import { MpRoute } from './types,interfaces/MpRoute';
+import { CardSlideshowComponent } from './components/card-slideshow/card-slideshow.component';
 
 @Injectable()
 export class ConfigService {
@@ -52,6 +53,12 @@ export class ConfigService {
         return () =>
           import('./components/vimeo/vimeo.component').then(({ VimeoComponent }) => VimeoComponent);
 
+      case 'CARD_SLIDESHOW':
+        return () =>
+          import('./components/card-slideshow/card-slideshow.component').then(
+            ({ CardSlideshowComponent }) => CardSlideshowComponent
+          );
+
       // Todo CREARE DEFAULT
       case 'NAVBAR':
       default:
@@ -69,6 +76,9 @@ export class ConfigService {
 
       case 'CONTACT':
         return ContactComponent;
+
+      case 'CARD_SLIDESHOW':
+        return CardSlideshowComponent;
 
       case 'VIMEO':
         return VimeoComponent;

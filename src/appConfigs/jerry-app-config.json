@@ -21,6 +21,13 @@
       "lazy": true,
       "componentId": "vimeo_1",
       "componentType": "VIMEO"
+    },
+    {
+      "title": "releases",
+      "path": "releases",
+      "lazy": true,
+      "componentId": "card_slideshow_1",
+      "componentType": "CARD_SLIDESHOW"
     }
   ]
 }

@@ -1,0 +1,60 @@
+@import '../../../styles/typography';
+@import '../../../styles/media.scss';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include media_desktop {
+    display: grid;
+    gap: 1em 5em;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+
+    .top-img-container  {
+      grid-row: 1 / -1;
+      grid-column: 1;
+    }
+
+
+    .title, .paragraph {
+      display: flex;
+      grid-column: 2;
+      height: 100%;
+    }
+
+    .title {
+      grid-row: 1;
+      align-items: flex-end;
+    }
+
+    .paragraph {
+      grid-row: 2;
+      align-items: flex-start;
+    }
+
+
+  }
+
+  .top-img-container {
+    width: 50%;
+
+  @include media_desktop {width: fit-content;}
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  }
+
+  .title {
+    padding: 1em 0;
+    h3 {
+      @include title_druk;
+    }
+  }
+
+}

@@ -1,0 +1,37 @@
+@import '../../../styles/typography';
+@import '../../../styles/media.scss';
+
+:host {
+  .card-container {
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 700px;
+    height: 90vh;
+    padding: 10vh 0;
+
+    @include media_desktop {
+      max-width: unset;
+    }
+  }
+
+  &.vertical {
+    .card-container {
+      display: grid;
+      row-gap: 5em;
+      justify-content: center;
+
+      overflow-y: scroll;
+    }
+  }
+
+  .footer {
+    width: 100vw;
+    height: 10vh;
+    padding: 3em 0;
+    text-align: center;
+
+    h3 {
+      @include titles;
+    }
+  }
+}

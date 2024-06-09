@@ -14,5 +14,76 @@
         "content": "Currently, his work focuses on the interrelations between electro-acoustic improvisation and cultural/natural ecology. The output of this project includes a photographic-musical album called [insita], released on September 18, 2023, with the label nusica.org, and a series of site-specific improvisation performances, [in situ], taking place from 2023 to 2025, where environmental sounds are integrated into the compositional and improvisational process."
       }
     ]
+  },
+  "card_slideshow_1": {
+    "vertical": true,
+    "cards": [
+      {
+        "title": "insita",
+        "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
+        "topImg": {
+          "title": "Insita Cover",
+          "url": "assets/album-cover.png",
+          "originalWidth": 624,
+          "originalHeigth": 628,
+          "alt": "Insita Cover"
+        }
+      },
+      {
+        "title": "insita",
+        "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
+        "topImg": {
+          "title": "Insita Cover",
+          "url": "assets/album-cover.png",
+          "originalWidth": 624,
+          "originalHeigth": 628,
+          "alt": "Insita Cover"
+        }
+      },
+      {
+        "title": "insita",
+        "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
+        "topImg": {
+          "title": "Insita Cover",
+          "url": "assets/album-cover.png",
+          "originalWidth": 624,
+          "originalHeigth": 628,
+          "alt": "Insita Cover"
+        }
+      },
+      {
+        "title": "insita",
+        "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
+        "topImg": {
+          "title": "Insita Cover",
+          "url": "assets/album-cover.png",
+          "originalWidth": 624,
+          "originalHeigth": 628,
+          "alt": "Insita Cover"
+        }
+      },
+      {
+        "title": "insita",
+        "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
+        "topImg": {
+          "title": "Insita Cover",
+          "url": "assets/album-cover.png",
+          "originalWidth": 624,
+          "originalHeigth": 628,
+          "alt": "Insita Cover"
+        }
+      },
+      {
+        "title": "insita",
+        "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
+        "topImg": {
+          "title": "Insita Cover",
+          "url": "assets/album-cover.png",
+          "originalWidth": 624,
+          "originalHeigth": 628,
+          "alt": "Insita Cover"
+        }
+      }
+    ]
   }
 }
