@@ -1,0 +1,38 @@
+@import '../../../../styles/media.scss';
+
+@mixin showIcon {
+  p {
+    width: 70%;
+  }
+
+  div {
+    display: unset;
+    width: 10%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+:host {
+  padding: 1.5em;
+
+  &.with-icon-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      display: none;
+    }
+
+    @include media_tablet {
+      @include showIcon;
+    }
+    @include media_desktop {
+      @include showIcon;
+    }
+  }
+}

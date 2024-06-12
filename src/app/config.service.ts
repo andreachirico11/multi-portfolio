@@ -2,14 +2,14 @@ import { Injectable, Injector } from '@angular/core';
 import { ROUTES } from '@angular/router';
 import { AppConfiguration, MpRouteConfiguration } from './types,interfaces/AppConfiguration';
 import { ComponentTypes } from './types,interfaces/ComponentTypes';
-import { AboutComponent } from './components/about/about.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { VimeoComponent } from './components/vimeo/vimeo.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { VimeoComponent } from './components/pages/vimeo/vimeo.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ConfigResolver } from './config.resolver';
 import { HttpClient } from '@angular/common/http';
 import { MpRoute } from './types,interfaces/MpRoute';
-import { CardSlideshowComponent } from './components/card-slideshow/card-slideshow.component';
+import { ParagraphListComponent } from './components/pages/paragraph-list/paragraph-list.component';
+import { CardSlideshowComponent } from './components/pages/card-slideshow/card-slideshow.component';
 
 @Injectable()
 export class ConfigService {
@@ -39,23 +39,23 @@ export class ConfigService {
 
   private getImportFunction(type: ComponentTypes) {
     switch (type) {
-      case 'ABOUT':
+      case 'PARAGRAPH_LIST':
         return () =>
-          import('./components/about/about.component').then(({ AboutComponent }) => AboutComponent);
+          import('./components/pages/paragraph-list/paragraph-list.component').then(({ ParagraphListComponent }) => ParagraphListComponent);
 
       case 'CONTACT':
         return () =>
-          import('./components/contact/contact.component').then(
+          import('./components/pages/contact/contact.component').then(
             ({ ContactComponent }) => ContactComponent
           );
 
       case 'VIMEO':
         return () =>
-          import('./components/vimeo/vimeo.component').then(({ VimeoComponent }) => VimeoComponent);
+          import('./components/pages/vimeo/vimeo.component').then(({ VimeoComponent }) => VimeoComponent);
 
       case 'CARD_SLIDESHOW':
         return () =>
-          import('./components/card-slideshow/card-slideshow.component').then(
+          import('./components/pages/card-slideshow/card-slideshow.component').then(
             ({ CardSlideshowComponent }) => CardSlideshowComponent
           );
 
@@ -63,7 +63,7 @@ export class ConfigService {
       case 'NAVBAR':
       default:
         return () =>
-          import('./components/navbar/navbar.component').then(
+          import('./components/shared/navbar/navbar.component').then(
             ({ NavbarComponent }) => NavbarComponent
           );
     }
@@ -71,8 +71,8 @@ export class ConfigService {
 
   private getComponentClass(type: ComponentTypes) {
     switch (type) {
-      case 'ABOUT':
-        return AboutComponent;
+      case 'PARAGRAPH_LIST':
+        return ParagraphListComponent;
 
       case 'CONTACT':
         return ContactComponent;

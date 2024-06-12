@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { NavbarConfig } from './components/navbar/navbar.config';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { NavbarConfig } from './components/shared/navbar/navbar.config';
 
 @Component({
   selector: 'mp-root',

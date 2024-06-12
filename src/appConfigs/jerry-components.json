@@ -1,5 +1,5 @@
 {
-  "about_1": {
+  "paragraph_list_1": {
     "paragraphs": [
       {
         "content": "The inclination towards experimentation and artistic research led him from the outset to explore various unconventional musical styles. Improvisation, inter-actions, blends of electronic and acoustic sounds, polyrhythmicexplorations, interdisciplinary forays into science and art are common features of his works."
@@ -15,6 +15,129 @@
       }
     ]
   },
+  "paragraph_list_2": {
+    "paragraphs": [
+      {
+        "navigateOnClick": {
+          "url": "https://www.google.com",
+          "navType": "window"
+        },
+        "icon": {
+          "position": "right",
+          "image": {
+            "title": "arrow",
+            "url": "assets/arrow_134x30.png",
+            "originalWidth": 134,
+            "originalHeight": 30,
+            "alt": "arrow"
+          }
+        },
+        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+      },
+      {
+        "navigateOnClick": {
+          "url": "https://www.google.com",
+          "navType": "window"
+        },
+        "icon": {
+          "position": "right",
+          "image": {
+            "title": "arrow",
+            "url": "assets/arrow_134x30.png",
+            "originalWidth": 134,
+            "originalHeight": 30,
+            "alt": "arrow"
+          }
+        },
+        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+      },
+      {
+        "navigateOnClick": {
+          "url": "https://www.google.com",
+          "navType": "window"
+        },
+        "icon": {
+          "position": "right",
+          "image": {
+            "title": "arrow",
+            "url": "assets/arrow_134x30.png",
+            "originalWidth": 134,
+            "originalHeight": 30,
+            "alt": "arrow"
+          }
+        },
+        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+      },
+      {
+        "navigateOnClick": {
+          "url": "https://www.google.com",
+          "navType": "window"
+        },
+        "icon": {
+          "position": "right",
+          "image": {
+            "title": "arrow",
+            "url": "assets/arrow_134x30.png",
+            "originalWidth": 134,
+            "originalHeight": 30,
+            "alt": "arrow"
+          }
+        },
+        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+      },
+      {
+        "navigateOnClick": {
+          "url": "https://www.google.com",
+          "navType": "window"
+        },
+        "icon": {
+          "position": "right",
+          "image": {
+            "title": "arrow",
+            "url": "assets/arrow_134x30.png",
+            "originalWidth": 134,
+            "originalHeight": 30,
+            "alt": "arrow"
+          }
+        },
+        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+      },
+      {
+        "navigateOnClick": {
+          "url": "https://www.google.com",
+          "navType": "window"
+        },
+        "icon": {
+          "position": "right",
+          "image": {
+            "title": "arrow",
+            "url": "assets/arrow_134x30.png",
+            "originalWidth": 134,
+            "originalHeight": 30,
+            "alt": "arrow"
+          }
+        },
+        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+      },
+      {
+        "navigateOnClick": {
+          "url": "https://www.google.com",
+          "navType": "window"
+        },
+        "icon": {
+          "position": "right",
+          "image": {
+            "title": "arrow",
+            "url": "assets/arrow_134x30.png",
+            "originalWidth": 134,
+            "originalHeight": 30,
+            "alt": "arrow"
+          }
+        },
+        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+      }
+    ]
+  },
   "card_slideshow_1": {
     "vertical": true,
     "cards": [
@@ -23,9 +146,9 @@
         "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
         "topImg": {
           "title": "Insita Cover",
-          "url": "assets/album-cover.png",
+          "url": "assets/album-cover_624x628.png",
           "originalWidth": 624,
-          "originalHeigth": 628,
+          "originalHeight": 628,
           "alt": "Insita Cover"
         }
       },
@@ -34,9 +157,9 @@
         "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
         "topImg": {
           "title": "Insita Cover",
-          "url": "assets/album-cover.png",
+          "url": "assets/album-cover_624x628.png",
           "originalWidth": 624,
-          "originalHeigth": 628,
+          "originalHeight": 628,
           "alt": "Insita Cover"
         }
       },
@@ -45,9 +168,9 @@
         "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
         "topImg": {
           "title": "Insita Cover",
-          "url": "assets/album-cover.png",
+          "url": "assets/album-cover_624x628.png",
           "originalWidth": 624,
-          "originalHeigth": 628,
+          "originalHeight": 628,
           "alt": "Insita Cover"
         }
       },
@@ -56,9 +179,9 @@
         "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
         "topImg": {
           "title": "Insita Cover",
-          "url": "assets/album-cover.png",
+          "url": "assets/album-cover_624x628.png",
           "originalWidth": 624,
-          "originalHeigth": 628,
+          "originalHeight": 628,
           "alt": "Insita Cover"
         }
       },
@@ -67,9 +190,9 @@
         "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
         "topImg": {
           "title": "Insita Cover",
-          "url": "assets/album-cover.png",
+          "url": "assets/album-cover_624x628.png",
           "originalWidth": 624,
-          "originalHeigth": 628,
+          "originalHeight": 628,
           "alt": "Insita Cover"
         }
       },
@@ -78,9 +201,9 @@
         "content": "Lorem ipsum dolor sit amet consectetur. Purus semper egestas enim aliquam. Viverra nunc sodales imperdiet nibh venenatis tristique. Mi aliquam sodales porta id faucibus enim in. Vel auctor morbi sit ac.",
         "topImg": {
           "title": "Insita Cover",
-          "url": "assets/album-cover.png",
+          "url": "assets/album-cover_624x628.png",
           "originalWidth": 624,
-          "originalHeigth": 628,
+          "originalHeight": 628,
           "alt": "Insita Cover"
         }
       }

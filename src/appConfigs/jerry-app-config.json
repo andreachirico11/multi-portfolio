@@ -5,8 +5,8 @@
       "title": "about",
       "path": "about",
       "lazy": true,
-      "componentId": "about_1",
-      "componentType": "ABOUT"
+      "componentId": "paragraph_list_1",
+      "componentType": "PARAGRAPH_LIST"
     },
     {
       "title": "contact",
@@ -28,6 +28,13 @@
       "lazy": true,
       "componentId": "card_slideshow_1",
       "componentType": "CARD_SLIDESHOW"
+    },
+    {
+      "title": "papers",
+      "path": "papers",
+      "lazy": true,
+      "componentId": "paragraph_list_2",
+      "componentType": "PARAGRAPH_LIST"
     }
   ]
 }

@@ -1,9 +1,8 @@
 import { Component, HostBinding, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ComponentRouteData } from '../../types,interfaces/ComponentIdentity';
-import { AboutComponentConfig } from '../about/about.config';
-import { CardComponent } from '../card/card.component';
 import { CardSlideshowConfig } from './card-slideshow.config';
+import { CardComponent } from '../../shared/card/card.component';
+import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity';
 
 @Component({
   selector: 'mp-card-slideshow',

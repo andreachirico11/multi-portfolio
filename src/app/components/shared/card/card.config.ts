@@ -1,4 +1,4 @@
-import { MpImageConfig } from "../../types,interfaces/MpImageConfig";
+import { MpImageConfig } from "../../../types,interfaces/MpImageConfig";
 
 export interface CardConfig {
   title?: string;

@@ -1,4 +1,3 @@
-import { ConmponentConfigs } from "./ComponentConfigs";
 import { ComponentTypes } from "./ComponentTypes";
 
 export interface ComponentIdentity {

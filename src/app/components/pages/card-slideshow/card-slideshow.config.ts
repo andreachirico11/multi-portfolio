@@ -1,4 +1,4 @@
-import { CardConfig } from "../card/card.config";
+import { CardConfig } from "../../shared/card/card.config";
 
 export interface CardSlideshowConfig {
   vertical: boolean;

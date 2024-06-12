@@ -1,0 +1,8 @@
+<p>{{config.content}}</p>
+
+@if (config.icon) {
+<div>
+  <img [ngSrc]="config.icon.image.url" [alt]="config.icon.image.alt"
+    [width]="config.icon.image.originalWidth" [height]="config.icon.image.originalHeight" />
+</div>
+}
