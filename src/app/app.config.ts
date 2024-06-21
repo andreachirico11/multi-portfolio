@@ -3,7 +3,7 @@ import { provideRouter } from '@angular/router';
 
 import { provideHttpClient } from '@angular/common/http';
 import { provideClientHydration } from '@angular/platform-browser';
-import { ConfigService } from './config.service';
+import { ConfigService } from './config/config.service';
 import { AppConfiguration } from './types,interfaces/AppConfiguration';
 
 export const getAppCofing = (c: AppConfiguration): ApplicationConfig => ({

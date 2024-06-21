@@ -1,4 +1,4 @@
-import { ComponentTypes } from "./ComponentTypes";
+import { ComponentTypes } from "../config/ComponentTypes";
 
 export interface ComponentIdentity {
   componentId: string;
