@@ -208,5 +208,62 @@
         }
       }
     ]
+  },
+  "custom_proj_nav1": {
+    "pageTitle": "patterns for trascendence",
+    "projectsTree": [
+      {
+        "title": "[insita]",
+        "routerLink": "insita",
+        "position": {
+          "top": 0.39,
+          "left": 0.139
+        },
+        "children": [
+          {
+            "title": "razzoagas",
+            "position": {
+              "top": 0.39,
+              "left": 0.0347
+            },
+            "routerLink": "razzoagas"
+          },
+          {
+            "title": "slwjm",
+            "position": {
+              "top": 0.292,
+              "left": 0.347
+            },
+            "routerLink": "slwjm"
+          }
+        ]
+      },
+      {
+        "title": "]ex(s)it(u)[",
+        "routerLink": "exsitu",
+        "position": {
+          "top": 0.146,
+          "left": 0.625
+        },
+        "children": [
+          {
+            "title": "[insitu]",
+            "position": {
+              "top": 0.195,
+              "left": 0.0347
+            },
+            "routerLink": "insitu"
+          },
+          {
+            "title": "tok",
+            "position": {
+              "top": 0.244,
+              "left": 0.25
+            },
+            "routerLink": "tok"
+          }
+        ]
+      }
+    ]
   }
 }

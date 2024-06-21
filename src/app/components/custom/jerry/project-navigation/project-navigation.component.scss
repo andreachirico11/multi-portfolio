@@ -1,0 +1,47 @@
+@import '../../../../../styles/typography';
+@import '../../../../../styles/media';
+@import '../../../../../styles/variables.scss';
+
+:host {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+
+  li {
+    position: absolute;
+  }
+
+  p {
+    @include title_bold;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .main-title {
+    left: 10%;
+    top: 10%;
+    position: absolute;
+  }
+
+
+  @include media_mobile_xs {
+    & > ul {
+      position: absolute;
+      top: 10%;
+    }
+
+    .main-title {
+      top: 2%;
+    }
+  }
+  @include media_mobile {
+    & > ul {
+      position: absolute;
+      top: 10%;
+    }
+    .main-title {
+      top: 2%;
+    }
+  }
+}

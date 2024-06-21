@@ -35,6 +35,13 @@
       "lazy": true,
       "componentId": "paragraph_list_2",
       "componentType": "PARAGRAPH_LIST"
+    },
+    {
+      "title": "projects",
+      "path": "projects",
+      "lazy": true,
+      "componentId": "custom_proj_nav1",
+      "componentType": "CUSTOM_PROJ_NAV"
     }
   ]
 }

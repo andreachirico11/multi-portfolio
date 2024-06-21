@@ -27,7 +27,7 @@ export class AppComponent {
     backgroundImage: 'assets/nav.png',
     wrapperClass: 'full-screen',
     anchors: [
-      { label: 'project', routerLink: '/project' },
+      { label: 'project', routerLink: '/projects' },
       { label: 'releases', routerLink: '/releases' },
       { label: 'live', routerLink: '/live' },
       { label: 'papers', routerLink: '/papers' },
