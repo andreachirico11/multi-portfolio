@@ -16,3 +16,13 @@
     {{cardConfig.content}}
   </p>
 </div>
+
+@if (cardConfig.cardSlideshow){
+<div class="card-slideshow-container">
+  @for (image of cardConfig.cardSlideshow.images; track image.title) {
+  <img [ngSrc]="image.url" [width]="image.originalWidth"
+    [height]="image.originalHeight" [alt]="image.alt">
+  }
+</div>
+
+}

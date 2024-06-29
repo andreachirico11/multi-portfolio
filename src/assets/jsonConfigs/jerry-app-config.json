@@ -42,6 +42,14 @@
       "lazy": true,
       "componentId": "custom_proj_nav1",
       "componentType": "CUSTOM_PROJ_NAV"
+    },
+    {
+      "title": "projects",
+      "path": "projects/:projectName",
+      "lazy": true,
+      "componentId": "project_card",
+      "componentType": "CARD",
+      "pathParameters": ["projectName"]
     }
   ]
 }

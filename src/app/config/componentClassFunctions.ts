@@ -2,6 +2,7 @@ import { CardSlideshowComponent } from '../components/pages/card-slideshow/card-
 import { ContactComponent } from '../components/pages/contact/contact.component';
 import { ParagraphListComponent } from '../components/pages/paragraph-list/paragraph-list.component';
 import { VimeoComponent } from '../components/pages/vimeo/vimeo.component';
+import { CardComponent } from '../components/shared/card/card.component';
 import { NavbarComponent } from '../components/shared/navbar/navbar.component';
 import { ComponentTypes } from './ComponentTypes';
 
@@ -31,6 +32,12 @@ export function getImportFunction(type: ComponentTypes) {
           ({ CardSlideshowComponent }) => CardSlideshowComponent
         );
 
+    case 'CARD':
+      return () =>
+        import('../components/shared/card/card.component').then(
+          ({ CardComponent }) => CardComponent
+        );
+
     // Todo CREARE DEFAULT
     case 'NAVBAR':
     default:
@@ -54,6 +61,9 @@ export function getComponentClass(type: ComponentTypes) {
 
     case 'VIMEO':
       return VimeoComponent;
+
+    case 'CARD':
+      return CardComponent;
 
     // Todo CREARE DEFAULT
     case 'NAVBAR':

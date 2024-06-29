@@ -3,7 +3,7 @@ import {
   Component, HostListener, inject
 } from '@angular/core';
 import { Project, ProjectNavigationConfig } from './project-navigation.config';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ComponentRouteData } from '../../../../types,interfaces/ComponentIdentity';
 import { NgFor, NgIf, NgStyle, NgTemplateOutlet } from '@angular/common';
 import { DrawLineDirective } from './draw-line.directive';
@@ -11,7 +11,7 @@ import { DrawLineDirective } from './draw-line.directive';
 @Component({
   selector: 'mp-project-navigation',
   standalone: true,
-  imports: [NgTemplateOutlet, NgFor, NgIf, NgStyle, DrawLineDirective],
+  imports: [NgTemplateOutlet, NgFor, NgIf, NgStyle, DrawLineDirective, RouterLink],
   templateUrl: './project-navigation.component.html',
   styleUrl: './project-navigation.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

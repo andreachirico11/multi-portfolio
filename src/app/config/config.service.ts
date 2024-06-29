@@ -6,6 +6,7 @@ import { getComponentClass, getImportFunction } from './componentClassFunctions'
 import { getComponentClass as customGetClass, getImportFunction as customGetImport, isCustomConfig } from './customComponentClassFunctions';
 
 import { ConfigResolver } from './config.resolver';
+import { environment } from '../../environment.sample';
 
 @Injectable()
 export class ConfigService {
@@ -13,12 +14,17 @@ export class ConfigService {
 
   async load(c: AppConfiguration): Promise<void> {
     const parsedRoutes = this.parseRoutes(c.routes);
+    if (!environment.production) {
+      console.log("ROUTES");
+      console.log(parsedRoutes);
+      console.log('------------');
+    }
     this.injector.get(ROUTES).push(parsedRoutes);
     return Promise.resolve();
   }
 
   private parseRoutes(routes: MpRouteConfiguration[]): MpRoute[] {
-    return routes.map(({ componentId, componentType, title, path, lazy }) => {
+    return routes.map(({ componentId, componentType, title, path, lazy, pathParameters }) => {
 
       const loadComponent = isCustomConfig(componentType)
         ? customGetImport(componentType)
@@ -28,7 +34,7 @@ export class ConfigService {
         : getComponentClass(componentType);
 
       return {
-        data: { componentId, componentType },
+        data: { componentId, componentType, pathParameters },
         title,
         path,
         resolve: { config: ConfigResolver },

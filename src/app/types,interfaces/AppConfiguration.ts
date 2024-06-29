@@ -6,6 +6,7 @@ interface MpRouteShared {
   path: string;
   lazy: boolean;
   componentId: string;
+  pathParameters?: string[]
 }
 
 export interface MpRouteConfiguration extends MpRouteShared {

@@ -265,5 +265,35 @@
         ]
       }
     ]
+  },
+  "project_card_razzoagas": {
+    "title": "razzoagas",
+    "content": "Lorem ipsum dolor sit amet consectetur. Lorem risus dolor at a habitant bibendum lobortis vitae. Cursus donec senectus rutrum morbi urna euismod nec ut netus. Nec consequat porta neque consectetur amet. Lacinia quam nibh aliquam rhoncus sed ut. Pretium pellentesque non sit eget orci at ante. Amet faucibus in lobortis quis consectetur vitae pretium fringilla et. Rhoncus diam id nunc id faucibus purus id.",
+    "cardSlideshow": {
+      "position": "right",
+      "images": [
+        {
+          "title": "razzo1",
+          "url": "assets/projects/razzo1.png",
+          "originalWidth": 633,
+          "originalHeight": 361,
+          "alt": "razzo1"
+        },
+        {
+          "title": "razzo2",
+          "url": "assets/projects/razzo2.png",
+          "originalWidth": 655,
+          "originalHeight": 411,
+          "alt": "razzo2"
+        },
+        {
+          "title": "razzo3",
+          "url": "assets/projects/razzo3.png",
+          "originalWidth": 614,
+          "originalHeight": 468,
+          "alt": "razzo3"
+        }
+      ]
+    }
   }
 }

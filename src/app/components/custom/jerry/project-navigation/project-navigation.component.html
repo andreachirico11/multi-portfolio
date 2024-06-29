@@ -10,7 +10,7 @@
 <ng-template #Recursion let-children="children">
   <ng-container *ngFor="let child of children" >
     <li mpDrawLine [ngStyle]="getPositionAccordingToSCreen(child)">
-      <p>{{ child.title }}</p>
+      <p [routerLink]="['./' + child.routerLink]">{{ child.title }}</p>
       <ul *ngIf="child.children && child.children.length > 0">
         <ng-container
           *ngTemplateOutlet="Recursion; context:{ children: child.children }"></ng-container>
