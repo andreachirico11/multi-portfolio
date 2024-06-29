@@ -57,6 +57,13 @@
       "lazy": true,
       "componentId": "card_slideshow_2",
       "componentType": "CARD_SLIDESHOW"
+    },
+    {
+      "title": "live",
+      "path": "live",
+      "lazy": true,
+      "componentId": "live_nav",
+      "componentType": "NAVBAR"
     }
   ]
 }

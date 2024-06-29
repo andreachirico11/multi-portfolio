@@ -163,17 +163,12 @@
 @mixin title_super {
   font-family: 'druk text trial super', sans-serif;
   text-transform: uppercase;
-  font-size: 200px;
-  @include media_mobile_xs {
-    font-size: 200px;
-  }
-  @include media_mobile {
-    font-size: 200px;
-  }
+  font-size: 88px;
+  letter-spacing: -8px;
   @include media_tablet {
-    font-size: 200px;
+    font-size: 160px;
   }
   @include media_desktop {
-    font-size: 200px;
+    font-size: 160px;
   }
 }

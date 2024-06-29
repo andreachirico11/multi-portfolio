@@ -4,6 +4,10 @@
 </div>
 }
 
+@if (navbarConfig.title) {
+  <h1>{{navbarConfig.title}}</h1>
+}
+
 <nav class="text-primary">
   <ul>
     @for (anchor of navbarConfig.anchors; track anchor.label) {

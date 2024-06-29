@@ -394,5 +394,59 @@
         }
       }
     ]
+  },
+  "live_nav": {
+    "wrapperClass": "full-height",
+    "title": "live",
+    "anchors": [
+      {
+        "label": "2024",
+        "routerLink": "2024"
+      },
+      {
+        "label": "2023",
+        "routerLink": "2023"
+      },
+      {
+        "label": "2022",
+        "routerLink": "2022"
+      },
+      {
+        "label": "2021",
+        "routerLink": "2021"
+      },
+      {
+        "label": "2020",
+        "routerLink": "2020"
+      },
+      {
+        "label": "2019",
+        "routerLink": "2019"
+      },
+      {
+        "label": "2018",
+        "routerLink": "2018"
+      },
+      {
+        "label": "2017",
+        "routerLink": "2017"
+      },
+      {
+        "label": "2016",
+        "routerLink": "2016"
+      },
+      {
+        "label": "2015",
+        "routerLink": "2015"
+      },
+      {
+        "label": "2014",
+        "routerLink": "2014"
+      },
+      {
+        "label": "2013",
+        "routerLink": "2013"
+      }
+    ]
   }
 }

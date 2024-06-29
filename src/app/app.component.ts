@@ -13,6 +13,7 @@ import { NavbarConfig } from './components/shared/navbar/navbar.config';
 export class AppComponent {
   navbarConfig: NavbarConfig = {
     backgroundImage: 'assets/nav.png',
+    wrapperClass: 'absolute-nav',
     hasFooter: true,
     anchors: [
       { label: 'about', routerLink: '/about' },
@@ -25,7 +26,7 @@ export class AppComponent {
 
   navbar2Config: NavbarConfig = {
     backgroundImage: 'assets/nav.png',
-    wrapperClass: 'full-screen',
+    wrapperClass: 'absolute-nav full-screen',
     anchors: [
       { label: 'project', routerLink: '/projects' },
       { label: 'releases', routerLink: '/releases' },
@@ -34,5 +35,4 @@ export class AppComponent {
       { label: 'lessons', routerLink: '/lessons' },
     ],
   };
-
 }
