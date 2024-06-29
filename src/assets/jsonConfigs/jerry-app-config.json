@@ -13,7 +13,7 @@
       "path": "contact",
       "lazy": true,
       "componentId": "contact_1",
-      "componentType": "CONTACT"
+      "componentType": "FORM"
     },
     {
       "title": "vimeo",

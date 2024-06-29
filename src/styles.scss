@@ -23,6 +23,15 @@ a {
   color: inherit;
 }
 
-h3 {
+h3, input, textarea {
   @include paragraphs-title;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+input, textarea {
+  outline: none;
 }

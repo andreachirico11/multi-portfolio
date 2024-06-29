@@ -34,11 +34,11 @@ export class ConfigService {
         : getComponentClass(componentType);
 
       return {
-        data: { componentId, componentType, pathParameters },
+        data: { componentId, componentType, ...(pathParameters && { pathParameters }) },
         title,
         path,
         resolve: { config: ConfigResolver },
-        ...(lazy ? {loadComponent}: {component}),
+        ...(lazy ? { loadComponent } : { component }),
       };
     });
   }

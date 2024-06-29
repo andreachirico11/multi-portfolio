@@ -1,0 +1,30 @@
+:host {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    height: 70vh;
+
+    display: grid;
+    justify-content: center;
+    gap: 3em;
+
+    & > * {
+      width: 80vw;
+      max-width: 500px;
+    }
+
+    button {
+      display: inline;
+      text-transform: uppercase;
+      border-bottom: 1px solid;
+      border-top: 1px solid;
+      height: max-content;
+      padding: 0.5em 5em;
+      width: fit-content;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import { CardSlideshowComponent } from '../components/pages/card-slideshow/card-slideshow.component';
-import { ContactComponent } from '../components/pages/contact/contact.component';
 import { ParagraphListComponent } from '../components/pages/paragraph-list/paragraph-list.component';
 import { VimeoComponent } from '../components/pages/vimeo/vimeo.component';
 import { CardComponent } from '../components/shared/card/card.component';
+import { FormComponent } from '../components/shared/form/form.component';
 import { NavbarComponent } from '../components/shared/navbar/navbar.component';
 import { ComponentTypes } from './ComponentTypes';
 
@@ -12,12 +12,6 @@ export function getImportFunction(type: ComponentTypes) {
       return () =>
         import('../components/pages/paragraph-list/paragraph-list.component').then(
           ({ ParagraphListComponent }) => ParagraphListComponent
-        );
-
-    case 'CONTACT':
-      return () =>
-        import('../components/pages/contact/contact.component').then(
-          ({ ContactComponent }) => ContactComponent
         );
 
     case 'VIMEO':
@@ -38,6 +32,12 @@ export function getImportFunction(type: ComponentTypes) {
           ({ CardComponent }) => CardComponent
         );
 
+    case 'FORM':
+      return () =>
+        import('../components/shared/form/form.component').then(
+          ({ FormComponent }) => FormComponent
+        );
+
     // Todo CREARE DEFAULT
     case 'NAVBAR':
     default:
@@ -53,9 +53,6 @@ export function getComponentClass(type: ComponentTypes) {
     case 'PARAGRAPH_LIST':
       return ParagraphListComponent;
 
-    case 'CONTACT':
-      return ContactComponent;
-
     case 'CARD_SLIDESHOW':
       return CardSlideshowComponent;
 
@@ -64,6 +61,8 @@ export function getComponentClass(type: ComponentTypes) {
 
     case 'CARD':
       return CardComponent;
+
+      case 'FORM': return FormComponent;
 
     // Todo CREARE DEFAULT
     case 'NAVBAR':

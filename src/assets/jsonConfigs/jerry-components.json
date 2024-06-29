@@ -295,5 +295,29 @@
         }
       ]
     }
+  },
+  "contact_1": {
+    "controls": [
+      {
+        "type": "text",
+        "name": "name",
+        "label": "name"
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "label": "email"
+      },
+      {
+        "type": "textarea",
+        "name": "message",
+        "label": "message"
+      }
+    ],
+    "actionButtons": [
+      {
+        "label": "}(send){"
+      }
+    ]
   }
 }

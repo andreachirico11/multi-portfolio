@@ -1,0 +1,12 @@
+<label [for]="config.name">
+  <h3>
+    {{config.label}}
+  </h3>
+</label>
+@if (config.type === "textarea") {
+  <!-- <div class="container"> -->
+    <textarea rows="3" [id]="config.name"></textarea>
+  <!-- </div> -->
+} @else {
+  <input [type]="config.type" [id]="config.name">
+}

@@ -1,0 +1,15 @@
+<div class="container">
+
+  @for (control of config.controls; track control.name) {
+    <mp-form-control [config]="control" />
+  }
+
+  @for (actionButton of config.actionButtons; track actionButton.label) {
+    <button>
+      <h3>
+        {{actionButton.label}}
+      </h3>
+    </button>
+  }
+
+</div>
