@@ -24,6 +24,8 @@ export class CardComponent {
   @HostBinding('class') get classes() {
     return this.cardConfig.cardSlideshow
       ? 'slideshow ' + this.cardConfig.cardSlideshow.position
+      : this.cardConfig.leftImg
+      ? 'left-icon'
       : '';
   }
 }

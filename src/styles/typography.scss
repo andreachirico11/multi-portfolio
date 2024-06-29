@@ -55,6 +55,18 @@
   }
 }
 
+
+@mixin paragraphs-xl {
+  @include paragraphs();
+
+  @include media_tablet {
+    font-size: 30px;
+  }
+  @include media_desktop {
+    font-size: 40px;
+  }
+}
+
 @mixin paragraphs-title {
   font-family: 'helvetica medium', sans-serif;
   letter-spacing: -0.5px;

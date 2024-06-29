@@ -319,5 +319,80 @@
         "label": "}(send){"
       }
     ]
+  },
+  "card_slideshow_2": {
+    "vertical": true,
+    "cards": [
+      {
+        "content": "Felix pastorius solo transcription",
+        "leftImg": {
+          "title": "doc",
+          "url": "assets/icons/document.png",
+          "originalWidth": 106,
+          "originalHeight": 141,
+          "alt": "doc"
+        }
+      },
+      {
+        "content": "Felix pastorius solo transcription",
+        "leftImg": {
+          "title": "youtube",
+          "url": "assets/icons/youtube.png",
+          "originalWidth": 183,
+          "originalHeight": 183,
+          "alt": "youtube"
+        }
+      },
+      {
+        "content": "Felix pastorius solo transcription",
+        "leftImg": {
+          "title": "doc",
+          "url": "assets/icons/document.png",
+          "originalWidth": 106,
+          "originalHeight": 141,
+          "alt": "doc"
+        }
+      },
+      {
+        "content": "Felix pastorius solo transcription",
+        "leftImg": {
+          "title": "youtube",
+          "url": "assets/icons/youtube.png",
+          "originalWidth": 183,
+          "originalHeight": 183,
+          "alt": "youtube"
+        }
+      },
+      {
+        "content": "Felix pastorius solo transcription",
+        "leftImg": {
+          "title": "doc",
+          "url": "assets/icons/document.png",
+          "originalWidth": 106,
+          "originalHeight": 141,
+          "alt": "doc"
+        }
+      },
+      {
+        "content": "Felix pastorius solo transcription",
+        "leftImg": {
+          "title": "youtube",
+          "url": "assets/icons/youtube.png",
+          "originalWidth": 183,
+          "originalHeight": 183,
+          "alt": "youtube"
+        }
+      },
+      {
+        "content": "Felix pastorius solo transcription",
+        "leftImg": {
+          "title": "youtube",
+          "url": "assets/icons/youtube.png",
+          "originalWidth": 183,
+          "originalHeight": 183,
+          "alt": "youtube"
+        }
+      }
+    ]
   }
 }

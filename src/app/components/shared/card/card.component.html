@@ -5,6 +5,13 @@
 </div>
 }
 
+@if (cardConfig.leftImg){
+<div class="left-img-container">
+  <img [ngSrc]="cardConfig.leftImg.url" [width]="cardConfig.leftImg.originalWidth"
+    [height]="cardConfig.leftImg.originalHeight" [alt]="cardConfig.leftImg.alt">
+</div>
+}
+
 @if (cardConfig.title) {
 <div class="title">
   <h3>{{cardConfig.title}}</h3>

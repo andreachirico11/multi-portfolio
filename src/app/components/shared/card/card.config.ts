@@ -5,10 +5,11 @@ export interface CardConfig {
   title?: string;
   content: string;
   topImg?: MpImageConfig;
+  leftImg?: MpImageConfig;
   cardSlideshow?: {
-    position: Position,
-    images: MpImageConfig[]
-  }
+    position: Position;
+    images: MpImageConfig[];
+  };
 }
 
 

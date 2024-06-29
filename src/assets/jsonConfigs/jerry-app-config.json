@@ -50,6 +50,13 @@
       "componentId": "project_card",
       "componentType": "CARD",
       "pathParameters": ["projectName"]
+    },
+    {
+      "title": "lessons",
+      "path": "lessons",
+      "lazy": true,
+      "componentId": "card_slideshow_2",
+      "componentType": "CARD_SLIDESHOW"
     }
   ]
 }

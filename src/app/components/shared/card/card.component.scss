@@ -7,6 +7,24 @@
   justify-content: center;
   align-items: center;
 
+  &.left-icon {
+    flex-direction: row;
+
+    .left-img-container {
+      width: 3em;
+      margin-right: 2em;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .paragraph {
+      @include paragraphs-xl;
+    }
+  }
+
   &.slideshow {
     height: 100vh;
     .title {
@@ -32,55 +50,57 @@
     }
   }
 
-  @include media_desktop {
-    display: grid;
-    gap: 1em 5em;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr 1fr;
+  &:not(.left-icon) {
+    @include media_desktop {
+      display: grid;
+      gap: 1em 5em;
+      grid-template-columns: auto auto;
+      grid-template-rows: 1fr 1fr;
 
-    .top-img-container {
-      grid-row: 1 / -1;
-      grid-column: 1;
-    }
+      .top-img-container {
+        grid-row: 1 / -1;
+        grid-column: 1;
+      }
 
-    .title,
-    .paragraph {
-      display: flex;
-      grid-column: 2;
-      height: 100%;
-    }
-
-    .title {
-      grid-row: 1;
-      align-items: flex-end;
-    }
-
-    .paragraph {
-      grid-row: 2;
-      align-items: flex-start;
-    }
-
-    &.slideshow {
-      .card-slideshow-container {
+      .title,
+      .paragraph {
+        display: flex;
         grid-column: 2;
-        grid-row: span 2;
-        width: 40vw;
-        height: 80vh;
-        margin: 0;
+        height: 100%;
       }
 
       .title {
-        grid-column: 1;
-        margin: 0;
-        font-size: 56px;
-        margin-bottom: 2em;
+        grid-row: 1;
+        align-items: flex-end;
       }
+
       .paragraph {
-        margin: 0;
-        font-size: unset;
         grid-row: 2;
-        grid-column: 1;
-        width: 40vw;
+        align-items: flex-start;
+      }
+
+      &.slideshow {
+        .card-slideshow-container {
+          grid-column: 2;
+          grid-row: span 2;
+          width: 40vw;
+          height: 80vh;
+          margin: 0;
+        }
+
+        .title {
+          grid-column: 1;
+          margin: 0;
+          font-size: 56px;
+          margin-bottom: 2em;
+        }
+        .paragraph {
+          margin: 0;
+          font-size: unset;
+          grid-row: 2;
+          grid-column: 1;
+          width: 40vw;
+        }
       }
     }
   }
