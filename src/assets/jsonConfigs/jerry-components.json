@@ -448,5 +448,44 @@
         "routerLink": "2013"
       }
     ]
+  },
+  "paragraph_list_live_2024": {
+    "title": "2024",
+    "flexAlignment": "left",
+    "paragraphs": [
+      {
+        "content": "- European Jazz Expo (CA) with Patterns for Transcendence;"
+      },
+      {
+        "content": "- Cantiere Internazionale d'Arte (SI) with Improvvisi II;"
+      },
+      {
+        "content": "- BlackHITStoryRevisited with SLWJM, Federico Sacchi, Gianni Denitto;"
+      },
+      {
+        "content": "- Simone Garino, Barbara Menietti and Willie Peyote;"
+      },
+      {
+        "content": "- Cafè des Arts (TO) with Patterns for Transcendence;"
+      },
+      {
+        "content": "- Casa del Popolo (AT) with Patterns for Transcendence;"
+      },
+      {
+        "content": "- Canaleontica Festival (CN) with Ceciliadelpianetaterra;"
+      },
+      {
+        "content": "- Jazz in Sardegna (CA) with Patterns for Transcendence;"
+      },
+      {
+        "content": "- Casa del Popolo (AT) with SLWJM;"
+      },
+      {
+        "content": "- Monfrà Jazz Festival (AL) with Camilla Baraggia;"
+      },
+      {
+        "content": "- Cinema Vekkio (CN) with SLWJM."
+      }
+    ]
   }
 }

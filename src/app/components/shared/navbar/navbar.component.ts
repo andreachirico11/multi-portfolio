@@ -22,8 +22,6 @@ export class NavbarComponent {
   ngOnInit() {
     if (!!!this.navbarConfig) {
       this.navbarConfig = (this.route.snapshot.data as ComponentRouteData<NavbarConfig>).config;
-      console.log(this.navbarConfig);
-
     }
   }
 }

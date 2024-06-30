@@ -1,7 +1,9 @@
 import { ParagraphConfig } from "../../shared/paragraph/paragraph.config";
 
 export interface ParagraphListComponentConfig {
-  paragraphs: ParagraphConfig[]
+  paragraphs: ParagraphConfig[],
+  title?: string,
+  flexAlignment?: 'left'
 }
 
 

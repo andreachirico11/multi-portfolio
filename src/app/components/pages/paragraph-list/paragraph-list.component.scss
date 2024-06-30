@@ -1,13 +1,29 @@
+@import '../../../../styles/media.scss';
+@import '../../../../styles/typography.scss';
+
 :host {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+
+    &.left {
+      align-items: flex-start;
+      padding-left: 5em;
+    }
 
     div {
       height: 90vh;
       width: 70vw;
       overflow-y: scroll;
     }
+
+    h1 {
+      @include title_super;
+      color: $black;
+      margin: .5em 0;
+    }
+
 
 }

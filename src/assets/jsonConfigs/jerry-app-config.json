@@ -64,6 +64,16 @@
       "lazy": true,
       "componentId": "live_nav",
       "componentType": "NAVBAR"
+    },
+    {
+      "title": "live",
+      "path": "live/:year",
+      "lazy": true,
+      "componentId": "paragraph_list_live",
+      "componentType": "PARAGRAPH_LIST",
+      "pathParameters": [
+        "year"
+      ]
     }
   ]
 }
