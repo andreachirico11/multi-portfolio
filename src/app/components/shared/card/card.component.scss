@@ -77,6 +77,8 @@
       .paragraph {
         grid-row: 2;
         align-items: flex-start;
+        max-height: 7em;
+        overflow-y: scroll;
       }
 
       &.slideshow {
