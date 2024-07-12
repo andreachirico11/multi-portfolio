@@ -1,6 +1,6 @@
 export interface NavbarConfig {
   backgroundImage?: string;
-  hasFooter?: boolean;
+  htmlFooter?: string;
   wrapperClass?: string;
   title?: string;
   anchors: {

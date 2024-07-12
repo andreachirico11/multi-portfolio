@@ -20,8 +20,6 @@
   </ul>
 </nav>
 
-@if (navbarConfig.hasFooter) {
-<div class="footer">
-  <ng-content></ng-content>
-</div>
+@if (navbarConfig.htmlFooter) {
+<div class="footer" [innerHtml]="navbarConfig.htmlFooter"></div>
 }

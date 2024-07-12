@@ -1,5 +1,15 @@
 {
   "appId": "GerryApp",
+  "rootComponentConfig": {
+    "navbar1" : {
+      "componentId": "navbar_1",
+      "outletId": "navbar_1_slot"
+    },
+    "navbar2": {
+      "componentId": "navbar_2",
+      "outletId": "navbar_2_slot"
+    }
+  },
   "routes": [
     {
       "title": "about",
@@ -49,7 +59,9 @@
       "lazy": true,
       "componentId": "project_card",
       "componentType": "CARD",
-      "pathParameters": ["projectName"]
+      "pathParameters": [
+        "projectName"
+      ]
     },
     {
       "title": "lessons",

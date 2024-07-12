@@ -8,7 +8,7 @@
     "start": "npm run generate-environment.ts && npm run serve || echo Stopping Serve Process",
     "ng-build": "ng build --configuration production",
     "build": "npm run generate-environment.ts && npm run ng-build",
-    "serve:ssr:multi-portfolio": "TODOOOOOOOOOOOOOOOOOOOOOO        node dist/multi-portfolio/server/server.mjs"
+    "serve:ssr:multi-portfolio": "node dist/multi-portfolio/server/server.mjs"
   },
   "private": true,
   "dependencies": {

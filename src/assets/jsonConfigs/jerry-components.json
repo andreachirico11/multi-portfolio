@@ -1,4 +1,55 @@
 {
+  "navbar_1": {
+    "backgroundImage": "assets/nav.png",
+    "wrapperClass": "absolute-nav",
+    "htmlFooter": "<h3 class=\"text-primary\">scroll down</h3>",
+    "anchors": [
+      {
+        "label": "about",
+        "routerLink": "/about"
+      },
+      {
+        "label": "mail",
+        "routerLink": "/contact"
+      },
+      {
+        "label": "bandcamp"
+      },
+      {
+        "label": "spotify"
+      },
+      {
+        "label": "vimeo",
+        "routerLink": "/vimeo"
+      }
+    ]
+  },
+  "navbar_2": {
+    "backgroundImage": "assets/nav.png",
+    "wrapperClass": "absolute-nav full-screen",
+    "anchors": [
+      {
+        "label": "project",
+        "routerLink": "/projects"
+      },
+      {
+        "label": "releases",
+        "routerLink": "/releases"
+      },
+      {
+        "label": "live",
+        "routerLink": "/live"
+      },
+      {
+        "label": "papers",
+        "routerLink": "/papers"
+      },
+      {
+        "label": "lessons",
+        "routerLink": "/lessons"
+      }
+    ]
+  },
   "paragraph_list_1": {
     "paragraphs": [
       {
@@ -270,8 +321,7 @@
     "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [insita], the first recorded work, materializes as a fusion of photographic and musical imagery, blending electronic and acoustic sounds, seeking a balance between composition, rationality, spontaneity, and instinctiveness, reflecting on the immanence and human-ecological mental transcendence.\nPatterns for Transcendence is an audio-visual project in which eight photographs, containing urban and natural elements, serve as the starting point from which sounds emerge, transforming images, patterns, and abstractions into suggestions for as many musical compositions, blending synthetic-electronic and acoustic sonic elements. Images born from places (and non-places) in different contexts, at various latitudes, give life to eight original compositions, ranging from free improvisation to electronics, from noise to jazz.\n\nLine-up:\n\nLeonardo Barbierato: electric bass Attilio Sepe: alto saxophone Gianpiero Malfatto: trombone Lorenzo Morra: piano/synthesizer Riccardo Marchese: drums",
     "cardSlideshow": {
       "position": "right",
-      "images": [
-      ]
+      "images": []
     }
   },
   "project_card_exsitu": {
@@ -287,9 +337,7 @@
     "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [in situ]is a series of site-specific improvisation performances in pristine or degraded ecosystems. This project stems from the need to explore the space between social ecology, post-human environmentalism, and improvisation. The ecosystem in which the improvisation takes place, with its human, more-than-human, living, and non-living elements, is a fundamental aspect of the improvisation in [in situ], making each performance a unique and unrepeatable event, a complex system linked to the place, the audience, myself, and the time. The fundamental idea of [in situ] is a collective improvisation in which all the elements, human or other-than-human, are free to participate and be considered ‘performative’. ",
     "cardSlideshow": {
       "position": "right",
-      "images": [
-
-      ]
+      "images": []
     }
   },
   "project_card_slwjm": {
@@ -297,9 +345,7 @@
     "content": "Born out of the common need to create a sound deeply rooted in black music and combine it with electronic experimentation, free improvisation, and progressive elements. Following the release of the EP Undone I, which was aired on several national radio stations such as M2O and Radio 24, an intense promotional live activity ensued, seeing them perform on numerous prestigious stages (including Legend Club in Milan and Torino Jazz Club) and festivals like Neon Noon and Torino Jazz Festival, with the show Black Hi(T)story Revisited alongside Federico Sacchi, which sold out. The single \"Nothin' but U,\" released in May 2020, and the cover \"Fiori rosa, fiori di pesco,\" released in July 2020, anticipate the album MEGA, which was released in January 2021. On August 24, 2020, they received the first prize for best emerging band at the Aim Festival contest at the Sforzesco Castle in Milan. \n\n ",
     "cardSlideshow": {
       "position": "right",
-      "images": [
-
-      ]
+      "images": []
     }
   },
   "project_card_conferenzabalaam": {
@@ -307,8 +353,7 @@
     "content": "A multidisciplinary artistic collective composed of five performers who explore ways to decentralize the human being, communicating with what is ordinarily not perceived as communicative.                 Line-up: Leonardo Barbierato, Alessandra Cocorullo, Alessandro De Giovanni, Beatrice Fedi, Marco Té.",
     "cardSlideshow": {
       "position": "right",
-      "images": [
-      ]
+      "images": []
     }
   },
   "contact_1": {

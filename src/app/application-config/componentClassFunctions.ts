@@ -1,6 +1,7 @@
 import { CardSlideshowComponent } from '../components/pages/card-slideshow/card-slideshow.component';
 import { ParagraphListComponent } from '../components/pages/paragraph-list/paragraph-list.component';
 import { VimeoComponent } from '../components/pages/vimeo/vimeo.component';
+import { Error404Component } from '../components/shared/404/404.component';
 import { CardComponent } from '../components/shared/card/card.component';
 import { FormComponent } from '../components/shared/form/form.component';
 import { NavbarComponent } from '../components/shared/navbar/navbar.component';
@@ -40,10 +41,16 @@ export function getImportFunction(type: ComponentTypes) {
 
     // Todo CREARE DEFAULT
     case 'NAVBAR':
-    default:
       return () =>
         import('../components/shared/navbar/navbar.component').then(
           ({ NavbarComponent }) => NavbarComponent
+        );
+
+    case '404':
+    default:
+      return () =>
+        import('../components/shared/404/404.component').then(
+          ({ Error404Component }) => Error404Component
         );
   }
 }
@@ -62,11 +69,13 @@ export function getComponentClass(type: ComponentTypes) {
     case 'CARD':
       return CardComponent;
 
-      case 'FORM': return FormComponent;
+    case 'FORM':
+      return FormComponent;
 
-    // Todo CREARE DEFAULT
     case 'NAVBAR':
-    default:
       return NavbarComponent;
+    case '404':
+    default:
+      return Error404Component;
   }
 }

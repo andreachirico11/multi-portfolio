@@ -1,5 +1,6 @@
 import { CustomComponentsType } from "../components/custom/custom.config";
-import { ComponentTypes } from "../config/ComponentTypes";
+import { ComponentTypes } from "../application-config/ComponentTypes";
+import { AppComponentConfig } from "../app.component.config";
 
 interface MpRouteShared {
   title: string;
@@ -20,6 +21,7 @@ export interface MpCustomRouteConfiguration extends MpRouteShared {
 
 export interface AppConfiguration {
   appId: string;
+  rootComponentConfig: AppComponentConfig;
   routes: MpRouteConfiguration[];
 }
 

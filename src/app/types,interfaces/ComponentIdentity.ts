@@ -1,5 +1,5 @@
 import { Data } from "@angular/router";
-import { ComponentTypes } from "../config/ComponentTypes";
+import { ComponentTypes } from "../application-config/ComponentTypes";
 
 export interface ComponentIdentity {
   componentId: string;

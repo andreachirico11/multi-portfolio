@@ -1,11 +1,20 @@
+@if (!isInProd) {
 <span class="media-query-util">
   <span class="media_mobile_xs"></span>
   <span class="media_mobile"></span>
   <span class="media_tablet"></span>
   <span class="media_desktop"></span>
 </span>
-<mp-nav [navbarConfig]="navbarConfig">
-  <h3 class="text-primary">scroll down</h3>
-</mp-nav>
-<mp-nav [navbarConfig]="navbar2Config"></mp-nav>
+}
+
+@if (!!navbarConfig) {
+  <ng-container
+  *ngComponentOutlet="navbarComponent; inputs: getNavbarInputRecord(navbarConfig)"></ng-container>
+}
+@if (!!navbar2Config) {
+<ng-container
+  *ngComponentOutlet="navbarComponent; inputs: getNavbarInputRecord(navbar2Config)"></ng-container>
+}
+
+
 <router-outlet></router-outlet>

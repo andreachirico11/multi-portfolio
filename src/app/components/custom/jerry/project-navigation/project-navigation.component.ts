@@ -1,11 +1,11 @@
 import {
   ChangeDetectionStrategy,
-  Component, HostListener, inject
+  Component, HostListener, PLATFORM_ID, inject
 } from '@angular/core';
 import { Project, ProjectNavigationConfig } from './project-navigation.config';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ComponentRouteData } from '../../../../types,interfaces/ComponentIdentity';
-import { NgFor, NgIf, NgStyle, NgTemplateOutlet } from '@angular/common';
+import { NgFor, NgIf, NgStyle, NgTemplateOutlet, isPlatformServer } from '@angular/common';
 import { DrawLineDirective } from './draw-line.directive';
 
 @Component({
@@ -18,12 +18,15 @@ import { DrawLineDirective } from './draw-line.directive';
 })
 export class ProjectNavigationComponent {
   private readonly route: ActivatedRoute = inject(ActivatedRoute);
+  private readonly platform = inject(PLATFORM_ID);
+
   config!: ProjectNavigationConfig;
-  screenHeight = window.innerHeight;
-  screenWidth = window.innerWidth;
+  screenHeight!: number;
+  screenWidth!: number;
 
   @HostListener('window:resize', ['$event'])
   onResize() {
+    if (isPlatformServer(this.platform)) return;
     this.screenHeight = window.innerHeight;
     this.screenWidth = window.innerWidth;
   }
@@ -39,5 +42,4 @@ export class ProjectNavigationComponent {
       left: this.screenWidth * left + 'px',
     };
   }
-
 }
