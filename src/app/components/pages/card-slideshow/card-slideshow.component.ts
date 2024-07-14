@@ -1,8 +1,7 @@
 import { Component, HostBinding, inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { CardSlideshowConfig } from './card-slideshow.config';
+import { ConfigDirective } from '../../../application-config/config.directive';
 import { CardComponent } from '../../shared/card/card.component';
-import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity';
+import { CardSlideshowConfig } from './card-slideshow.config';
 
 @Component({
   selector: 'mp-card-slideshow',
@@ -10,9 +9,10 @@ import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity'
   imports: [CardComponent],
   templateUrl: './card-slideshow.component.html',
   styleUrl: './card-slideshow.component.scss',
+  hostDirectives: [ConfigDirective],
 })
 export class CardSlideshowComponent {
-  private readonly route: ActivatedRoute = inject(ActivatedRoute);
+  private configDirective = inject(ConfigDirective);
   config!: CardSlideshowConfig;
 
   @HostBinding('class') get classes() {
@@ -20,6 +20,6 @@ export class CardSlideshowComponent {
   }
 
   ngOnInit() {
-    this.config = (this.route.snapshot.data as ComponentRouteData<CardSlideshowConfig>).config;
+    this.config = this.configDirective.getConfig<CardSlideshowConfig>();
   }
 }

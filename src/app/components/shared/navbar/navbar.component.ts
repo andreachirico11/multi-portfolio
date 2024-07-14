@@ -1,8 +1,8 @@
 import { NgIf, NgOptimizedImage } from '@angular/common';
 import { Component, HostBinding, Input, inject } from '@angular/core';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { RouterLink } from '@angular/router';
+import { ConfigDirective } from '../../../application-config/config.directive';
 import { NavbarConfig } from './navbar.config';
-import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity';
 
 @Component({
   selector: 'mp-nav',
@@ -10,9 +10,10 @@ import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity'
   imports: [RouterLink, NgOptimizedImage, NgIf],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
+  hostDirectives: [ConfigDirective],
 })
 export class NavbarComponent {
-  private readonly route: ActivatedRoute = inject(ActivatedRoute);
+  private configDirective = inject(ConfigDirective);
   @Input() navbarConfig!: NavbarConfig;
 
   @HostBinding('class') get wrapperClass() {
@@ -21,7 +22,7 @@ export class NavbarComponent {
 
   ngOnInit() {
     if (!!!this.navbarConfig) {
-      this.navbarConfig = (this.route.snapshot.data as ComponentRouteData<NavbarConfig>).config;
+      this.navbarConfig = this.configDirective.getConfig<NavbarConfig>();
     }
   }
 }

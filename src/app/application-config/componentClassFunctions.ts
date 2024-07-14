@@ -1,6 +1,5 @@
 import { CardSlideshowComponent } from '../components/pages/card-slideshow/card-slideshow.component';
 import { ParagraphListComponent } from '../components/pages/paragraph-list/paragraph-list.component';
-import { VimeoComponent } from '../components/pages/vimeo/vimeo.component';
 import { Error404Component } from '../components/shared/404/404.component';
 import { CardComponent } from '../components/shared/card/card.component';
 import { FormComponent } from '../components/shared/form/form.component';
@@ -13,12 +12,6 @@ export function getImportFunction(type: ComponentTypes) {
       return () =>
         import('../components/pages/paragraph-list/paragraph-list.component').then(
           ({ ParagraphListComponent }) => ParagraphListComponent
-        );
-
-    case 'VIMEO':
-      return () =>
-        import('../components/pages/vimeo/vimeo.component').then(
-          ({ VimeoComponent }) => VimeoComponent
         );
 
     case 'CARD_SLIDESHOW':
@@ -62,9 +55,6 @@ export function getComponentClass(type: ComponentTypes) {
 
     case 'CARD_SLIDESHOW':
       return CardSlideshowComponent;
-
-    case 'VIMEO':
-      return VimeoComponent;
 
     case 'CARD':
       return CardComponent;

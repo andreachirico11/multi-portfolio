@@ -1,8 +1,7 @@
 import { Component, HostBinding, OnInit, inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { ParagraphListComponentConfig } from './paragraph-list.config';
+import { ConfigDirective } from '../../../application-config/config.directive';
 import { ParagraphComponent } from '../../shared/paragraph/paragraph.component';
-import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity';
+import { ParagraphListComponentConfig } from './paragraph-list.config';
 
 @Component({
   selector: 'mp-paragraph-list',
@@ -10,9 +9,11 @@ import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity'
   imports: [ParagraphComponent],
   templateUrl: './paragraph-list.component.html',
   styleUrl: './paragraph-list.component.scss',
+  hostDirectives: [ConfigDirective],
 })
 export class ParagraphListComponent implements OnInit {
-  private readonly route: ActivatedRoute = inject(ActivatedRoute);
+  private configDirective = inject(ConfigDirective);
+
   config!: ParagraphListComponentConfig;
 
   @HostBinding('class') get classes() {
@@ -20,8 +21,6 @@ export class ParagraphListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.config = (
-      this.route.snapshot.data as ComponentRouteData<ParagraphListComponentConfig>
-    ).config;
+    this.config = this.configDirective.getConfig<ParagraphListComponentConfig>();
   }
 }

@@ -1,8 +1,8 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { FormConfig } from './form.config';
-import { FormControlComponent } from './form-control/form-control.component';
 import { ActivatedRoute } from '@angular/router';
-import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity';
+import { ConfigDirective } from '../../../application-config/config.directive';
+import { FormControlComponent } from './form-control/form-control.component';
+import { FormConfig } from './form.config';
 
 @Component({
   selector: 'mp-form',
@@ -10,13 +10,15 @@ import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity'
   imports: [FormControlComponent],
   templateUrl: './form.component.html',
   styleUrl: './form.component.scss',
+  hostDirectives: [ConfigDirective],
 })
 export class FormComponent implements OnInit {
+  private configDirective = inject(ConfigDirective);
+
   private readonly route: ActivatedRoute = inject(ActivatedRoute);
   config!: FormConfig;
 
   ngOnInit() {
-      this.config = (this.route.snapshot.data as ComponentRouteData<FormConfig>).config;
-
+    this.config = this.configDirective.getConfig<FormConfig>();
   }
 }

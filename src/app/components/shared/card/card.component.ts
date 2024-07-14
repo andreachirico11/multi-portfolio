@@ -1,8 +1,7 @@
-import { Component, HostBinding, Input, OnInit, inject } from '@angular/core';
-import { CardConfig } from './card.config';
 import { NgOptimizedImage } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
-import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity';
+import { Component, HostBinding, Input, inject } from '@angular/core';
+import { ConfigDirective } from '../../../application-config/config.directive';
+import { CardConfig } from './card.config';
 
 @Component({
   selector: 'mp-card',
@@ -10,14 +9,16 @@ import { ComponentRouteData } from '../../../types,interfaces/ComponentIdentity'
   imports: [NgOptimizedImage],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
+  hostDirectives: [ConfigDirective],
 })
 export class CardComponent {
-  private readonly route: ActivatedRoute = inject(ActivatedRoute);
+  private configDirective = inject(ConfigDirective);
+
   @Input() cardConfig!: CardConfig;
 
   ngOnInit() {
     if (!!!this.cardConfig) {
-      this.cardConfig = (this.route.snapshot.data as ComponentRouteData<CardConfig>).config;
+      this.cardConfig = this.configDirective.getConfig<CardConfig>();
     }
   }
 

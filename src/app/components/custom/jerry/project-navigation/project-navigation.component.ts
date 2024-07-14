@@ -1,12 +1,15 @@
+import { NgFor, NgIf, NgStyle, NgTemplateOutlet, isPlatformServer } from '@angular/common';
 import {
   ChangeDetectionStrategy,
-  Component, HostListener, PLATFORM_ID, inject
+  Component,
+  HostListener,
+  PLATFORM_ID,
+  inject,
 } from '@angular/core';
-import { Project, ProjectNavigationConfig } from './project-navigation.config';
-import { ActivatedRoute, RouterLink } from '@angular/router';
-import { ComponentRouteData } from '../../../../types,interfaces/ComponentIdentity';
-import { NgFor, NgIf, NgStyle, NgTemplateOutlet, isPlatformServer } from '@angular/common';
+import { RouterLink } from '@angular/router';
+import { ConfigDirective } from '../../../../application-config/config.directive';
 import { DrawLineDirective } from './draw-line.directive';
+import { Project, ProjectNavigationConfig } from './project-navigation.config';
 
 @Component({
   selector: 'mp-project-navigation',
@@ -15,10 +18,11 @@ import { DrawLineDirective } from './draw-line.directive';
   templateUrl: './project-navigation.component.html',
   styleUrl: './project-navigation.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  hostDirectives: [ConfigDirective],
 })
 export class ProjectNavigationComponent {
-  private readonly route: ActivatedRoute = inject(ActivatedRoute);
   private readonly platform = inject(PLATFORM_ID);
+  private configDirective = inject(ConfigDirective);
 
   config!: ProjectNavigationConfig;
   screenHeight!: number;
@@ -32,8 +36,8 @@ export class ProjectNavigationComponent {
   }
 
   ngOnInit() {
+    this.config = this.configDirective.getConfig<ProjectNavigationConfig>();
     this.onResize();
-    this.config = (this.route.snapshot.data as ComponentRouteData<ProjectNavigationConfig>).config;
   }
 
   getPositionAccordingToSCreen({ position: { top, left } }: Project) {
