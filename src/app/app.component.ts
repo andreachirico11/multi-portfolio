@@ -2,14 +2,13 @@ import { NgComponentOutlet, isPlatformServer } from '@angular/common';
 import { Component, PLATFORM_ID, inject } from '@angular/core';
 import { ROUTES, RouterOutlet } from '@angular/router';
 import { environment } from '../environment.sample';
-import { NavbarComponent } from './components/shared/navbar/navbar.component';
-import { NavbarConfig } from './components/shared/navbar/navbar.config';
+import { ComponentOutletWrapperComponent } from './components/shared/component-outlet-wrapper/component-outlet-wrapper.component';
 import { MpTransferState } from './services/mpTransferState.service';
 
 @Component({
   selector: 'mp-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, NgComponentOutlet],
+  imports: [RouterOutlet, NgComponentOutlet, ComponentOutletWrapperComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
@@ -25,22 +24,6 @@ export class AppComponent {
   get isInProd() {
     return environment.production;
   }
-
-  navbarComponent = NavbarComponent;
-
-  navbarConfig = !!!this.config.navbar1
-    ? null
-    : this.tState.getSingleComponentConfig<NavbarConfig>(this.config.navbar1?.componentId);
-  navbar2Config = !!!this.config.navbar2
-    ? null
-    : this.tState.getSingleComponentConfig<NavbarConfig>(this.config.navbar2?.componentId);
-
-  getNavbarInputRecord(navbarConfig: NavbarConfig): Record<'navbarConfig', NavbarConfig> {
-    return {
-      navbarConfig,
-    };
-  }
-
   private logConfiguration() {
     console.log('CONFIGURATION');
     for (const [key, value] of Object.entries(environment))

@@ -7,14 +7,16 @@
 </span>
 }
 
-@if (!!navbarConfig) {
-  <ng-container
-  *ngComponentOutlet="navbarComponent; inputs: getNavbarInputRecord(navbarConfig)"></ng-container>
-}
-@if (!!navbar2Config) {
-<ng-container
-  *ngComponentOutlet="navbarComponent; inputs: getNavbarInputRecord(navbar2Config)"></ng-container>
+@if (!!config.navbar1) {
+<mp-component-outlet-wrapper
+  [componentId]="config.navbar1.componentId"></mp-component-outlet-wrapper>
+
 }
 
+@if (!!config.navbar2) {
+<mp-component-outlet-wrapper
+  [componentId]="config.navbar2.componentId"></mp-component-outlet-wrapper>
+
+}
 
 <router-outlet></router-outlet>
