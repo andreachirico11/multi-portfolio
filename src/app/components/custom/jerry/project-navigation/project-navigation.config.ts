@@ -1,12 +1,21 @@
 export interface Project {
-  title: string;
+  value: string;
   routerLink: string;
-  children?: Project[];
-  position: { top: number; left: number };
+  topRatio: number;
+  leftRatio: number;
+  connections: string[];
 }
 export interface ProjectNavigationConfig {
-  pageTitle: string;
-  projectsTree: Project[];
+  labelPadding?: number;
+  backgroundRect?: {
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+  };
+  projects: {
+    [projectName: string]: Project;
+  };
 }
 
 export type ProjectNavigationType = 'CUSTOM_PROJ_NAV';

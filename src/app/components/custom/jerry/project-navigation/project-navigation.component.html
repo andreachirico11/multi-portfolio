@@ -1,20 +1,25 @@
-<p class="main-title">{{config.pageTitle}}</p>
+<svg [attr.viewBox]="viewBox">
+  @if (config.backgroundRect) {
 
-<ul>
-  <ng-container
-    *ngTemplateOutlet="Recursion; context:{ children: config.projectsTree}"></ng-container>
-</ul>
-
-
-
-<ng-template #Recursion let-children="children">
-  <ng-container *ngFor="let child of children" >
-    <li mpDrawLine [ngStyle]="getPositionAccordingToSCreen(child)">
-      <p [routerLink]="['./' + child.routerLink]">{{ child.title }}</p>
-      <ul *ngIf="child.children && child.children.length > 0">
-        <ng-container
-          *ngTemplateOutlet="Recursion; context:{ children: child.children }"></ng-container>
-      </ul>
-    </li>
-  </ng-container>
-</ng-template>
+    <rect style="z-index: 0;" class="background-rect"
+    [attr.x]="config.backgroundRect.x" [attr.y]="config.backgroundRect.y"
+    [attr.width]="config.backgroundRect.width" [attr.height]="config.backgroundRect.height"
+    ></rect>
+  }
+  @for (line of projectLines; track line.x1) {
+  <line style="z-index: 0;" [attr.x1]="line.x1" [attr.y1]="line.y1"
+    [attr.x2]="line.x2" [attr.y2]="line.y2" [id]="line.id"></line>
+  }
+  @for (project of projects; track project.value) {
+  <g #projectLabel [attr.transform]="getLabelTransformation(project)"
+    style="isolation: isolate;"
+    [routerLink]="project.routerLink ? ['./' + project.routerLink] : []">
+    <rect style="z-index: 1;"></rect>
+    <text style="z-index: 2;">
+      @for (word of detectNewLines(project); track word) {
+      <tspan [innerHTML]="word"></tspan>
+      }
+    </text>
+  </g>
+  }
+</svg>

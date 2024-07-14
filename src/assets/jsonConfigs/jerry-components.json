@@ -229,62 +229,73 @@
       }
     ]
   },
-  "custom_proj_nav1": {
-    "pageTitle": "patterns for trascendence",
-    "projectsTree": [
-      {
-        "title": "[insita]",
+  "custom_proj_nav": {
+    "labelPadding" : 10,
+    "backgroundRect": {
+      "x": 10, "y": 40, "width": "80%", "height": "45%"
+    },
+    "projects": {
+      "patternsfortrascendence": {
+        "value": "patterns &nbsp; for &nbsp; trascendence",
+        "topRatio": 0.1,
+        "leftRatio": 0.05,
+        "connections": []
+      },
+      "insita": {
+        "value": "[insita]",
         "routerLink": "insita",
-        "position": {
-          "top": 0.39,
-          "left": 0.139
-        },
-        "children": [
-          {
-            "title": "razzoagas",
-            "position": {
-              "top": 0.39,
-              "left": 0.0347
-            },
-            "routerLink": "razzoagas"
-          },
-          {
-            "title": "slwjm",
-            "position": {
-              "top": 0.292,
-              "left": 0.347
-            },
-            "routerLink": "slwjm"
-          }
+        "topRatio": 0.45,
+        "leftRatio": 0.07,
+        "connections": [
         ]
       },
-      {
-        "title": "]ex(s)it(u)[",
+      "razzoagas": {
+        "value": "razzoagas",
+        "routerLink": "razzoagas",
+        "topRatio": 0.85,
+        "leftRatio": 0.1,
+        "connections": [
+          "insita"
+        ]
+      },
+      "slwjm": {
+        "value": "slwjm",
+        "routerLink": "slwjm",
+        "topRatio": 0.7,
+        "leftRatio": 0.3,
+        "connections": [
+          "insita"
+        ]
+      },
+      "exsitu": {
+        "value": "]ex(s)it(u)[",
         "routerLink": "exsitu",
-        "position": {
-          "top": 0.146,
-          "left": 0.425
-        },
-        "children": [
-          {
-            "title": "[insitu]",
-            "position": {
-              "top": 0.195,
-              "left": 0.0347
-            },
-            "routerLink": "insitu"
-          },
-          {
-            "title": "Conferenza Balaam",
-            "routerLink": "conferenzabalaam",
-            "position": {
-              "top": 0.344,
-              "left": 0.1
-            }
-          }
+        "topRatio": 0.2,
+        "leftRatio": 0.5,
+        "connections": [
+          "insitu",
+          "conferenzabalaam",
+          "insita"
+        ]
+      },
+      "insitu": {
+        "value": "[in &nbsp; situ]",
+        "routerLink": "insitu",
+        "topRatio": 0.4,
+        "leftRatio": 0.4,
+        "connections": [
+          "insita", "conferenzabalaam"
+        ]
+      },
+      "conferenzabalaam": {
+        "value": "conferenza<br>balaam",
+        "routerLink": "conferenzabalaam",
+        "topRatio": 0.6,
+        "leftRatio": 0.6,
+        "connections": [
         ]
       }
-    ]
+    }
   },
   "project_card_razzoagas": {
     "title": "razzoagas",

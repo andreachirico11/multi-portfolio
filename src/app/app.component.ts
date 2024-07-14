@@ -31,7 +31,7 @@ export class AppComponent {
     console.log('ROUTES');
     inject(ROUTES)
       .flat()
-      .forEach(({ path }) => console.log('    ' + path));
+      .forEach(({ path, data }) => console.log('    ' + path + " " + data?.['componentId']));
     if (!!this.tState.getAppComponentsConfig())
       console.log('COMPONENTS CONFIGURATION LOADED CORRECTLY');
   }

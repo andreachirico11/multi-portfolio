@@ -50,7 +50,7 @@
       "title": "projects",
       "path": "projects",
       "lazy": true,
-      "componentId": "custom_proj_nav1",
+      "componentId": "custom_proj_nav",
       "componentType": "CUSTOM_PROJ_NAV"
     },
     {
