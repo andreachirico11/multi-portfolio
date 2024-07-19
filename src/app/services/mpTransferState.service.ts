@@ -1,9 +1,9 @@
 import { Injectable, TransferState, makeStateKey } from '@angular/core';
-import { AppConfiguration } from '../types,interfaces/AppConfiguration';
+import { AppConfiguration, ComponentConfigObject } from '../types,interfaces/AppConfiguration';
 import { ComponentConfigs } from '../application-config/ComponentConfigs';
 
 const APP_CONFIGURATION = makeStateKey<AppConfiguration>('APP_CONFIGURATION');
-const COMPONENTS_CONFIGURATION = makeStateKey<ComponentConfigs>('COMPONENTS_CONFIGURATION');
+const COMPONENTS_CONFIGURATION = makeStateKey<ComponentConfigObject>('COMPONENTS_CONFIGURATION');
 
 @Injectable()
 export class MpTransferState {
@@ -32,7 +32,7 @@ export class MpTransferState {
     throw new Error('Missing component config');
   }
 
-  setAppComponentsConfig(value: ComponentConfigs) {
+  setAppComponentsConfig(value: ComponentConfigObject) {
     this.transfer.set(COMPONENTS_CONFIGURATION, value);
   }
 }

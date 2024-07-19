@@ -1,6 +1,7 @@
 import { CustomComponentsType } from "../components/custom/custom.config";
 import { ComponentTypes } from "../application-config/ComponentTypes";
 import { AppComponentConfig } from "../app.component.config";
+import { ComponentConfigs } from "../application-config/ComponentConfigs";
 
 interface MpRouteShared {
   title: string;
@@ -8,6 +9,7 @@ interface MpRouteShared {
   lazy: boolean;
   componentId: string;
   pathParameters?: string[]
+  emptyRoute?: boolean
 }
 
 export interface MpRouteConfiguration extends MpRouteShared {
@@ -25,3 +27,6 @@ export interface AppConfiguration {
   routes: MpRouteConfiguration[];
 }
 
+export interface ComponentConfigObject {
+  [componentId: string]: ComponentConfigs
+}

@@ -1,7 +1,7 @@
 {
   "appId": "GerryApp",
   "rootComponentConfig": {
-    "navbar1" : {
+    "navbar1": {
       "componentId": "navbar_1",
       "outletId": "navbar_1_slot"
     },
@@ -11,6 +11,10 @@
     }
   },
   "routes": [
+    {
+      "path": "",
+      "emptyRoute": true
+    },
     {
       "title": "about",
       "path": "about",
@@ -86,6 +90,13 @@
       "pathParameters": [
         "year"
       ]
+    },
+    {
+      "componentId": "404_component",
+      "componentType": "404",
+      "lazy": false,
+      "title": "error",
+      "path": "**"
     }
   ]
 }

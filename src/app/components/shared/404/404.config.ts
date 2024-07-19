@@ -1,4 +1,6 @@
 export interface Component404Config {
+  message?: string,
+  title: string
 }
 
 

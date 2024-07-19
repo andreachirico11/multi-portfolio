@@ -25,14 +25,17 @@ export class AppComponent {
     return environment.production;
   }
   private logConfiguration() {
+    console.log('appcomponent*******************************************');
     console.log('CONFIGURATION');
     for (const [key, value] of Object.entries(environment))
       console.log('   ' + key + '-> ' + value);
     console.log('ROUTES');
     inject(ROUTES)
       .flat()
-      .forEach(({ path, data }) => console.log('    ' + path + " " + data?.['componentId']));
+      .forEach(({ path, data }) => console.log('    ' + path + ' ' + data?.['componentId']));
     if (!!this.tState.getAppComponentsConfig())
       console.log('COMPONENTS CONFIGURATION LOADED CORRECTLY');
+    else console.log('COMPONENTS CONFIGURATION NOT LOADED');
+    console.log('appcomponent*******************************************');
   }
 }

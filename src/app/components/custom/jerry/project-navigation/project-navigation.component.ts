@@ -1,7 +1,6 @@
 import { isPlatformServer } from '@angular/common';
 import {
   AfterViewInit,
-  ChangeDetectionStrategy,
   Component,
   ElementRef,
   HostListener,
