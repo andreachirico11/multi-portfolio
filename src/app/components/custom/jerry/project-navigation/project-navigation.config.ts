@@ -1,3 +1,5 @@
+import { ComponentConfigurationBase } from "../../../../types,interfaces/ComponentConfigurationBase";
+
 export interface Project {
   value: string;
   routerLink: string;
@@ -5,7 +7,7 @@ export interface Project {
   leftRatio: number;
   connections: string[];
 }
-export interface ProjectNavigationConfig {
+export interface ProjectNavigationConfig extends ComponentConfigurationBase {
   labelPadding?: number;
   backgroundRect?: {
     x: number;

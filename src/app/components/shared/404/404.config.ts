@@ -1,4 +1,6 @@
-export interface Component404Config {
+import { ComponentConfigurationBase } from "../../../types,interfaces/ComponentConfigurationBase";
+
+export interface Component404Config extends ComponentConfigurationBase {
   message?: string,
   title: string
 }

@@ -55,6 +55,9 @@
     ]
   },
   "paragraph_list_1": {
+    "hostDirectives": [
+      {"directiveType": "SCROLL_INTO_VIEW"}
+    ],
     "paragraphs": [
       {
         "content": "The inclination towards experimentation and artistic research led him from the outset to explore various unconventional musical styles. Improvisation, inter-actions, blends of electronic and acoustic sounds, polyrhythmicexplorations, interdisciplinary forays into science and art are common features of his works."
@@ -71,6 +74,11 @@
     ]
   },
   "paragraph_list_2": {
+    "hostDirectives": [
+      {
+        "directiveType": "SCROLL_INTO_VIEW"
+      }
+    ],
     "paragraphs": [
       {
         "navigateOnClick": {
@@ -194,6 +202,11 @@
     ]
   },
   "card_slideshow_1": {
+    "hostDirectives": [
+      {
+        "directiveType": "SCROLL_INTO_VIEW"
+      }
+    ],
     "vertical": true,
     "cards": [
       {
@@ -234,6 +247,11 @@
     ]
   },
   "custom_proj_nav": {
+    "hostDirectives": [
+      {
+        "directiveType": "SCROLL_INTO_VIEW"
+      }
+    ],
     "labelPadding": 10,
     "backgroundRect": {
       "x": 10,
@@ -374,6 +392,11 @@
     }
   },
   "contact_1": {
+    "hostDirectives": [
+      {
+        "directiveType": "SCROLL_INTO_VIEW"
+      }
+    ],
     "controls": [
       {
         "type": "text",
@@ -398,6 +421,11 @@
     ]
   },
   "card_slideshow_2": {
+    "hostDirectives": [
+      {
+        "directiveType": "SCROLL_INTO_VIEW"
+      }
+    ],
     "vertical": true,
     "cards": [
       {
@@ -473,6 +501,11 @@
     ]
   },
   "live_nav": {
+    "hostDirectives": [
+      {
+        "directiveType": "SCROLL_INTO_VIEW"
+      }
+    ],
     "wrapperClass": "full-height",
     "title": "live",
     "anchors": [
