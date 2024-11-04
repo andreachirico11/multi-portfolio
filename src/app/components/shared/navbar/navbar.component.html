@@ -4,8 +4,9 @@
 </div>
 }
 
+
 @if (navbarConfig.title) {
-  <h1>{{navbarConfig.title}}</h1>
+<h1>{{navbarConfig.title}}</h1>
 }
 
 <nav class="text-primary">
@@ -23,3 +24,7 @@
 @if (navbarConfig.htmlFooter) {
 <div class="footer" [innerHtml]="navbarConfig.htmlFooter"></div>
 }
+
+<div class="text-primary coming-soon">
+  coming <span></span> soon
+</div>

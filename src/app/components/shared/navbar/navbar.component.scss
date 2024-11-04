@@ -115,7 +115,7 @@
           rotate: -90deg;
           width: 60vh;
           align-items: center;
-              overflow-y: scroll;
+          overflow-y: scroll;
           height: 80vw;
         }
       }
@@ -128,5 +128,19 @@
         width: 100%;
       }
     }
+  }
+}
+
+.coming-soon {
+  position: absolute;
+  overflow-wrap: break-word;
+  font-size: 18vh;
+  width: 65px;
+  height: 100vh;
+  line-height: 0.50;
+
+  span {
+        height: 50px;
+    display: block;
   }
 }

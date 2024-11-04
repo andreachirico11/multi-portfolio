@@ -6,26 +6,8 @@
   "navbar_1": {
     "backgroundImage": "assets/nav.png",
     "wrapperClass": "absolute-nav",
-    "htmlFooter": "<h3 class=\"text-primary\">scroll down</h3>",
     "anchors": [
-      {
-        "label": "about",
-        "routerLink": "/about"
-      },
-      {
-        "label": "mail",
-        "routerLink": "/contact"
-      },
-      {
-        "label": "bandcamp"
-      },
-      {
-        "label": "spotify"
-      },
-      {
-        "label": "vimeo",
-        "routerLink": "/vimeo"
-      }
+
     ]
   },
   "navbar_2": {
