@@ -2,8 +2,8 @@ import { Directive, inject } from '@angular/core';
 import { ActivatedRoute, Data } from '@angular/router';
 import { CustomComponentsConfig } from '../components/custom/custom.config';
 import { ScrollIntoViewDirective } from '../directives/scrollIntoView.directive';
-import { ComponentRouteData, isComponentRouteData } from '../types,interfaces/ComponentIdentity';
 import { ComponentConfigs } from './ComponentConfigs';
+import { isComponentRouteData, ComponentRouteData } from '../types,interfaces/ComponentIdentity';
 
 @Directive({
   selector: '[mpConfig]',
@@ -14,12 +14,12 @@ export class ConfigDirective {
   private readonly routeData: Data = inject(ActivatedRoute).snapshot.data;
 
   constructor(scrollIntoViewDirective: ScrollIntoViewDirective) {
-    if (isComponentRouteData(this.routeData)) {
-      this.routeData.config.hostDirectives?.forEach((conf) => {
-        if (conf.directiveType === scrollIntoViewDirective.directiveType)
-          scrollIntoViewDirective.activate();
-      });
-    }
+    // if (isComponentRouteData(this.routeData)) {
+    //   this.routeData.config.hostDirectives?.forEach((conf) => {
+    //     if (conf.directiveType === scrollIntoViewDirective.directiveType)
+    //       scrollIntoViewDirective.activate();
+    //   });
+    // }
   }
 
   getConfig<ComponentConfig extends ComponentConfigs | CustomComponentsConfig>(): ComponentConfig {

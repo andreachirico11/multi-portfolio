@@ -1,4 +1,3 @@
-import { NavbarConfig } from "./components/shared/navbar/navbar.config";
 import { ComponentConfigurationBase } from "./types,interfaces/ComponentConfigurationBase";
 
 interface ContentProjectedChildren {

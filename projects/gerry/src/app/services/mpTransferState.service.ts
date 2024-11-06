@@ -1,24 +1,12 @@
 import { Injectable, TransferState, makeStateKey } from '@angular/core';
-import { AppConfiguration, ComponentConfigObject } from '../types,interfaces/AppConfiguration';
+import { ComponentConfigObject } from '../types,interfaces/AppConfiguration';
 import { ComponentConfigs } from '../application-config/ComponentConfigs';
 
-const APP_CONFIGURATION = makeStateKey<AppConfiguration>('APP_CONFIGURATION');
 const COMPONENTS_CONFIGURATION = makeStateKey<ComponentConfigObject>('COMPONENTS_CONFIGURATION');
 
 @Injectable()
 export class MpTransferState {
   constructor(private transfer: TransferState) {}
-
-  getAppConfiguration(defaultConfig?: AppConfiguration) {
-    return this.transfer.get(
-      APP_CONFIGURATION,
-      defaultConfig || { appId: '', routes: [], rootComponentConfig: {  } }
-    );
-  }
-
-  setAppConfiguration(value: AppConfiguration) {
-    this.transfer.set(APP_CONFIGURATION, value);
-  }
 
   getAppComponentsConfig() {
     return this.transfer.get(COMPONENTS_CONFIGURATION, null);

@@ -1,41 +1,35 @@
-import { NgComponentOutlet, isPlatformServer } from '@angular/common';
-import { Component, PLATFORM_ID, inject } from '@angular/core';
-import { ROUTES, RouterOutlet } from '@angular/router';
-import { environment } from '../environment.sample';
-import { ComponentOutletWrapperComponent } from './components/shared/component-outlet-wrapper/component-outlet-wrapper.component';
-import { MpTransferState } from './services/mpTransferState.service';
+import { NgComponentOutlet } from '@angular/common';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'mp-root',
   standalone: true,
-  imports: [RouterOutlet, NgComponentOutlet, ComponentOutletWrapperComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  imports: [RouterOutlet, NgComponentOutlet],
+  template: '<router-outlet></router-outlet>',
 })
 export class AppComponent {
-  private readonly platform = inject(PLATFORM_ID);
-  private tState = inject(MpTransferState);
-  config = this.tState.getAppConfiguration().rootComponentConfig;
-
-  constructor() {
-    if (!this.isInProd && isPlatformServer(this.platform)) this.logConfiguration();
-  }
-
-  get isInProd() {
-    return environment.production;
-  }
-  private logConfiguration() {
-    console.log('appcomponent*******************************************');
-    console.log('CONFIGURATION');
-    for (const [key, value] of Object.entries(environment))
-      console.log('   ' + key + '-> ' + value);
-    console.log('ROUTES');
-    inject(ROUTES)
-      .flat()
-      .forEach(({ path, data }) => console.log('    ' + path + ' ' + data?.['componentId']));
-    if (!!this.tState.getAppComponentsConfig())
-      console.log('COMPONENTS CONFIGURATION LOADED CORRECTLY');
-    else console.log('COMPONENTS CONFIGURATION NOT LOADED');
-    console.log('appcomponent*******************************************');
-  }
+  // private readonly platform = inject(PLATFORM_ID);
+  // private tState = inject(MpTransferState);
+  // config = this.tState.getAppConfiguration().rootComponentConfig;
+  // constructor() {
+  //   if (!this.isInProd && isPlatformServer(this.platform)) this.logConfiguration();
+  // }
+  // get isInProd() {
+  //   return environment.production;
+  // }
+  // private logConfiguration() {
+  //   console.log('appcomponent*******************************************');
+  //   console.log('CONFIGURATION');
+  //   for (const [key, value] of Object.entries(environment))
+  //     console.log('   ' + key + '-> ' + value);
+  //   console.log('ROUTES');
+  //   inject(ROUTES)
+  //     .flat()
+  //     .forEach(({ path, data }) => console.log('    ' + path + ' ' + data?.['componentId']));
+  //   if (!!this.tState.getAppComponentsConfig())
+  //     console.log('COMPONENTS CONFIGURATION LOADED CORRECTLY');
+  //   else console.log('COMPONENTS CONFIGURATION NOT LOADED');
+  //   console.log('appcomponent*******************************************');
+  // }
 }

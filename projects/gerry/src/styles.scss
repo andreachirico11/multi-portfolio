@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@import './styles/typography.scss';
+@import './styles/variables.scss';
+@import './styles/themes.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @include paragraphs;
+  color: $black;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  @include navbar;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3, input, textarea {
+  @include paragraphs-title;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+input, textarea {
+  outline: none;
+}
