@@ -1,5 +1,5 @@
 import { Data } from '@angular/router';
-import { ComponentConfigs } from '../application-config/ComponentConfigs';
+import { ComponentConfigs } from './ComponentConfigs';
 import { CustomComponentsConfig } from '../components/custom/custom.config';
 import { ComponentConfigurationBase } from './ComponentConfigurationBase';
 

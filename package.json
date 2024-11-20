@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "serve": "ng serve",
+    "serve-gerry": "ng serve gerry",
     "generate-environment.ts": "node generate-environment.js ",
     "start": "npm run generate-environment.ts && npm run serve || echo Stopping Serve Process",
     "ng-build": "ng build --configuration production",

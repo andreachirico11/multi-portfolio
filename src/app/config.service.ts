@@ -1,14 +1,15 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable, of } from 'rxjs';
-import { ComponentConfigObject } from '../types,interfaces/AppConfiguration';
+import { ComponentConfigObject } from '../../projects/gerry/src/app/types,interfaces/AppConfiguration';
+import { environment } from '../environment.sample';
 
 @Injectable()
 export class ConfigService {
   constructor(private http: HttpClient) {}
 
   getComponentConfigFromServer() {
-    return this.http.get<ComponentConfigObject>('../../assets/jsonConfigs/jerry-components.json');
+    return this.http.get<ComponentConfigObject>(environment.jsonConfigPath + '/' + environment.appId + '.json');
   }
 
   getComponentConfigsParsedForInitializer() {

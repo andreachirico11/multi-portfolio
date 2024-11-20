@@ -4,17 +4,17 @@
     "message": "this page is missing"
   },
   "navbar_1": {
-    "backgroundImage": "assets/nav.png",
+    "backgroundImage": "assets/gerry/nav.png",
     "wrapperClass": "absolute-nav",
     "htmlFooter": "<h3 class=\"text-primary\">scroll down</h3>",
     "anchors": [
       {
         "label": "about",
-        "routerLink": "/about"
+        "routerLink": "/gerry/about"
       },
       {
         "label": "mail",
-        "routerLink": "/contact"
+        "routerLink": "/gerry/contact"
       },
       {
         "label": "bandcamp"
@@ -24,33 +24,33 @@
       },
       {
         "label": "vimeo",
-        "routerLink": "/vimeo"
+        "routerLink": "/gerry/vimeo"
       }
     ]
   },
   "navbar_2": {
-    "backgroundImage": "assets/nav.png",
+    "backgroundImage": "assets/gerry/nav.png",
     "wrapperClass": "absolute-nav full-screen",
     "anchors": [
       {
         "label": "project",
-        "routerLink": "/projects"
+        "routerLink": "/gerry/projects"
       },
       {
         "label": "releases",
-        "routerLink": "/releases"
+        "routerLink": "/gerry/releases"
       },
       {
         "label": "live",
-        "routerLink": "/live"
+        "routerLink": "/gerry/live"
       },
       {
         "label": "papers",
-        "routerLink": "/papers"
+        "routerLink": "/gerry/papers"
       },
       {
         "label": "lessons",
-        "routerLink": "/lessons"
+        "routerLink": "/gerry/lessons"
       }
     ]
   },
@@ -89,7 +89,7 @@
           "position": "right",
           "image": {
             "title": "arrow",
-            "url": "assets/arrow_134x30.png",
+            "url": "assets/gerry/arrow_134x30.png",
             "originalWidth": 134,
             "originalHeight": 30,
             "alt": "arrow"
@@ -106,7 +106,7 @@
           "position": "right",
           "image": {
             "title": "arrow",
-            "url": "assets/arrow_134x30.png",
+            "url": "assets/gerry/arrow_134x30.png",
             "originalWidth": 134,
             "originalHeight": 30,
             "alt": "arrow"
@@ -123,7 +123,7 @@
           "position": "right",
           "image": {
             "title": "arrow",
-            "url": "assets/arrow_134x30.png",
+            "url": "assets/gerry/arrow_134x30.png",
             "originalWidth": 134,
             "originalHeight": 30,
             "alt": "arrow"
@@ -140,7 +140,7 @@
           "position": "right",
           "image": {
             "title": "arrow",
-            "url": "assets/arrow_134x30.png",
+            "url": "assets/gerry/arrow_134x30.png",
             "originalWidth": 134,
             "originalHeight": 30,
             "alt": "arrow"
@@ -157,7 +157,7 @@
           "position": "right",
           "image": {
             "title": "arrow",
-            "url": "assets/arrow_134x30.png",
+            "url": "assets/gerry/arrow_134x30.png",
             "originalWidth": 134,
             "originalHeight": 30,
             "alt": "arrow"
@@ -174,7 +174,7 @@
           "position": "right",
           "image": {
             "title": "arrow",
-            "url": "assets/arrow_134x30.png",
+            "url": "assets/gerry/arrow_134x30.png",
             "originalWidth": 134,
             "originalHeight": 30,
             "alt": "arrow"
@@ -191,7 +191,7 @@
           "position": "right",
           "image": {
             "title": "arrow",
-            "url": "assets/arrow_134x30.png",
+            "url": "assets/gerry/arrow_134x30.png",
             "originalWidth": 134,
             "originalHeight": 30,
             "alt": "arrow"
@@ -214,7 +214,7 @@
         "content": "An album of photography and music, to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.            tracklist: 1/ e(oi)ncrypted; 2/ suburbs; 3/ suprematism; 4/ lines; 5/ selfsimilarity; 6/ ocean; 7/ lag; 8/ free                                                      line-up: gianpiero malfatto - trombone; lorenzo morra - synth, piano; leonardo barbierato - bass; riccardo marchese - drums. ",
         "topImg": {
           "title": "Insita Cover",
-          "url": "assets/album-cover_624x628.png",
+          "url": "assets/gerry/album-cover_624x628.png",
           "originalWidth": 624,
           "originalHeight": 628,
           "alt": "Insita Cover"
@@ -329,21 +329,21 @@
       "images": [
         {
           "title": "razzo1",
-          "url": "assets/projects/razzo1.png",
+          "url": "assets/gerry/projects/razzo1.png",
           "originalWidth": 633,
           "originalHeight": 361,
           "alt": "razzo1"
         },
         {
           "title": "razzo2",
-          "url": "assets/projects/razzo2.png",
+          "url": "assets/gerry/projects/razzo2.png",
           "originalWidth": 655,
           "originalHeight": 411,
           "alt": "razzo2"
         },
         {
           "title": "razzo3",
-          "url": "assets/projects/razzo3.png",
+          "url": "assets/gerry/projects/razzo3.png",
           "originalWidth": 614,
           "originalHeight": 468,
           "alt": "razzo3"
@@ -432,7 +432,7 @@
         "content": "Felix pastorius solo transcription",
         "leftImg": {
           "title": "doc",
-          "url": "assets/icons/document.png",
+          "url": "assets/gerry/icons/document.png",
           "originalWidth": 106,
           "originalHeight": 141,
           "alt": "doc"
@@ -442,7 +442,7 @@
         "content": "Felix pastorius solo transcription",
         "leftImg": {
           "title": "youtube",
-          "url": "assets/icons/youtube.png",
+          "url": "assets/gerry/icons/youtube.png",
           "originalWidth": 183,
           "originalHeight": 183,
           "alt": "youtube"
@@ -452,7 +452,7 @@
         "content": "Felix pastorius solo transcription",
         "leftImg": {
           "title": "doc",
-          "url": "assets/icons/document.png",
+          "url": "assets/gerry/icons/document.png",
           "originalWidth": 106,
           "originalHeight": 141,
           "alt": "doc"
@@ -462,7 +462,7 @@
         "content": "Felix pastorius solo transcription",
         "leftImg": {
           "title": "youtube",
-          "url": "assets/icons/youtube.png",
+          "url": "assets/gerry/icons/youtube.png",
           "originalWidth": 183,
           "originalHeight": 183,
           "alt": "youtube"
@@ -472,7 +472,7 @@
         "content": "Felix pastorius solo transcription",
         "leftImg": {
           "title": "doc",
-          "url": "assets/icons/document.png",
+          "url": "assets/gerry/icons/document.png",
           "originalWidth": 106,
           "originalHeight": 141,
           "alt": "doc"
@@ -482,7 +482,7 @@
         "content": "Felix pastorius solo transcription",
         "leftImg": {
           "title": "youtube",
-          "url": "assets/icons/youtube.png",
+          "url": "assets/gerry/icons/youtube.png",
           "originalWidth": 183,
           "originalHeight": 183,
           "alt": "youtube"
@@ -492,7 +492,7 @@
         "content": "Felix pastorius solo transcription",
         "leftImg": {
           "title": "youtube",
-          "url": "assets/icons/youtube.png",
+          "url": "assets/gerry/icons/youtube.png",
           "originalWidth": 183,
           "originalHeight": 183,
           "alt": "youtube"

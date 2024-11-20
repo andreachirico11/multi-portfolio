@@ -6,7 +6,7 @@ import { FormConfig } from '../components/shared/form/form.config';
 import { Component404Config } from '../components/shared/404/404.config';
 import { AppComponentConfig } from '../app.component.config';
 
-export type ComponentConfigs =AppComponentConfig
+export type ComponentConfigs = AppComponentConfig
   | Component404Config
   | NavbarConfig
   | ParagraphListComponentConfig

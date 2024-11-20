@@ -2,7 +2,7 @@ import { Directive, inject } from '@angular/core';
 import { ActivatedRoute, Data } from '@angular/router';
 import { CustomComponentsConfig } from '../components/custom/custom.config';
 import { ScrollIntoViewDirective } from '../directives/scrollIntoView.directive';
-import { ComponentConfigs } from './ComponentConfigs';
+import { ComponentConfigs } from '../types,interfaces/ComponentConfigs';
 import { isComponentRouteData, ComponentRouteData } from '../types,interfaces/ComponentIdentity';
 
 @Directive({

@@ -1,4 +1,4 @@
-import { ComponentConfigs } from "../application-config/ComponentConfigs";
+import { ComponentConfigs } from "./ComponentConfigs";
 
 
 export interface ComponentConfigObject {

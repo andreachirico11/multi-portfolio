@@ -1,12 +1,11 @@
 require('dotenv').config();
 
 console.info('-> READING ENVIRONMENTS');
-const { PRODUCTION = false, CONFIG_URL = '', COMPONENTS_CONFIG_URL = '' } = process.env;
+const { PRODUCTION = false, APP_ID = '' } = process.env;
 console.log('production: ' + PRODUCTION);
-console.log('configUrl: ' + CONFIG_URL);
-console.log('componentsConfigUrl: ' + COMPONENTS_CONFIG_URL);
+console.log('APP_ID: ' + APP_ID);
 console.log('------------------');
-if (!!!CONFIG_URL || !!!COMPONENTS_CONFIG_URL) {
+if (!!!APP_ID) {
   console.error('-> MISSING ENVIRONMENT');
   process.exit(1);
 }
@@ -17,8 +16,8 @@ const environmentFileName = 'environment.ts';
 const evironmentContent = `
  export const environment = {
     production: ${PRODUCTION},
-    configUrl: "${CONFIG_URL}",
-    componentsConfigUrl: "${COMPONENTS_CONFIG_URL}"
+    appId: "${APP_ID}",
+   jsonConfigPath: 'assets/jsonConfigs',
   };
 `;
 

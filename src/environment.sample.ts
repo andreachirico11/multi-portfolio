@@ -1,6 +1,6 @@
 // THIS CONFIGS WILL BE OVERWRITE BY PRE BUILD SCRIPTS
  export const environment = {
-    production: false,
-    configUrl: "",
-    componentsConfigUrl: ""
-  };
+   production: false,
+   appId: '',
+   jsonConfigPath: 'assets/jsonConfigs', // default value
+ };

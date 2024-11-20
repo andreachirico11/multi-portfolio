@@ -1,8 +1,8 @@
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, Params, ResolveFn } from '@angular/router';
-import { MpTransferState } from '../services/mpTransferState.service';
-import { isComponentIdentity } from '../types,interfaces/ComponentIdentity';
-import { ComponentConfigs } from './ComponentConfigs';
+import { isComponentIdentity } from '../../projects/gerry/src/app/types,interfaces/ComponentIdentity';
+import { ComponentConfigs } from '../../projects/gerry/src/app/types,interfaces/ComponentConfigs';
+import { MpTransferState } from './mpTransferState.service';
 
 const addParametersToPath = (componentId: string, pathParameters: string[], routeParams: Params) =>
   pathParameters.reduce(

@@ -3,11 +3,11 @@ import { APP_INITIALIZER, ApplicationConfig, PLATFORM_ID, mergeApplicationConfig
 import { bootstrapApplication, provideClientHydration } from "@angular/platform-browser";
 import { provideServerRendering } from "@angular/platform-server";
 import { provideRouter } from "@angular/router";
-import { AppComponent } from "./app/app.component";
-import { mpInitializer } from "./app/app.initializer";
+import { GerryAppComponent } from "./app/gerry-app.component";
+import { mpInitializer } from "../../../src/app/app.initializer";
 import { routes } from "./app/app.routes";
-import { ConfigService } from "./app/application-config/config.service";
-import { MpTransferState } from "./app/services/mpTransferState.service";
+import { ConfigService } from "../../../src/app/config.service";
+import { MpTransferState } from "../../../src/app/mpTransferState.service";
 
 
 const serverConfig: ApplicationConfig = {
@@ -31,6 +31,6 @@ export const browserConfig: ApplicationConfig = {
 };
 
 const bootstrap = () =>
-  bootstrapApplication(AppComponent, mergeApplicationConfig(serverConfig, browserConfig));
+  bootstrapApplication(GerryAppComponent, mergeApplicationConfig(serverConfig, browserConfig));
 
 export default bootstrap;

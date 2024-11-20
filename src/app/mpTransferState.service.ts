@@ -1,6 +1,6 @@
 import { Injectable, TransferState, makeStateKey } from '@angular/core';
-import { ComponentConfigObject } from '../types,interfaces/AppConfiguration';
-import { ComponentConfigs } from '../application-config/ComponentConfigs';
+import { ComponentConfigObject } from '../../projects/gerry/src/app/types,interfaces/AppConfiguration';
+import { ComponentConfigs } from '../../projects/gerry/src/app/types,interfaces/ComponentConfigs';
 
 const COMPONENTS_CONFIGURATION = makeStateKey<ComponentConfigObject>('COMPONENTS_CONFIGURATION');
 

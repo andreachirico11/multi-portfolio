@@ -1,7 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
-import { ConfigService } from './application-config/config.service';
-import { DEFAULT_COMPONENTS_CONFIG } from './application-config/defaultConfigs';
-import { MpTransferState } from './services/mpTransferState.service';
+import { ConfigService } from './config.service';
+import { DEFAULT_COMPONENTS_CONFIG } from '../../projects/gerry/src/app/application-config/defaultConfigs';
+import { MpTransferState } from './mpTransferState.service';
 
 export function mpInitializer(
   configService: ConfigService,

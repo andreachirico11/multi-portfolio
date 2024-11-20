@@ -4,25 +4,28 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { NavbarConfig } from './components/shared/navbar/navbar.config';
 
 @Component({
-  selector: 'app-root',
+  selector: 'gerry-root',
   standalone: true,
   imports: [RouterOutlet, NavbarComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: `
+    <mp-nav [navbarConfig]="navbar1"></mp-nav>
+    <mp-nav [navbarConfig]="navbar2"></mp-nav>
+    <router-outlet></router-outlet>
+  `,
 })
-export class AppComponent {
+export class GerryAppComponent {
   navbar1: NavbarConfig = {
-    backgroundImage: 'assets/nav.png',
+    backgroundImage: 'assets/gerry/nav.png',
     wrapperClass: 'absolute-nav',
     htmlFooter: '<h3 class="text-primary">scroll down</h3>',
     anchors: [
       {
         label: 'about',
-        routerLink: '/about',
+        routerLink: '/gerry/about',
       },
       {
         label: 'mail',
-        routerLink: '/contact',
+        routerLink: '/gerry/contact',
       },
       {
         label: 'bandcamp',
@@ -32,34 +35,34 @@ export class AppComponent {
       },
       {
         label: 'vimeo',
-        routerLink: '/vimeo',
+        routerLink: '/gerry/vimeo',
       },
     ],
   };
 
   navbar2: NavbarConfig = {
-    backgroundImage: 'assets/nav.png',
+    backgroundImage: 'assets/gerry/nav.png',
     wrapperClass: 'absolute-nav full-screen',
     anchors: [
       {
         label: 'project',
-        routerLink: '/projects',
+        routerLink: '/gerry/projects',
       },
       {
         label: 'releases',
-        routerLink: '/releases',
+        routerLink: '/gerry/releases',
       },
       {
         label: 'live',
-        routerLink: '/live',
+        routerLink: '/gerry/live',
       },
       {
         label: 'papers',
-        routerLink: '/papers',
+        routerLink: '/gerry/papers',
       },
       {
         label: 'lessons',
-        routerLink: '/lessons',
+        routerLink: '/gerry/lessons',
       },
     ],
   };
