@@ -21,21 +21,23 @@ export class GerryAppComponent {
     anchors: [
       {
         label: 'about',
-        routerLink: '/gerry/about',
+        routerLink: 'about',
       },
       {
         label: 'mail',
-        routerLink: '/gerry/contact',
+        routerLink: 'contact',
       },
       {
         label: 'bandcamp',
+        routerLink: 'bandcamp',
       },
       {
         label: 'spotify',
+        routerLink: 'spotify',
       },
       {
         label: 'vimeo',
-        routerLink: '/gerry/vimeo',
+        routerLink: 'vimeo',
       },
     ],
   };
@@ -46,23 +48,23 @@ export class GerryAppComponent {
     anchors: [
       {
         label: 'project',
-        routerLink: '/gerry/projects',
+        routerLink: 'projects',
       },
       {
         label: 'releases',
-        routerLink: '/gerry/releases',
+        routerLink: 'releases',
       },
       {
         label: 'live',
-        routerLink: '/gerry/live',
+        routerLink: 'live',
       },
       {
         label: 'papers',
-        routerLink: '/gerry/papers',
+        routerLink: 'papers',
       },
       {
         label: 'lessons',
-        routerLink: '/gerry/lessons',
+        routerLink: 'lessons',
       },
     ],
   };

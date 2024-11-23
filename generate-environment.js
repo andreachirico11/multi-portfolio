@@ -1,11 +1,12 @@
 require('dotenv').config();
 
 console.info('-> READING ENVIRONMENTS');
-const { PRODUCTION = false, APP_ID = '' } = process.env;
+const { PRODUCTION = false, APP_IDS = '', PROD_APP_TAB_NAME = '' } = process.env;
 console.log('production: ' + PRODUCTION);
-console.log('APP_ID: ' + APP_ID);
+console.log('APP_IDS: ' + APP_IDS);
+console.log('PROD_APP_TAB_NAME: ' + PROD_APP_TAB_NAME);
 console.log('------------------');
-if (!!!APP_ID) {
+if (!!!APP_IDS) {
   console.error('-> MISSING ENVIRONMENT');
   process.exit(1);
 }
@@ -16,7 +17,8 @@ const environmentFileName = 'environment.ts';
 const evironmentContent = `
  export const environment = {
     production: ${PRODUCTION},
-    appId: "${APP_ID}",
+    appIds: "${APP_IDS}",
+    prodAppTabName: "${PROD_APP_TAB_NAME}",
    jsonConfigPath: 'assets/jsonConfigs',
   };
 `;

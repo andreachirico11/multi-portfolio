@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, of } from 'rxjs';
+import { catchError, forkJoin, map, of } from 'rxjs';
 import { ComponentConfigObject } from '../../projects/gerry/src/app/types,interfaces/AppConfiguration';
 import { environment } from '../environment.sample';
 
@@ -8,23 +8,25 @@ import { environment } from '../environment.sample';
 export class ConfigService {
   constructor(private http: HttpClient) {}
 
-  getComponentConfigFromServer() {
-    return this.http.get<ComponentConfigObject>(environment.jsonConfigPath + '/' + environment.appId + '.json');
-  }
-
   getComponentConfigsParsedForInitializer() {
-    return this.parseObs(this.getComponentConfigFromServer(), 'Components Configuration');
-  }
-
-  private parseObs<WhatConfig extends (ComponentConfigObject)>(obs: Observable<WhatConfig>, what: string) {
-    return obs.pipe(
+    return forkJoin(
+      environment.appIds.split(',').map((appId) => this.getComponentConfigFromServer(appId))
+    ).pipe(
+      map((configs) => this.mergeConfigs(configs)),
       catchError(({ message }) => {
         console.log('ERROR -------------------------------------');
-        console.log('Error downloading ' + what);
+        console.log('Error downloading configurations');
         if (message) console.error(message);
         console.log('ERROR ------------------------------------- end');
         return of(null);
       })
     );
+  }
+  private getComponentConfigFromServer(appId: string) {
+    return this.http.get<ComponentConfigObject>(environment.jsonConfigPath + '/' + appId + '.json');
+  }
+
+  private mergeConfigs(configs: ComponentConfigObject[]): ComponentConfigObject {
+    return configs.reduce((acc, config) => ({ ...acc, ...config }), {} as ComponentConfigObject);
   }
 }

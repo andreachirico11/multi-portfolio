@@ -12,7 +12,7 @@
   <ul>
     @for (anchor of navbarConfig.anchors; track anchor.label) {
     <li>
-      <a [routerLink]="anchor.routerLink || null">
+      <a [routerLink]="anchor.routerLink && [ './' +  anchor.routerLink] || null">
         {{anchor.label}}
       </a>
     </li>

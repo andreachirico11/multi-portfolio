@@ -110,7 +110,6 @@ export const routes: Routes = [
       ),
   },
   {
-    title: 'gerry',
     path: '',
     pathMatch: 'full',
     loadComponent: () =>

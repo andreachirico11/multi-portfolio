@@ -1,6 +1,7 @@
 // THIS CONFIGS WILL BE OVERWRITE BY PRE BUILD SCRIPTS
  export const environment = {
    production: false,
-   appId: '',
-   jsonConfigPath: 'assets/jsonConfigs', // default value
+   appIds: "",
+   jsonConfigPath: 'assets/jsonConfigs', // default value,
+   prodAppTabName: '' // only used in production
  };
