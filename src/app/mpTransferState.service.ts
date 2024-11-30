@@ -1,5 +1,5 @@
 import { Injectable, TransferState, makeStateKey } from '@angular/core';
-import { ComponentConfigObject } from '../../projects/gerry/src/app/types,interfaces/AppConfiguration';
+import { ComponentConfigObject, defaultConfig } from './types';
 import { ComponentConfigs } from '../../projects/gerry/src/app/types,interfaces/ComponentConfigs';
 
 const COMPONENTS_CONFIGURATION = makeStateKey<ComponentConfigObject>('COMPONENTS_CONFIGURATION');
@@ -9,22 +9,14 @@ export class MpTransferState {
   constructor(private transfer: TransferState) {}
 
   getAppComponentsConfig() {
-    return this.transfer.get(COMPONENTS_CONFIGURATION, null);
+    return this.transfer.get(COMPONENTS_CONFIGURATION, defaultConfig);
   }
 
   getSingleComponentConfig<Config extends ComponentConfigs>(compoId: string) {
-    const totalConfig = this.getAppComponentsConfig();
-    if (!!totalConfig && isKeyOfObject(compoId, totalConfig)) {
-      return totalConfig[compoId] as Config;
-    }
-    throw new Error('Missing component config');
+    return { ...this.getAppComponentsConfig().components[compoId] } as Config;
   }
 
   setAppComponentsConfig(value: ComponentConfigObject) {
     this.transfer.set(COMPONENTS_CONFIGURATION, value);
   }
-}
-
-function isKeyOfObject(key: string, c: ComponentConfigs): key is keyof ComponentConfigs {
-  return Object.prototype.hasOwnProperty.call(c, key);
 }

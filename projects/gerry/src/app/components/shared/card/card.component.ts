@@ -1,6 +1,6 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component, HostBinding, Input, inject } from '@angular/core';
-import { ConfigDirective } from '../../../application-config/config.directive';
+import { ConfigDirective } from '../../../application-config/config.directives';
 import { CardConfig } from './card.config';
 
 @Component({

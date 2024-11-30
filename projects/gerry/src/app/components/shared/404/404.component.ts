@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { Component404Config } from './404.config';
-import { ConfigDirective } from '../../../application-config/config.directive';
+import { ConfigDirective } from '../../../application-config/config.directives';
 
 @Component({
   selector: 'mp-err-404',

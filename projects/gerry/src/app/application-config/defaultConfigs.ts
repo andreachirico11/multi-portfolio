@@ -1,6 +1,6 @@
 import {
   ComponentConfigObject,
-} from '../types,interfaces/AppConfiguration';
+} from '../../../../../src/app/types';
 
 
 

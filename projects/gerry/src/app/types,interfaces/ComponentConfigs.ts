@@ -4,9 +4,9 @@ import { CardSlideshowConfig } from '../components/pages/card-slideshow/card-sli
 import { CardConfig } from '../components/shared/card/card.config';
 import { FormConfig } from '../components/shared/form/form.config';
 import { Component404Config } from '../components/shared/404/404.config';
-import { AppComponentConfig } from '../app.component.config';
+import { GerryAppComponentConfig } from '../gerry-app.config';
 
-export type ComponentConfigs = AppComponentConfig
+export type ComponentConfigs = GerryAppComponentConfig
   | Component404Config
   | NavbarConfig
   | ParagraphListComponentConfig

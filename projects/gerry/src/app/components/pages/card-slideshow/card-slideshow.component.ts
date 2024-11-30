@@ -1,5 +1,5 @@
 import { Component, HostBinding, inject } from '@angular/core';
-import { ConfigDirective } from '../../../application-config/config.directive';
+import { ConfigDirective } from '../../../application-config/config.directives';
 import { CardComponent } from '../../shared/card/card.component';
 import { CardSlideshowConfig } from './card-slideshow.config';
 

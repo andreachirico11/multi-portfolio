@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, forkJoin, map, of } from 'rxjs';
-import { ComponentConfigObject } from '../../projects/gerry/src/app/types,interfaces/AppConfiguration';
+import { ComponentConfigObject } from './types';
 import { environment } from '../environment.sample';
 
 @Injectable()

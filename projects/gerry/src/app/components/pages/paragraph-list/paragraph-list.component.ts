@@ -1,5 +1,5 @@
 import { Component, HostBinding, OnInit, inject } from '@angular/core';
-import { ConfigDirective } from '../../../application-config/config.directive';
+import { ConfigDirective } from '../../../application-config/config.directives';
 import { ParagraphComponent } from '../../shared/paragraph/paragraph.component';
 import { ParagraphListComponentConfig } from './paragraph-list.config';
 

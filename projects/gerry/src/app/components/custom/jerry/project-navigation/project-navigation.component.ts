@@ -13,7 +13,7 @@ import {
   inject,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { ConfigDirective } from '../../../../application-config/config.directive';
+import { ConfigDirective } from '../../../../application-config/config.directives';
 import { Project, ProjectNavigationConfig } from './project-navigation.config';
 import { DomSanitizer } from '@angular/platform-browser';
 

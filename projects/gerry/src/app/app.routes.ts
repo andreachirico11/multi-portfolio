@@ -5,7 +5,7 @@ export const routes: Routes = [
   {
     title: 'about',
     path: 'about',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'paragraph_list_1',
     },
@@ -17,7 +17,7 @@ export const routes: Routes = [
   {
     title: 'contact',
     path: 'contact',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'contact_1',
     },
@@ -27,7 +27,7 @@ export const routes: Routes = [
   {
     title: 'releases',
     path: 'releases',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'card_slideshow_1',
     },
@@ -39,7 +39,7 @@ export const routes: Routes = [
   {
     title: 'papers',
     path: 'papers',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'paragraph_list_2',
     },
@@ -51,7 +51,7 @@ export const routes: Routes = [
   {
     title: 'projects',
     path: 'projects/:projectName',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'project_card',
       pathParameters: ['projectName'],
@@ -62,7 +62,7 @@ export const routes: Routes = [
   {
     title: 'projects',
     path: 'projects',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'custom_proj_nav',
     },
@@ -75,7 +75,7 @@ export const routes: Routes = [
   {
     title: 'lessons',
     path: 'lessons',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'card_slideshow_2',
     },
@@ -87,7 +87,7 @@ export const routes: Routes = [
   {
     title: 'live',
     path: 'live/:year',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'paragraph_list_live',
       pathParameters: ['year'],
@@ -100,7 +100,7 @@ export const routes: Routes = [
   {
     title: 'live',
     path: 'live',
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     data: {
       componentId: 'live_nav',
     },
@@ -111,7 +111,11 @@ export const routes: Routes = [
   },
   {
     path: '',
+    resolve: {resolvedConfigs: ConfigResolver},
     pathMatch: 'full',
+    data: {
+      componentId: 'root',
+    },
     loadComponent: () =>
       import('./components/shared/empty/empty.component').then(
         ({ EmptyComponent }) => EmptyComponent
@@ -123,7 +127,7 @@ export const routes: Routes = [
     data: {
       componentId: '404_component',
     },
-    resolve: { config: ConfigResolver },
+    resolve: {resolvedConfigs: ConfigResolver},
     loadComponent: () =>
       import('./components/shared/404/404.component').then(
         ({ Error404Component }) => Error404Component

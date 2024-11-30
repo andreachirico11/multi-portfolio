@@ -1,7 +1,7 @@
 import { NgIf, NgOptimizedImage } from '@angular/common';
-import { Component, HostBinding, Input, inject } from '@angular/core';
+import { Component, HostBinding, Inject, Input, OnInit, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { ConfigDirective } from '../../../application-config/config.directive';
+import { ConfigDirective } from '../../../application-config/config.directives';
 import { NavbarConfig } from './navbar.config';
 
 @Component({
@@ -10,19 +10,15 @@ import { NavbarConfig } from './navbar.config';
   imports: [RouterLink, NgOptimizedImage, NgIf],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
-  hostDirectives: [ConfigDirective],
+  hostDirectives: [{ directive: ConfigDirective, inputs: ['childrenIdIndex'] }],
 })
-export class NavbarComponent {
-  private configDirective = inject(ConfigDirective);
-  @Input() navbarConfig!: NavbarConfig;
-
+export class NavbarComponent implements OnInit {
+  navbarConfig!: NavbarConfig;
   @HostBinding('class') get wrapperClass() {
     return this.navbarConfig.wrapperClass || '';
   }
-
+  private readonly configDirective = inject(ConfigDirective);
   ngOnInit() {
-    if (!!!this.navbarConfig) {
-      this.navbarConfig = this.configDirective.getConfig<NavbarConfig>();
-    }
+    this.navbarConfig = this.configDirective.getConfig<NavbarConfig>();
   }
 }

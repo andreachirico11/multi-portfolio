@@ -1,8 +1,7 @@
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, Params, ResolveFn } from '@angular/router';
-import { isComponentIdentity } from '../../projects/gerry/src/app/types,interfaces/ComponentIdentity';
-import { ComponentConfigs } from '../../projects/gerry/src/app/types,interfaces/ComponentConfigs';
 import { MpTransferState } from './mpTransferState.service';
+import { ComponentsConfigObject, isMpRouteData, MpRouteDataExtended, ResolvedConfigs } from './types';
 
 const addParametersToPath = (componentId: string, pathParameters: string[], routeParams: Params) =>
   pathParameters.reduce(
@@ -10,13 +9,19 @@ const addParametersToPath = (componentId: string, pathParameters: string[], rout
     componentId
   );
 
-export const ConfigResolver: ResolveFn<ComponentConfigs> = ({
+export const ConfigResolver: ResolveFn<ResolvedConfigs> = ({
   data,
   params,
 }: ActivatedRouteSnapshot) => {
-  if (!isComponentIdentity(data)) throw new Error('Route data invalid type');
-  let { componentId, pathParameters } = data;
+  if (!isMpRouteData(data)) throw new Error('Route data invalid type');
+  let { componentId, childrenIds, pathParameters } = data;
   if (pathParameters && pathParameters.length)
     componentId = addParametersToPath(componentId, pathParameters, params);
-  return inject(MpTransferState).getSingleComponentConfig(componentId);
+  const tState = inject(MpTransferState);
+  const componentConfig = tState.getSingleComponentConfig(componentId);
+  const childrenConfigs = (childrenIds || []).reduce(
+    (acc, id) => ({ ...acc, [id]: tState.getSingleComponentConfig(id) }),
+    {} as ComponentsConfigObject
+  );
+  return {componentConfig, ...(childrenConfigs && { childrenConfigs }) };
 };

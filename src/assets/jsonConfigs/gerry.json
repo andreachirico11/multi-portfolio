@@ -1,693 +1,701 @@
 {
-  "404_component": {
-    "title": "Ehm....",
-    "message": "this page is missing"
+  "rootRouteData": {
+    "componentId": "root",
+    "childrenIds": ["navbar_1", "navbar_2"]
   },
-  "navbar_1": {
-    "backgroundImage": "assets/gerry/nav.png",
-    "wrapperClass": "absolute-nav",
-    "htmlFooter": "<h3 class=\"text-primary\">scroll down</h3>",
-    "anchors": [
-      {
-        "label": "about",
-        "routerLink": "/gerry/about"
-      },
-      {
-        "label": "mail",
-        "routerLink": "/gerry/contact"
-      },
-      {
-        "label": "bandcamp"
-      },
-      {
-        "label": "spotify"
-      },
-      {
-        "label": "vimeo",
-        "routerLink": "/gerry/vimeo"
-      }
-    ]
-  },
-  "navbar_2": {
-    "backgroundImage": "assets/gerry/nav.png",
-    "wrapperClass": "absolute-nav full-screen",
-    "anchors": [
-      {
-        "label": "project",
-        "routerLink": "/gerry/projects"
-      },
-      {
-        "label": "releases",
-        "routerLink": "/gerry/releases"
-      },
-      {
-        "label": "live",
-        "routerLink": "/gerry/live"
-      },
-      {
-        "label": "papers",
-        "routerLink": "/gerry/papers"
-      },
-      {
-        "label": "lessons",
-        "routerLink": "/gerry/lessons"
-      }
-    ]
-  },
-  "paragraph_list_1": {
-    "hostDirectives": [
-      {"directiveType": "SCROLL_INTO_VIEW"}
-    ],
-    "paragraphs": [
-      {
-        "content": "The inclination towards experimentation and artistic research led him from the outset to explore various unconventional musical styles. Improvisation, inter-actions, blends of electronic and acoustic sounds, polyrhythmicexplorations, interdisciplinary forays into science and art are common features of his works."
-      },
-      {
-        "content": "Born in the countryside of Alessandria [Italy] into a family rich in musicians, he initially approached music during his childhood (initially the violin, later the electric bass and double bass) and established a very close connection with ecosystems and their elements."
-      },
-      {
-        "content": " In 2016, he graduated cum laude with a thesis on Kaleidophone and Thesaurus at the Conservatorio of Alessandria. Driven by a strong passion for the natural world, in 2018, he earned a degree cum laude in biology, focusing on the ecological impact of allochthonous species. In 2020, he completed his two-year program at the Conservatory of Piacenza with his work Cross-Rhythms. These works form the basis for the development of his artistic research, leading him to win a scholarship for AReMus, a second-level Post-Graduate Master’s program held in the Conservatory Santa Cecilia in Rome in 2022. In 2023, he was selected for the PhD program in artistic research at the Conservatory Santa Cecilia and University of RomaTre."
-      },
-      {
-        "content": "Currently, his work focuses on the interrelations between electro-acoustic improvisation and cultural/natural ecology. The output of this project includes a photographic-musical album called [insita], released on September 18, 2023, with the label nusica.org, and a series of site-specific improvisation performances, [in situ], taking place from 2023 to 2025, where environmental sounds are integrated into the compositional and improvisational process."
-      }
-    ]
-  },
-  "paragraph_list_2": {
-    "hostDirectives": [
-      {
-        "directiveType": "SCROLL_INTO_VIEW"
-      }
-    ],
-    "paragraphs": [
-      {
-        "navigateOnClick": {
-          "url": "https://www.google.com",
-          "navType": "window"
-        },
-        "icon": {
-          "position": "right",
-          "image": {
-            "title": "arrow",
-            "url": "assets/gerry/arrow_134x30.png",
-            "originalWidth": 134,
-            "originalHeight": 30,
-            "alt": "arrow"
-          }
-        },
-        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-      },
-      {
-        "navigateOnClick": {
-          "url": "https://www.google.com",
-          "navType": "window"
-        },
-        "icon": {
-          "position": "right",
-          "image": {
-            "title": "arrow",
-            "url": "assets/gerry/arrow_134x30.png",
-            "originalWidth": 134,
-            "originalHeight": 30,
-            "alt": "arrow"
-          }
-        },
-        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-      },
-      {
-        "navigateOnClick": {
-          "url": "https://www.google.com",
-          "navType": "window"
-        },
-        "icon": {
-          "position": "right",
-          "image": {
-            "title": "arrow",
-            "url": "assets/gerry/arrow_134x30.png",
-            "originalWidth": 134,
-            "originalHeight": 30,
-            "alt": "arrow"
-          }
-        },
-        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-      },
-      {
-        "navigateOnClick": {
-          "url": "https://www.google.com",
-          "navType": "window"
-        },
-        "icon": {
-          "position": "right",
-          "image": {
-            "title": "arrow",
-            "url": "assets/gerry/arrow_134x30.png",
-            "originalWidth": 134,
-            "originalHeight": 30,
-            "alt": "arrow"
-          }
-        },
-        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-      },
-      {
-        "navigateOnClick": {
-          "url": "https://www.google.com",
-          "navType": "window"
-        },
-        "icon": {
-          "position": "right",
-          "image": {
-            "title": "arrow",
-            "url": "assets/gerry/arrow_134x30.png",
-            "originalWidth": 134,
-            "originalHeight": 30,
-            "alt": "arrow"
-          }
-        },
-        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-      },
-      {
-        "navigateOnClick": {
-          "url": "https://www.google.com",
-          "navType": "window"
-        },
-        "icon": {
-          "position": "right",
-          "image": {
-            "title": "arrow",
-            "url": "assets/gerry/arrow_134x30.png",
-            "originalWidth": 134,
-            "originalHeight": 30,
-            "alt": "arrow"
-          }
-        },
-        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-      },
-      {
-        "navigateOnClick": {
-          "url": "https://www.google.com",
-          "navType": "window"
-        },
-        "icon": {
-          "position": "right",
-          "image": {
-            "title": "arrow",
-            "url": "assets/gerry/arrow_134x30.png",
-            "originalWidth": 134,
-            "originalHeight": 30,
-            "alt": "arrow"
-          }
-        },
-        "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-      }
-    ]
-  },
-  "card_slideshow_1": {
-    "hostDirectives": [
-      {
-        "directiveType": "SCROLL_INTO_VIEW"
-      }
-    ],
-    "vertical": true,
-    "cards": [
-      {
-        "title": "[insita]",
-        "content": "An album of photography and music, to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.            tracklist: 1/ e(oi)ncrypted; 2/ suburbs; 3/ suprematism; 4/ lines; 5/ selfsimilarity; 6/ ocean; 7/ lag; 8/ free                                                      line-up: gianpiero malfatto - trombone; lorenzo morra - synth, piano; leonardo barbierato - bass; riccardo marchese - drums. ",
-        "topImg": {
-          "title": "Insita Cover",
-          "url": "assets/gerry/album-cover_624x628.png",
-          "originalWidth": 624,
-          "originalHeight": 628,
-          "alt": "Insita Cover"
-        }
-      },
-      {
-        "title": "MEGA",
-        "content": "An album capable of transcending passing trends and looking beyond the prevailing musical dynamics, leading to the discovery of elegant and meticulously crafted soundscapes, with an international flavor but a well-defined personality. With their debut album MEGA, SLWJM demonstrate that they know exactly who they are and where they want to go with their music. (La Repubblica)                            tracklist: 1/ floods; 2/ no longer love; 3/ nothing but you; 4/ story of my life; 5/ interlude #2; 6/ step memories; 7/ hold on; 8/ purple in the sky; 9/ day 'n' night                             line-up: paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass; davide mancini - drums",
-        "topImg": {
-          "title": "Mega Cover",
-          "url": "https://lh3.googleusercontent.com/d/12y_L-OQBWr_T-VW4yDO0F68ZWD9pP9rk?authuser=1/view",
-          "isExternal": true,
-          "originalWidth": 1440,
-          "originalHeight": 1440,
-          "alt": "Insita Cover"
-        }
-      },
-      {
-        "title": "undone I",
-        "content": "EP.                                   tracklist: 1/ hamlet; 2/ mirrors; 3/ interluude #1; 4/ Nine Eight; 5/ B.S.T.; 6/ 4life.                                                            line-up: paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass; davide mancini: drums.",
-        "topImg": {
-          "title": "Undone I Cover",
-          "url": "https://lh3.googleusercontent.com/d/1-Gx6SJ9ZcthyVePkRGJe-Dy0x385Lvbd?authuser=1/view",
-          "isExternal": true,
-          "originalWidth": 1535,
-          "originalHeight": 1535,
-          "alt": "Mega Cover"
-        }
-      }
-    ]
-  },
-  "custom_proj_nav": {
-    "hostDirectives": [
-      {
-        "directiveType": "SCROLL_INTO_VIEW"
-      }
-    ],
-    "labelPadding": 10,
-    "backgroundRect": {
-      "x": 10,
-      "y": 40,
-      "width": "80%",
-      "height": "45%"
+  "components": {
+    "404_component": {
+      "title": "Ehm....",
+      "message": "this page is missing"
     },
-    "projects": {
-      "patternsfortrascendence": {
-        "value": "patterns &nbsp; for &nbsp; trascendence",
-        "topRatio": 0.1,
-        "leftRatio": 0.05,
-        "connections": []
-      },
-      "insita": {
-        "value": "[insita]",
-        "routerLink": "insita",
-        "topRatio": 0.45,
-        "leftRatio": 0.07,
-        "connections": []
-      },
-      "razzoagas": {
-        "value": "razzoagas",
-        "routerLink": "razzoagas",
-        "topRatio": 0.85,
-        "leftRatio": 0.1,
-        "connections": [
-          "insita"
-        ]
-      },
-      "slwjm": {
-        "value": "slwjm",
-        "routerLink": "slwjm",
-        "topRatio": 0.7,
-        "leftRatio": 0.3,
-        "connections": [
-          "insita"
-        ]
-      },
-      "exsitu": {
-        "value": "]ex(s)it(u)[",
-        "routerLink": "exsitu",
-        "topRatio": 0.2,
-        "leftRatio": 0.5,
-        "connections": [
-          "insitu",
-          "conferenzabalaam",
-          "insita"
-        ]
-      },
-      "insitu": {
-        "value": "[in &nbsp; situ]",
-        "routerLink": "insitu",
-        "topRatio": 0.4,
-        "leftRatio": 0.4,
-        "connections": [
-          "insita",
-          "conferenzabalaam"
-        ]
-      },
-      "conferenzabalaam": {
-        "value": "conferenza<br>balaam",
-        "routerLink": "conferenzabalaam",
-        "topRatio": 0.6,
-        "leftRatio": 0.6,
-        "connections": []
-      }
-    }
-  },
-  "project_card_razzoagas": {
-    "title": "razzoagas",
-    "content": "Lorem ipsum dolor sit amet consectetur. Lorem risus dolor at a habitant bibendum lobortis vitae. Cursus donec senectus rutrum morbi urna euismod nec ut netus. Nec consequat porta neque consectetur amet. Lacinia quam nibh aliquam rhoncus sed ut. Pretium pellentesque non sit eget orci at ante. Amet faucibus in lobortis quis consectetur vitae pretium fringilla et. Rhoncus diam id nunc id faucibus purus id.",
-    "cardSlideshow": {
-      "position": "right",
-      "images": [
+    "navbar_1": {
+      "backgroundImage": "assets/gerry/nav.png",
+      "wrapperClass": "absolute-nav",
+      "htmlFooter": "<h3 class=\"text-primary\">scroll down</h3>",
+      "anchors": [
         {
-          "title": "razzo1",
-          "url": "assets/gerry/projects/razzo1.png",
-          "originalWidth": 633,
-          "originalHeight": 361,
-          "alt": "razzo1"
+          "label": "about",
+          "routerLink": "/gerry/about"
         },
         {
-          "title": "razzo2",
-          "url": "assets/gerry/projects/razzo2.png",
-          "originalWidth": 655,
-          "originalHeight": 411,
-          "alt": "razzo2"
+          "label": "mail",
+          "routerLink": "/gerry/contact"
         },
         {
-          "title": "razzo3",
-          "url": "assets/gerry/projects/razzo3.png",
-          "originalWidth": 614,
-          "originalHeight": 468,
-          "alt": "razzo3"
+          "label": "bandcamp"
+        },
+        {
+          "label": "spotify"
+        },
+        {
+          "label": "vimeo",
+          "routerLink": "/gerry/vimeo"
         }
       ]
+    },
+    "navbar_2": {
+      "backgroundImage": "assets/gerry/nav.png",
+      "wrapperClass": "absolute-nav full-screen",
+      "anchors": [
+        {
+          "label": "project",
+          "routerLink": "/gerry/projects"
+        },
+        {
+          "label": "releases",
+          "routerLink": "/gerry/releases"
+        },
+        {
+          "label": "live",
+          "routerLink": "/gerry/live"
+        },
+        {
+          "label": "papers",
+          "routerLink": "/gerry/papers"
+        },
+        {
+          "label": "lessons",
+          "routerLink": "/gerry/lessons"
+        }
+      ]
+    },
+    "paragraph_list_1": {
+      "hostDirectives": [
+        {
+          "directiveType": "SCROLL_INTO_VIEW"
+        }
+      ],
+      "paragraphs": [
+        {
+          "content": "The inclination towards experimentation and artistic research led him from the outset to explore various unconventional musical styles. Improvisation, inter-actions, blends of electronic and acoustic sounds, polyrhythmicexplorations, interdisciplinary forays into science and art are common features of his works."
+        },
+        {
+          "content": "Born in the countryside of Alessandria [Italy] into a family rich in musicians, he initially approached music during his childhood (initially the violin, later the electric bass and double bass) and established a very close connection with ecosystems and their elements."
+        },
+        {
+          "content": " In 2016, he graduated cum laude with a thesis on Kaleidophone and Thesaurus at the Conservatorio of Alessandria. Driven by a strong passion for the natural world, in 2018, he earned a degree cum laude in biology, focusing on the ecological impact of allochthonous species. In 2020, he completed his two-year program at the Conservatory of Piacenza with his work Cross-Rhythms. These works form the basis for the development of his artistic research, leading him to win a scholarship for AReMus, a second-level Post-Graduate Master’s program held in the Conservatory Santa Cecilia in Rome in 2022. In 2023, he was selected for the PhD program in artistic research at the Conservatory Santa Cecilia and University of RomaTre."
+        },
+        {
+          "content": "Currently, his work focuses on the interrelations between electro-acoustic improvisation and cultural/natural ecology. The output of this project includes a photographic-musical album called [insita], released on September 18, 2023, with the label nusica.org, and a series of site-specific improvisation performances, [in situ], taking place from 2023 to 2025, where environmental sounds are integrated into the compositional and improvisational process."
+        }
+      ]
+    },
+    "paragraph_list_2": {
+      "hostDirectives": [
+        {
+          "directiveType": "SCROLL_INTO_VIEW"
+        }
+      ],
+      "paragraphs": [
+        {
+          "navigateOnClick": {
+            "url": "https://www.google.com",
+            "navType": "window"
+          },
+          "icon": {
+            "position": "right",
+            "image": {
+              "title": "arrow",
+              "url": "assets/gerry/arrow_134x30.png",
+              "originalWidth": 134,
+              "originalHeight": 30,
+              "alt": "arrow"
+            }
+          },
+          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+        },
+        {
+          "navigateOnClick": {
+            "url": "https://www.google.com",
+            "navType": "window"
+          },
+          "icon": {
+            "position": "right",
+            "image": {
+              "title": "arrow",
+              "url": "assets/gerry/arrow_134x30.png",
+              "originalWidth": 134,
+              "originalHeight": 30,
+              "alt": "arrow"
+            }
+          },
+          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+        },
+        {
+          "navigateOnClick": {
+            "url": "https://www.google.com",
+            "navType": "window"
+          },
+          "icon": {
+            "position": "right",
+            "image": {
+              "title": "arrow",
+              "url": "assets/gerry/arrow_134x30.png",
+              "originalWidth": 134,
+              "originalHeight": 30,
+              "alt": "arrow"
+            }
+          },
+          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+        },
+        {
+          "navigateOnClick": {
+            "url": "https://www.google.com",
+            "navType": "window"
+          },
+          "icon": {
+            "position": "right",
+            "image": {
+              "title": "arrow",
+              "url": "assets/gerry/arrow_134x30.png",
+              "originalWidth": 134,
+              "originalHeight": 30,
+              "alt": "arrow"
+            }
+          },
+          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+        },
+        {
+          "navigateOnClick": {
+            "url": "https://www.google.com",
+            "navType": "window"
+          },
+          "icon": {
+            "position": "right",
+            "image": {
+              "title": "arrow",
+              "url": "assets/gerry/arrow_134x30.png",
+              "originalWidth": 134,
+              "originalHeight": 30,
+              "alt": "arrow"
+            }
+          },
+          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+        },
+        {
+          "navigateOnClick": {
+            "url": "https://www.google.com",
+            "navType": "window"
+          },
+          "icon": {
+            "position": "right",
+            "image": {
+              "title": "arrow",
+              "url": "assets/gerry/arrow_134x30.png",
+              "originalWidth": 134,
+              "originalHeight": 30,
+              "alt": "arrow"
+            }
+          },
+          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+        },
+        {
+          "navigateOnClick": {
+            "url": "https://www.google.com",
+            "navType": "window"
+          },
+          "icon": {
+            "position": "right",
+            "image": {
+              "title": "arrow",
+              "url": "assets/gerry/arrow_134x30.png",
+              "originalWidth": 134,
+              "originalHeight": 30,
+              "alt": "arrow"
+            }
+          },
+          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+        }
+      ]
+    },
+    "card_slideshow_1": {
+      "hostDirectives": [
+        {
+          "directiveType": "SCROLL_INTO_VIEW"
+        }
+      ],
+      "vertical": true,
+      "cards": [
+        {
+          "title": "[insita]",
+          "content": "An album of photography and music, to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.            tracklist: 1/ e(oi)ncrypted; 2/ suburbs; 3/ suprematism; 4/ lines; 5/ selfsimilarity; 6/ ocean; 7/ lag; 8/ free                                                      line-up: gianpiero malfatto - trombone; lorenzo morra - synth, piano; leonardo barbierato - bass; riccardo marchese - drums. ",
+          "topImg": {
+            "title": "Insita Cover",
+            "url": "assets/gerry/album-cover_624x628.png",
+            "originalWidth": 624,
+            "originalHeight": 628,
+            "alt": "Insita Cover"
+          }
+        },
+        {
+          "title": "MEGA",
+          "content": "An album capable of transcending passing trends and looking beyond the prevailing musical dynamics, leading to the discovery of elegant and meticulously crafted soundscapes, with an international flavor but a well-defined personality. With their debut album MEGA, SLWJM demonstrate that they know exactly who they are and where they want to go with their music. (La Repubblica)                            tracklist: 1/ floods; 2/ no longer love; 3/ nothing but you; 4/ story of my life; 5/ interlude #2; 6/ step memories; 7/ hold on; 8/ purple in the sky; 9/ day 'n' night                             line-up: paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass; davide mancini - drums",
+          "topImg": {
+            "title": "Mega Cover",
+            "url": "https://lh3.googleusercontent.com/d/12y_L-OQBWr_T-VW4yDO0F68ZWD9pP9rk?authuser=1/view",
+            "isExternal": true,
+            "originalWidth": 1440,
+            "originalHeight": 1440,
+            "alt": "Insita Cover"
+          }
+        },
+        {
+          "title": "undone I",
+          "content": "EP.                                   tracklist: 1/ hamlet; 2/ mirrors; 3/ interluude #1; 4/ Nine Eight; 5/ B.S.T.; 6/ 4life.                                                            line-up: paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass; davide mancini: drums.",
+          "topImg": {
+            "title": "Undone I Cover",
+            "url": "https://lh3.googleusercontent.com/d/1-Gx6SJ9ZcthyVePkRGJe-Dy0x385Lvbd?authuser=1/view",
+            "isExternal": true,
+            "originalWidth": 1535,
+            "originalHeight": 1535,
+            "alt": "Mega Cover"
+          }
+        }
+      ]
+    },
+    "custom_proj_nav": {
+      "hostDirectives": [
+        {
+          "directiveType": "SCROLL_INTO_VIEW"
+        }
+      ],
+      "labelPadding": 10,
+      "backgroundRect": {
+        "x": 10,
+        "y": 40,
+        "width": "80%",
+        "height": "45%"
+      },
+      "projects": {
+        "patternsfortrascendence": {
+          "value": "patterns &nbsp; for &nbsp; trascendence",
+          "topRatio": 0.1,
+          "leftRatio": 0.05,
+          "connections": []
+        },
+        "insita": {
+          "value": "[insita]",
+          "routerLink": "insita",
+          "topRatio": 0.45,
+          "leftRatio": 0.07,
+          "connections": []
+        },
+        "razzoagas": {
+          "value": "razzoagas",
+          "routerLink": "razzoagas",
+          "topRatio": 0.85,
+          "leftRatio": 0.1,
+          "connections": [
+            "insita"
+          ]
+        },
+        "slwjm": {
+          "value": "slwjm",
+          "routerLink": "slwjm",
+          "topRatio": 0.7,
+          "leftRatio": 0.3,
+          "connections": [
+            "insita"
+          ]
+        },
+        "exsitu": {
+          "value": "]ex(s)it(u)[",
+          "routerLink": "exsitu",
+          "topRatio": 0.2,
+          "leftRatio": 0.5,
+          "connections": [
+            "insitu",
+            "conferenzabalaam",
+            "insita"
+          ]
+        },
+        "insitu": {
+          "value": "[in &nbsp; situ]",
+          "routerLink": "insitu",
+          "topRatio": 0.4,
+          "leftRatio": 0.4,
+          "connections": [
+            "insita",
+            "conferenzabalaam"
+          ]
+        },
+        "conferenzabalaam": {
+          "value": "conferenza<br>balaam",
+          "routerLink": "conferenzabalaam",
+          "topRatio": 0.6,
+          "leftRatio": 0.6,
+          "connections": []
+        }
+      }
+    },
+    "project_card_razzoagas": {
+      "title": "razzoagas",
+      "content": "Lorem ipsum dolor sit amet consectetur. Lorem risus dolor at a habitant bibendum lobortis vitae. Cursus donec senectus rutrum morbi urna euismod nec ut netus. Nec consequat porta neque consectetur amet. Lacinia quam nibh aliquam rhoncus sed ut. Pretium pellentesque non sit eget orci at ante. Amet faucibus in lobortis quis consectetur vitae pretium fringilla et. Rhoncus diam id nunc id faucibus purus id.",
+      "cardSlideshow": {
+        "position": "right",
+        "images": [
+          {
+            "title": "razzo1",
+            "url": "assets/gerry/projects/razzo1.png",
+            "originalWidth": 633,
+            "originalHeight": 361,
+            "alt": "razzo1"
+          },
+          {
+            "title": "razzo2",
+            "url": "assets/gerry/projects/razzo2.png",
+            "originalWidth": 655,
+            "originalHeight": 411,
+            "alt": "razzo2"
+          },
+          {
+            "title": "razzo3",
+            "url": "assets/gerry/projects/razzo3.png",
+            "originalWidth": 614,
+            "originalHeight": 468,
+            "alt": "razzo3"
+          }
+        ]
+      }
+    },
+    "project_card_insita": {
+      "title": "patterns for transcendence // [insita]",
+      "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [insita], the first recorded work, materializes as a fusion of photographic and musical imagery, blending electronic and acoustic sounds, seeking a balance between composition, rationality, spontaneity, and instinctiveness, reflecting on the immanence and human-ecological mental transcendence.\nPatterns for Transcendence is an audio-visual project in which eight photographs, containing urban and natural elements, serve as the starting point from which sounds emerge, transforming images, patterns, and abstractions into suggestions for as many musical compositions, blending synthetic-electronic and acoustic sonic elements. Images born from places (and non-places) in different contexts, at various latitudes, give life to eight original compositions, ranging from free improvisation to electronics, from noise to jazz.\n\nLine-up:\n\nLeonardo Barbierato: electric bass Attilio Sepe: alto saxophone Gianpiero Malfatto: trombone Lorenzo Morra: piano/synthesizer Riccardo Marchese: drums",
+      "cardSlideshow": {
+        "position": "right",
+        "images": []
+      }
+    },
+    "project_card_exsitu": {
+      "title": "patterns for transcendence // ]ex(s)it(u)[",
+      "content": "",
+      "cardSlideshow": {
+        "position": "right",
+        "images": []
+      }
+    },
+    "project_card_insitu": {
+      "title": "patterns for transcendence // [in situ]",
+      "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [in situ]is a series of site-specific improvisation performances in pristine or degraded ecosystems. This project stems from the need to explore the space between social ecology, post-human environmentalism, and improvisation. The ecosystem in which the improvisation takes place, with its human, more-than-human, living, and non-living elements, is a fundamental aspect of the improvisation in [in situ], making each performance a unique and unrepeatable event, a complex system linked to the place, the audience, myself, and the time. The fundamental idea of [in situ] is a collective improvisation in which all the elements, human or other-than-human, are free to participate and be considered ‘performative’. ",
+      "cardSlideshow": {
+        "position": "right",
+        "images": []
+      }
+    },
+    "project_card_slwjm": {
+      "title": "SLWJM",
+      "content": "Born out of the common need to create a sound deeply rooted in black music and combine it with electronic experimentation, free improvisation, and progressive elements. Following the release of the EP Undone I, which was aired on several national radio stations such as M2O and Radio 24, an intense promotional live activity ensued, seeing them perform on numerous prestigious stages (including Legend Club in Milan and Torino Jazz Club) and festivals like Neon Noon and Torino Jazz Festival, with the show Black Hi(T)story Revisited alongside Federico Sacchi, which sold out. The single \"Nothin' but U,\" released in May 2020, and the cover \"Fiori rosa, fiori di pesco,\" released in July 2020, anticipate the album MEGA, which was released in January 2021. On August 24, 2020, they received the first prize for best emerging band at the Aim Festival contest at the Sforzesco Castle in Milan. \n\n ",
+      "cardSlideshow": {
+        "position": "right",
+        "images": []
+      }
+    },
+    "project_card_conferenzabalaam": {
+      "title": "conferenza balaam",
+      "content": "A multidisciplinary artistic collective composed of five performers who explore ways to decentralize the human being, communicating with what is ordinarily not perceived as communicative.                 Line-up: Leonardo Barbierato, Alessandra Cocorullo, Alessandro De Giovanni, Beatrice Fedi, Marco Té.",
+      "cardSlideshow": {
+        "position": "right",
+        "images": []
+      }
+    },
+    "contact_1": {
+      "hostDirectives": [
+        {
+          "directiveType": "SCROLL_INTO_VIEW"
+        }
+      ],
+      "controls": [
+        {
+          "type": "text",
+          "name": "name",
+          "label": "name"
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "label": "email"
+        },
+        {
+          "type": "textarea",
+          "name": "message",
+          "label": "message"
+        }
+      ],
+      "actionButtons": [
+        {
+          "label": "}(send){"
+        }
+      ]
+    },
+    "card_slideshow_2": {
+      "hostDirectives": [
+        {
+          "directiveType": "SCROLL_INTO_VIEW"
+        }
+      ],
+      "vertical": true,
+      "cards": [
+        {
+          "content": "Felix pastorius solo transcription",
+          "leftImg": {
+            "title": "doc",
+            "url": "assets/gerry/icons/document.png",
+            "originalWidth": 106,
+            "originalHeight": 141,
+            "alt": "doc"
+          }
+        },
+        {
+          "content": "Felix pastorius solo transcription",
+          "leftImg": {
+            "title": "youtube",
+            "url": "assets/gerry/icons/youtube.png",
+            "originalWidth": 183,
+            "originalHeight": 183,
+            "alt": "youtube"
+          }
+        },
+        {
+          "content": "Felix pastorius solo transcription",
+          "leftImg": {
+            "title": "doc",
+            "url": "assets/gerry/icons/document.png",
+            "originalWidth": 106,
+            "originalHeight": 141,
+            "alt": "doc"
+          }
+        },
+        {
+          "content": "Felix pastorius solo transcription",
+          "leftImg": {
+            "title": "youtube",
+            "url": "assets/gerry/icons/youtube.png",
+            "originalWidth": 183,
+            "originalHeight": 183,
+            "alt": "youtube"
+          }
+        },
+        {
+          "content": "Felix pastorius solo transcription",
+          "leftImg": {
+            "title": "doc",
+            "url": "assets/gerry/icons/document.png",
+            "originalWidth": 106,
+            "originalHeight": 141,
+            "alt": "doc"
+          }
+        },
+        {
+          "content": "Felix pastorius solo transcription",
+          "leftImg": {
+            "title": "youtube",
+            "url": "assets/gerry/icons/youtube.png",
+            "originalWidth": 183,
+            "originalHeight": 183,
+            "alt": "youtube"
+          }
+        },
+        {
+          "content": "Felix pastorius solo transcription",
+          "leftImg": {
+            "title": "youtube",
+            "url": "assets/gerry/icons/youtube.png",
+            "originalWidth": 183,
+            "originalHeight": 183,
+            "alt": "youtube"
+          }
+        }
+      ]
+    },
+    "live_nav": {
+      "hostDirectives": [
+        {
+          "directiveType": "SCROLL_INTO_VIEW"
+        }
+      ],
+      "wrapperClass": "full-height",
+      "title": "live",
+      "anchors": [
+        {
+          "label": "2024",
+          "routerLink": "2024"
+        },
+        {
+          "label": "2023",
+          "routerLink": "2023"
+        },
+        {
+          "label": "2022",
+          "routerLink": "2022"
+        },
+        {
+          "label": "2021",
+          "routerLink": "2021"
+        },
+        {
+          "label": "2020",
+          "routerLink": "2020"
+        },
+        {
+          "label": "2019",
+          "routerLink": "2019"
+        },
+        {
+          "label": "2018",
+          "routerLink": "2018"
+        },
+        {
+          "label": "2017",
+          "routerLink": "2017"
+        },
+        {
+          "label": "2016",
+          "routerLink": "2016"
+        },
+        {
+          "label": "2015",
+          "routerLink": "2015"
+        },
+        {
+          "label": "2014",
+          "routerLink": "2014"
+        },
+        {
+          "label": "2013",
+          "routerLink": "2013"
+        },
+        {
+          "label": "2012",
+          "routerLink": "2012"
+        }
+      ]
+    },
+    "paragraph_list_live_2024": {
+      "title": "2024",
+      "flexAlignment": "left",
+      "paragraphs": [
+        {
+          "content": "- Sile Jazz (TV) with Patterns for Transcendence;"
+        },
+        {
+          "content": "- Monfrà Jazz Festival (AL) with SLWJM;"
+        },
+        {
+          "content": "- Outstack Festival (CN) with SLWJM;"
+        },
+        {
+          "content": "- Sofarm Festival (TO) with SLWJM;"
+        },
+        {
+          "content": "- Roma Europa Festival (Roma) with conferenza balaam;"
+        },
+        {
+          "content": "- Mirabilia Festival with conferenza balaam;"
+        },
+        {
+          "content": "- Portami via festival (CN) with Cecilia De Lazzaro and Francesca Roca;"
+        },
+        {
+          "content": "- De Muze Club (Antwerp, BE) with patterns for transcendence;"
+        },
+        {
+          "content": "- 23bflat Club (Bruges, BE) with patterns for transcendence;"
+        }
+      ]
+    },
+    "paragraph_list_live_2023": {
+      "title": "2023",
+      "flexAlignment": "left",
+      "paragraphs": [
+        {
+          "content": "- European Jazz Expo (CA) with Patterns for Transcendence;"
+        },
+        {
+          "content": "- Cantiere Internazionale d'Arte (SI) with Improvvisi II;"
+        },
+        {
+          "content": "- BlackHITStoryRevisited with SLWJM, Federico Sacchi, Gianni Denitto;"
+        },
+        {
+          "content": "- Simone Garino, Barbara Menietti and Willie Peyote;"
+        },
+        {
+          "content": "- Cafè des Arts (TO) with Patterns for Transcendence;"
+        },
+        {
+          "content": "- Casa del Popolo (AT) with Patterns for Transcendence;"
+        },
+        {
+          "content": "- Canaleontica Festival (CN) with Ceciliadelpianetaterra;"
+        },
+        {
+          "content": "- Jazz in Sardegna (CA) with Patterns for Transcendence;"
+        },
+        {
+          "content": "- Casa del Popolo (AT) with SLWJM;"
+        },
+        {
+          "content": "- Monfrà Jazz Festival (AL) with Camilla Baraggia;"
+        },
+        {
+          "content": "- Cinema Vekkio (CN) with SLWJM."
+        }
+      ]
+    },
+    "paragraph_list_live_2022": {
+      "title": "2022",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2021": {
+      "title": "2021",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2020": {
+      "title": "2020",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2019": {
+      "title": "2019",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2018": {
+      "title": "2018",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2017": {
+      "title": "2017",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2016": {
+      "title": "2016",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2015": {
+      "title": "2015",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2014": {
+      "title": "2014",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2013": {
+      "title": "2013",
+      "flexAlignment": "left",
+      "paragraphs": []
+    },
+    "paragraph_list_live_2012": {
+      "title": "2012",
+      "flexAlignment": "left",
+      "paragraphs": []
     }
-  },
-  "project_card_insita": {
-    "title": "patterns for transcendence // [insita]",
-    "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [insita], the first recorded work, materializes as a fusion of photographic and musical imagery, blending electronic and acoustic sounds, seeking a balance between composition, rationality, spontaneity, and instinctiveness, reflecting on the immanence and human-ecological mental transcendence.\nPatterns for Transcendence is an audio-visual project in which eight photographs, containing urban and natural elements, serve as the starting point from which sounds emerge, transforming images, patterns, and abstractions into suggestions for as many musical compositions, blending synthetic-electronic and acoustic sonic elements. Images born from places (and non-places) in different contexts, at various latitudes, give life to eight original compositions, ranging from free improvisation to electronics, from noise to jazz.\n\nLine-up:\n\nLeonardo Barbierato: electric bass Attilio Sepe: alto saxophone Gianpiero Malfatto: trombone Lorenzo Morra: piano/synthesizer Riccardo Marchese: drums",
-    "cardSlideshow": {
-      "position": "right",
-      "images": []
-    }
-  },
-  "project_card_exsitu": {
-    "title": "patterns for transcendence // ]ex(s)it(u)[",
-    "content": "",
-    "cardSlideshow": {
-      "position": "right",
-      "images": []
-    }
-  },
-  "project_card_insitu": {
-    "title": "patterns for transcendence // [in situ]",
-    "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [in situ]is a series of site-specific improvisation performances in pristine or degraded ecosystems. This project stems from the need to explore the space between social ecology, post-human environmentalism, and improvisation. The ecosystem in which the improvisation takes place, with its human, more-than-human, living, and non-living elements, is a fundamental aspect of the improvisation in [in situ], making each performance a unique and unrepeatable event, a complex system linked to the place, the audience, myself, and the time. The fundamental idea of [in situ] is a collective improvisation in which all the elements, human or other-than-human, are free to participate and be considered ‘performative’. ",
-    "cardSlideshow": {
-      "position": "right",
-      "images": []
-    }
-  },
-  "project_card_slwjm": {
-    "title": "SLWJM",
-    "content": "Born out of the common need to create a sound deeply rooted in black music and combine it with electronic experimentation, free improvisation, and progressive elements. Following the release of the EP Undone I, which was aired on several national radio stations such as M2O and Radio 24, an intense promotional live activity ensued, seeing them perform on numerous prestigious stages (including Legend Club in Milan and Torino Jazz Club) and festivals like Neon Noon and Torino Jazz Festival, with the show Black Hi(T)story Revisited alongside Federico Sacchi, which sold out. The single \"Nothin' but U,\" released in May 2020, and the cover \"Fiori rosa, fiori di pesco,\" released in July 2020, anticipate the album MEGA, which was released in January 2021. On August 24, 2020, they received the first prize for best emerging band at the Aim Festival contest at the Sforzesco Castle in Milan. \n\n ",
-    "cardSlideshow": {
-      "position": "right",
-      "images": []
-    }
-  },
-  "project_card_conferenzabalaam": {
-    "title": "conferenza balaam",
-    "content": "A multidisciplinary artistic collective composed of five performers who explore ways to decentralize the human being, communicating with what is ordinarily not perceived as communicative.                 Line-up: Leonardo Barbierato, Alessandra Cocorullo, Alessandro De Giovanni, Beatrice Fedi, Marco Té.",
-    "cardSlideshow": {
-      "position": "right",
-      "images": []
-    }
-  },
-  "contact_1": {
-    "hostDirectives": [
-      {
-        "directiveType": "SCROLL_INTO_VIEW"
-      }
-    ],
-    "controls": [
-      {
-        "type": "text",
-        "name": "name",
-        "label": "name"
-      },
-      {
-        "type": "email",
-        "name": "email",
-        "label": "email"
-      },
-      {
-        "type": "textarea",
-        "name": "message",
-        "label": "message"
-      }
-    ],
-    "actionButtons": [
-      {
-        "label": "}(send){"
-      }
-    ]
-  },
-  "card_slideshow_2": {
-    "hostDirectives": [
-      {
-        "directiveType": "SCROLL_INTO_VIEW"
-      }
-    ],
-    "vertical": true,
-    "cards": [
-      {
-        "content": "Felix pastorius solo transcription",
-        "leftImg": {
-          "title": "doc",
-          "url": "assets/gerry/icons/document.png",
-          "originalWidth": 106,
-          "originalHeight": 141,
-          "alt": "doc"
-        }
-      },
-      {
-        "content": "Felix pastorius solo transcription",
-        "leftImg": {
-          "title": "youtube",
-          "url": "assets/gerry/icons/youtube.png",
-          "originalWidth": 183,
-          "originalHeight": 183,
-          "alt": "youtube"
-        }
-      },
-      {
-        "content": "Felix pastorius solo transcription",
-        "leftImg": {
-          "title": "doc",
-          "url": "assets/gerry/icons/document.png",
-          "originalWidth": 106,
-          "originalHeight": 141,
-          "alt": "doc"
-        }
-      },
-      {
-        "content": "Felix pastorius solo transcription",
-        "leftImg": {
-          "title": "youtube",
-          "url": "assets/gerry/icons/youtube.png",
-          "originalWidth": 183,
-          "originalHeight": 183,
-          "alt": "youtube"
-        }
-      },
-      {
-        "content": "Felix pastorius solo transcription",
-        "leftImg": {
-          "title": "doc",
-          "url": "assets/gerry/icons/document.png",
-          "originalWidth": 106,
-          "originalHeight": 141,
-          "alt": "doc"
-        }
-      },
-      {
-        "content": "Felix pastorius solo transcription",
-        "leftImg": {
-          "title": "youtube",
-          "url": "assets/gerry/icons/youtube.png",
-          "originalWidth": 183,
-          "originalHeight": 183,
-          "alt": "youtube"
-        }
-      },
-      {
-        "content": "Felix pastorius solo transcription",
-        "leftImg": {
-          "title": "youtube",
-          "url": "assets/gerry/icons/youtube.png",
-          "originalWidth": 183,
-          "originalHeight": 183,
-          "alt": "youtube"
-        }
-      }
-    ]
-  },
-  "live_nav": {
-    "hostDirectives": [
-      {
-        "directiveType": "SCROLL_INTO_VIEW"
-      }
-    ],
-    "wrapperClass": "full-height",
-    "title": "live",
-    "anchors": [
-      {
-        "label": "2024",
-        "routerLink": "2024"
-      },
-      {
-        "label": "2023",
-        "routerLink": "2023"
-      },
-      {
-        "label": "2022",
-        "routerLink": "2022"
-      },
-      {
-        "label": "2021",
-        "routerLink": "2021"
-      },
-      {
-        "label": "2020",
-        "routerLink": "2020"
-      },
-      {
-        "label": "2019",
-        "routerLink": "2019"
-      },
-      {
-        "label": "2018",
-        "routerLink": "2018"
-      },
-      {
-        "label": "2017",
-        "routerLink": "2017"
-      },
-      {
-        "label": "2016",
-        "routerLink": "2016"
-      },
-      {
-        "label": "2015",
-        "routerLink": "2015"
-      },
-      {
-        "label": "2014",
-        "routerLink": "2014"
-      },
-      {
-        "label": "2013",
-        "routerLink": "2013"
-      },
-      {
-        "label": "2012",
-        "routerLink": "2012"
-      }
-    ]
-  },
-  "paragraph_list_live_2024": {
-    "title": "2024",
-    "flexAlignment": "left",
-    "paragraphs": [
-      {
-        "content": "- Sile Jazz (TV) with Patterns for Transcendence;"
-      },
-      {
-        "content": "- Monfrà Jazz Festival (AL) with SLWJM;"
-      },
-      {
-        "content": "- Outstack Festival (CN) with SLWJM;"
-      },
-      {
-        "content": "- Sofarm Festival (TO) with SLWJM;"
-      },
-      {
-        "content": "- Roma Europa Festival (Roma) with conferenza balaam;"
-      },
-      {
-        "content": "- Mirabilia Festival with conferenza balaam;"
-      },
-      {
-        "content": "- Portami via festival (CN) with Cecilia De Lazzaro and Francesca Roca;"
-      },
-      {
-        "content": "- De Muze Club (Antwerp, BE) with patterns for transcendence;"
-      },
-      {
-        "content": "- 23bflat Club (Bruges, BE) with patterns for transcendence;"
-      }
-    ]
-  },
-  "paragraph_list_live_2023": {
-    "title": "2023",
-    "flexAlignment": "left",
-    "paragraphs": [
-      {
-        "content": "- European Jazz Expo (CA) with Patterns for Transcendence;"
-      },
-      {
-        "content": "- Cantiere Internazionale d'Arte (SI) with Improvvisi II;"
-      },
-      {
-        "content": "- BlackHITStoryRevisited with SLWJM, Federico Sacchi, Gianni Denitto;"
-      },
-      {
-        "content": "- Simone Garino, Barbara Menietti and Willie Peyote;"
-      },
-      {
-        "content": "- Cafè des Arts (TO) with Patterns for Transcendence;"
-      },
-      {
-        "content": "- Casa del Popolo (AT) with Patterns for Transcendence;"
-      },
-      {
-        "content": "- Canaleontica Festival (CN) with Ceciliadelpianetaterra;"
-      },
-      {
-        "content": "- Jazz in Sardegna (CA) with Patterns for Transcendence;"
-      },
-      {
-        "content": "- Casa del Popolo (AT) with SLWJM;"
-      },
-      {
-        "content": "- Monfrà Jazz Festival (AL) with Camilla Baraggia;"
-      },
-      {
-        "content": "- Cinema Vekkio (CN) with SLWJM."
-      }
-    ]
-  },
-  "paragraph_list_live_2022": {
-    "title": "2022",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2021": {
-    "title": "2021",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2020": {
-    "title": "2020",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2019": {
-    "title": "2019",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2018": {
-    "title": "2018",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2017": {
-    "title": "2017",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2016": {
-    "title": "2016",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2015": {
-    "title": "2015",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2014": {
-    "title": "2014",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2013": {
-    "title": "2013",
-    "flexAlignment": "left",
-    "paragraphs": []
-  },
-  "paragraph_list_live_2012": {
-    "title": "2012",
-    "flexAlignment": "left",
-    "paragraphs": []
   }
 }
