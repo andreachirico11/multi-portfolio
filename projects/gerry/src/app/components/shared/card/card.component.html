@@ -7,7 +7,8 @@
 
 @if (cardConfig.leftImg){
 <div class="left-img-container">
-  <img [ngSrc]="cardConfig.leftImg.url" [width]="cardConfig.leftImg.originalWidth"
+  <img [ngSrc]="cardConfig.leftImg.url"
+    [width]="cardConfig.leftImg.originalWidth"
     [height]="cardConfig.leftImg.originalHeight" [alt]="cardConfig.leftImg.alt">
 </div>
 }
@@ -27,7 +28,7 @@
 @if (cardConfig.cardSlideshow){
 <div class="card-slideshow-container">
   @for (image of cardConfig.cardSlideshow.images; track image.title) {
-  <img [ngSrc]="image.url" [width]="image.originalWidth"
+  <img [ngSrc]="image.url" [width]="image.originalWidth" loading="eager"
     [height]="image.originalHeight" [alt]="image.alt">
   }
 </div>

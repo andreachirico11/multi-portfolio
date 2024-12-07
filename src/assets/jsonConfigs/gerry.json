@@ -1,7 +1,10 @@
 {
   "rootRouteData": {
     "componentId": "root",
-    "childrenIds": ["navbar_1", "navbar_2"]
+    "childrenIds": [
+      "navbar_1",
+      "navbar_2"
+    ]
   },
   "components": {
     "404_component": {
@@ -67,16 +70,13 @@
       ],
       "paragraphs": [
         {
-          "content": "The inclination towards experimentation and artistic research led him from the outset to explore various unconventional musical styles. Improvisation, inter-actions, blends of electronic and acoustic sounds, polyrhythmicexplorations, interdisciplinary forays into science and art are common features of his works."
+          "content": "The attitude for experimentation and artistic research has led me fromthe very beginning to explore diverse, unconventional musical styles.Improvisation, interplay, blends of electronic and acoustic sounds,polyrhythmic explorations, and interdisciplinary incursions into nature,mathematics, and music are defining characteristics of my work."
         },
         {
-          "content": "Born in the countryside of Alessandria [Italy] into a family rich in musicians, he initially approached music during his childhood (initially the violin, later the electric bass and double bass) and established a very close connection with ecosystems and their elements."
+          "content": "Born in Alessandria into a family of musicians, I first approached theviolin and later transitioned to electric bass and double bass. I studiedjazz at the Conservatories of Alessandria, Piacenza and Rome.Additionally, I earned a degree in Biological Sciences (Ecology) at theUniversità del Piemonte Orientale. These studies form the foundationupon which my artistic research journey began, leading me in 2022 towin a scholarship for the second-level AreMus Master's at the SantaCecilia Conservatory in Rome and, in 2023, to be selected for a doctoralprogram in artistic research at Roma Tre University/Santa Cecilia Conservatory."
         },
         {
-          "content": " In 2016, he graduated cum laude with a thesis on Kaleidophone and Thesaurus at the Conservatorio of Alessandria. Driven by a strong passion for the natural world, in 2018, he earned a degree cum laude in biology, focusing on the ecological impact of allochthonous species. In 2020, he completed his two-year program at the Conservatory of Piacenza with his work Cross-Rhythms. These works form the basis for the development of his artistic research, leading him to win a scholarship for AReMus, a second-level Post-Graduate Master’s program held in the Conservatory Santa Cecilia in Rome in 2022. In 2023, he was selected for the PhD program in artistic research at the Conservatory Santa Cecilia and University of RomaTre."
-        },
-        {
-          "content": "Currently, his work focuses on the interrelations between electro-acoustic improvisation and cultural/natural ecology. The output of this project includes a photographic-musical album called [insita], released on September 18, 2023, with the label nusica.org, and a series of site-specific improvisation performances, [in situ], taking place from 2023 to 2025, where environmental sounds are integrated into the compositional and improvisational process."
+          "content": "My current research projects focus on the interrelations between improvisation and cultural/environmental ecology, materializing in post-human, site-specific improvisational performances where hybrids ofenvironmental and performative sounds emerge."
         }
       ]
     },
@@ -360,10 +360,18 @@
     },
     "project_card_insita": {
       "title": "patterns for transcendence // [insita]",
-      "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [insita], the first recorded work, materializes as a fusion of photographic and musical imagery, blending electronic and acoustic sounds, seeking a balance between composition, rationality, spontaneity, and instinctiveness, reflecting on the immanence and human-ecological mental transcendence.\nPatterns for Transcendence is an audio-visual project in which eight photographs, containing urban and natural elements, serve as the starting point from which sounds emerge, transforming images, patterns, and abstractions into suggestions for as many musical compositions, blending synthetic-electronic and acoustic sonic elements. Images born from places (and non-places) in different contexts, at various latitudes, give life to eight original compositions, ranging from free improvisation to electronics, from noise to jazz.\n\nLine-up:\n\nLeonardo Barbierato: electric bass Attilio Sepe: alto saxophone Gianpiero Malfatto: trombone Lorenzo Morra: piano/synthesizer Riccardo Marchese: drums",
+      "content": "Patterns for Transcendence is the project in which I pursue an artisticexploration of the interrelationships between improvisation andenvironmental/cultural context.[insita], the first recorded work, materializes as a fusion of photographicand musical imagery, blending electronic and acoustic sounds, seeking abalance between composition, rationality, spontaneity, and instinctiveness,reflecting on the immanence and human-ecological mentaltranscendence. Patterns for Transcendence is an audio-visual project inwhich eight photographs, containing urban and natural elements, serve asthe starting point from which sounds emerge, transforming images,patterns, and abstractions into suggestions for as many musicalcompositions, blending synthetic-electronic and acoustic sonic elements.Images born from places (and non-places) in different contexts, at variouslatitudes, give life to eight original compositions, ranging from freeimprovisation to electronics, from noise to jazz.Line-up:Leonardo Barbierato: electric bassAttilio Sepe: alto saxophoneGianpiero Malfatto: tromboneLorenzo Morra: piano/synthesizerRiccardo Marchese: drums",
       "cardSlideshow": {
         "position": "right",
-        "images": []
+        "images": [
+          {
+            "title": "insita1",
+            "url": "https://drive.google.com/thumbnail?id=1cXFKHw7J_8BaZvKiO4SmP39el4_e31S3&sz=w2048",
+            "originalWidth": 2048,
+            "originalHeight": 1362,
+            "alt": "insita members walking in front of a studio"
+          }
+        ]
       }
     },
     "project_card_exsitu": {
@@ -376,10 +384,18 @@
     },
     "project_card_insitu": {
       "title": "patterns for transcendence // [in situ]",
-      "content": "Patterns for Transcendence is the project in which Leonardo Barbierato, bassist and improviser, pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [in situ]is a series of site-specific improvisation performances in pristine or degraded ecosystems. This project stems from the need to explore the space between social ecology, post-human environmentalism, and improvisation. The ecosystem in which the improvisation takes place, with its human, more-than-human, living, and non-living elements, is a fundamental aspect of the improvisation in [in situ], making each performance a unique and unrepeatable event, a complex system linked to the place, the audience, myself, and the time. The fundamental idea of [in situ] is a collective improvisation in which all the elements, human or other-than-human, are free to participate and be considered ‘performative’. ",
+      "content": "Patterns for Transcendence is the project in which I pursues an artisticexploration of the interrelationships between improvisation and environmental/cultural context.[in situ] is a site-specific improvisation performances in pristine or degradedecosystems. This project stems from the need to explore the space betweensocial ecology, post-human environmentalism and improvisation. Theecosystem in which the improvisation takes place, with its human, more-than-human, living, and non-living elements, is a fundamental aspect of theimprovisation in [in situ], making each performance a unique andunrepeatable event, a complex system linked to the place, the audience,myself, and the time. The fundamental idea of [in situ] is a collective ,brieftopic, ecotonal improvisation in which all the elements, human or other-than-human, are free to participate and be considered ‘performative’.",
       "cardSlideshow": {
         "position": "right",
-        "images": []
+        "images": [
+          {
+            "title": "insitu1",
+            "url": "https://drive.google.com/thumbnail?id=14e7HMZQSKfA_eW6BKuRa99bH20MLHDL2&sz=w1000",
+            "originalWidth": 1000,
+            "originalHeight": 666,
+            "alt": "A bassist playing in the high grass"
+          }
+        ]
       }
     },
     "project_card_slwjm": {
@@ -387,15 +403,31 @@
       "content": "Born out of the common need to create a sound deeply rooted in black music and combine it with electronic experimentation, free improvisation, and progressive elements. Following the release of the EP Undone I, which was aired on several national radio stations such as M2O and Radio 24, an intense promotional live activity ensued, seeing them perform on numerous prestigious stages (including Legend Club in Milan and Torino Jazz Club) and festivals like Neon Noon and Torino Jazz Festival, with the show Black Hi(T)story Revisited alongside Federico Sacchi, which sold out. The single \"Nothin' but U,\" released in May 2020, and the cover \"Fiori rosa, fiori di pesco,\" released in July 2020, anticipate the album MEGA, which was released in January 2021. On August 24, 2020, they received the first prize for best emerging band at the Aim Festival contest at the Sforzesco Castle in Milan. \n\n ",
       "cardSlideshow": {
         "position": "right",
-        "images": []
+        "images": [
+          {
+            "title": "slwjm1",
+            "url": "https://drive.google.com/thumbnail?id=1josNCtBsxC36TO6mCGUt62MLi9Y6uu0w&sz=w1000",
+            "originalWidth": 1066,
+            "originalHeight": 711,
+            "alt": "slwjm blurred with lake behind"
+          }
+        ]
       }
     },
     "project_card_conferenzabalaam": {
       "title": "conferenza balaam",
-      "content": "A multidisciplinary artistic collective composed of five performers who explore ways to decentralize the human being, communicating with what is ordinarily not perceived as communicative.                 Line-up: Leonardo Barbierato, Alessandra Cocorullo, Alessandro De Giovanni, Beatrice Fedi, Marco Té.",
+      "content": "Collective made up of one musician and four actors/actress. their artistic research explores the liminalitybetween kindness and violence, human and post-human/other-than human beings, organic and inorganicelements.line-up:Leonardo Barbierato, Alessandra Cocorullo, AlessandroDe Giovanni, Beatrice Fedi, Marco Té",
       "cardSlideshow": {
         "position": "right",
-        "images": []
+        "images": [
+          {
+            "title": "slwjm1",
+            "url": "https://drive.google.com/thumbnail?id=1_nDEjudjp2bhbPYZxY1_7CQ9VRlamP5j&sz=w2400",
+            "originalWidth": 2400,
+            "originalHeight": 3600,
+            "alt": "slwjm blurred with lake behind"
+          }
+        ]
       }
     },
     "contact_1": {

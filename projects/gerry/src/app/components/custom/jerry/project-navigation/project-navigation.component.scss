@@ -24,6 +24,7 @@
     @include title_bold;
     white-space: nowrap;
     fill: $black;
+    cursor: pointer;
   }
   rect {
     fill: $white;
