@@ -12,9 +12,7 @@
       "message": "this page is missing"
     },
     "navbar_1": {
-      "backgroundImage": "assets/gerry/nav.png",
       "wrapperClass": "absolute-nav",
-      "htmlFooter": "<h3 class=\"text-primary\">scroll down</h3>",
       "anchors": [
         {
           "label": "about",
@@ -37,7 +35,6 @@
       ]
     },
     "navbar_2": {
-      "backgroundImage": "assets/gerry/nav.png",
       "wrapperClass": "absolute-nav full-screen",
       "anchors": [
         {

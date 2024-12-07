@@ -7,7 +7,7 @@ import { NavbarConfig } from './navbar.config';
 @Component({
   selector: 'mp-nav',
   standalone: true,
-  imports: [RouterLink, NgOptimizedImage, NgIf],
+  imports: [RouterLink, NgIf],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
   hostDirectives: [{ directive: ConfigDirective, inputs: ['childrenIdIndex'] }],

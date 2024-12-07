@@ -2,84 +2,35 @@
 @import '../../../../styles/typography.scss';
 
 :host {
-  &.absolute-nav {
-    position: relative;
-    overflow: hidden;
-    display: block;
-    width: auto;
-    height: 100vh;
+  nav {
+    text-transform: uppercase;
+    text-align: right;
+  }
 
-    nav,
-    .footer {
-      position: absolute;
-    }
-
-    .img-container {
-      img {
-        object-fit: cover;
-        object-position: 90% 100%;
-      }
-    }
-
+  &.full-screen {
     nav {
-      text-transform: uppercase;
-      text-align: right;
-      right: 8%;
-      top: 8%;
+      ul {
+        @include navbar_big;
+        height: 80vw;
 
-      @include media_desktop {
-        right: 5%;
-      }
-    }
-
-    .footer {
-      bottom: 8%;
-      display: block;
-      width: 100vw;
-      text-align: center;
-    }
-
-    &.full-screen {
-      nav {
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        ul {
-          @include navbar_big;
-          rotate: 90deg;
-          height: 80vw;
+        @include media_tablet {
+          width: unset;
+          height: unset;
+        }
 
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-
-          @include media_tablet {
-            rotate: initial;
-            width: unset;
-            height: unset;
-          }
-
-          @include media_desktop {
-            rotate: initial;
-            line-height: 20vh;
-          }
+        @include media_desktop {
+          line-height: 20vh;
         }
       }
     }
   }
 
   &.full-height {
-    position: relative;
-    height: 100vh;
-    display: block;
-    overflow-y: scroll;
-
     nav {
       padding: 0 1.5em;
     }
@@ -99,27 +50,6 @@
     }
 
     @include media_desktop {
-      nav {
-        position: absolute;
-        top: 30vh;
-        left: 0;
-        bottom: 10vh;
-        width: 100vw;
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-
-        ul {
-          rotate: -90deg;
-          width: 60vh;
-          align-items: center;
-              overflow-y: scroll;
-          height: 80vw;
-        }
-      }
-
       h1 {
         height: 20vh;
       }

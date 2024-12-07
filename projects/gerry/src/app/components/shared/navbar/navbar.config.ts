@@ -1,8 +1,6 @@
 import { ComponentConfigurationBase } from "../../../types,interfaces/ComponentConfigurationBase";
 
 export interface NavbarConfig extends ComponentConfigurationBase {
-  backgroundImage?: string;
-  htmlFooter?: string;
   wrapperClass?: string;
   title?: string;
   anchors: {

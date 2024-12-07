@@ -1,9 +1,3 @@
-@if (navbarConfig.backgroundImage) {
-<div class="img-container">
-  <img [ngSrc]="navbarConfig.backgroundImage" fill>
-</div>
-}
-
 @if (navbarConfig.title) {
   <h1>{{navbarConfig.title}}</h1>
 }
@@ -19,7 +13,3 @@
     }
   </ul>
 </nav>
-
-@if (navbarConfig.htmlFooter) {
-<div class="footer" [innerHtml]="navbarConfig.htmlFooter"></div>
-}
