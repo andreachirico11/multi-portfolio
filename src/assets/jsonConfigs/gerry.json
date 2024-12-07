@@ -280,32 +280,12 @@
           "leftRatio": 0.07,
           "connections": []
         },
-        "razzoagas": {
-          "value": "razzoagas",
-          "routerLink": "razzoagas",
-          "topRatio": 0.85,
-          "leftRatio": 0.1,
-          "connections": [
-            "insita"
-          ]
-        },
         "slwjm": {
           "value": "slwjm",
           "routerLink": "slwjm",
           "topRatio": 0.7,
           "leftRatio": 0.3,
           "connections": [
-            "insita"
-          ]
-        },
-        "exsitu": {
-          "value": "]ex(s)it(u)[",
-          "routerLink": "exsitu",
-          "topRatio": 0.2,
-          "leftRatio": 0.5,
-          "connections": [
-            "insitu",
-            "conferenzabalaam",
             "insita"
           ]
         },
