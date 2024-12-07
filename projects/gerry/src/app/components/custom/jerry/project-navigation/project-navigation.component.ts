@@ -16,6 +16,7 @@ import { RouterLink } from '@angular/router';
 import { ConfigDirective } from '../../../../application-config/config.directives';
 import { Project, ProjectNavigationConfig } from './project-navigation.config';
 import { DomSanitizer } from '@angular/platform-browser';
+import { ScrollIntoViewDirective } from '../../../../directives/scrollIntoView.directive';
 
 @Component({
   selector: 'mp-project-navigation',
@@ -23,7 +24,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   imports: [RouterLink],
   templateUrl: './project-navigation.component.html',
   styleUrl: './project-navigation.component.scss',
-  hostDirectives: [ConfigDirective],
+  hostDirectives: [ConfigDirective, ScrollIntoViewDirective],
 })
 export class ProjectNavigationComponent implements OnInit, AfterViewInit {
   private readonly platform = inject(PLATFORM_ID);

@@ -63,11 +63,6 @@
       ]
     },
     "paragraph_list_1": {
-      "hostDirectives": [
-        {
-          "directiveType": "SCROLL_INTO_VIEW"
-        }
-      ],
       "paragraphs": [
         {
           "content": "The attitude for experimentation and artistic research has led me fromthe very beginning to explore diverse, unconventional musical styles.Improvisation, interplay, blends of electronic and acoustic sounds,polyrhythmic explorations, and interdisciplinary incursions into nature,mathematics, and music are defining characteristics of my work."
@@ -81,11 +76,6 @@
       ]
     },
     "paragraph_list_2": {
-      "hostDirectives": [
-        {
-          "directiveType": "SCROLL_INTO_VIEW"
-        }
-      ],
       "paragraphs": [
         {
           "navigateOnClick": {
@@ -209,11 +199,6 @@
       ]
     },
     "card_slideshow_1": {
-      "hostDirectives": [
-        {
-          "directiveType": "SCROLL_INTO_VIEW"
-        }
-      ],
       "vertical": true,
       "cards": [
         {
@@ -254,11 +239,6 @@
       ]
     },
     "custom_proj_nav": {
-      "hostDirectives": [
-        {
-          "directiveType": "SCROLL_INTO_VIEW"
-        }
-      ],
       "labelPadding": 10,
       "backgroundRect": {
         "x": 10,
@@ -411,11 +391,6 @@
       }
     },
     "contact_1": {
-      "hostDirectives": [
-        {
-          "directiveType": "SCROLL_INTO_VIEW"
-        }
-      ],
       "controls": [
         {
           "type": "text",
@@ -440,11 +415,6 @@
       ]
     },
     "card_slideshow_2": {
-      "hostDirectives": [
-        {
-          "directiveType": "SCROLL_INTO_VIEW"
-        }
-      ],
       "vertical": true,
       "cards": [
         {
@@ -520,11 +490,6 @@
       ]
     },
     "live_nav": {
-      "hostDirectives": [
-        {
-          "directiveType": "SCROLL_INTO_VIEW"
-        }
-      ],
       "wrapperClass": "full-height",
       "title": "live",
       "anchors": [

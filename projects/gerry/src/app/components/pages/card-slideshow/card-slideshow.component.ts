@@ -2,6 +2,7 @@ import { Component, HostBinding, inject } from '@angular/core';
 import { ConfigDirective } from '../../../application-config/config.directives';
 import { CardComponent } from '../../shared/card/card.component';
 import { CardSlideshowConfig } from './card-slideshow.config';
+import { ScrollIntoViewDirective } from '../../../directives/scrollIntoView.directive';
 
 @Component({
   selector: 'mp-card-slideshow',
@@ -9,7 +10,7 @@ import { CardSlideshowConfig } from './card-slideshow.config';
   imports: [CardComponent],
   templateUrl: './card-slideshow.component.html',
   styleUrl: './card-slideshow.component.scss',
-  hostDirectives: [ConfigDirective],
+  hostDirectives: [ConfigDirective, ScrollIntoViewDirective],
 })
 export class CardSlideshowComponent {
   private configDirective = inject(ConfigDirective);

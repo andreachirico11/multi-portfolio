@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
-import { ConfigDirective } from './application-config/config.directives';
 
 @Component({
   selector: 'gerry-root',
