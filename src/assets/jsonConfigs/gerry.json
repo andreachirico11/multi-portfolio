@@ -75,8 +75,9 @@
     "paragraph_list_2": {
       "paragraphs": [
         {
+          "hoverClass": true,
           "navigateOnClick": {
-            "url": "https://www.google.com",
+            "url": "https://doi.org/10.22501/ruu.2154855",
             "navType": "window"
           },
           "icon": {
@@ -89,11 +90,12 @@
               "alt": "arrow"
             }
           },
-          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+          "content": "Leonardo Barbierato, «[in situ] : re-thinking the role of musical improvisationperformance in the context of the ecological and cultural crisis», RUUKKU - Studiesin Artistic Research, Vol 21, 2024"
         },
         {
+          "hoverClass": true,
           "navigateOnClick": {
-            "url": "https://www.google.com",
+            "url": "https://www.simm-platform.eu/wp-content/uploads/2024/11/SIMM9_BarbieratoLeonardo_slides.pdf",
             "navType": "window"
           },
           "icon": {
@@ -106,92 +108,7 @@
               "alt": "arrow"
             }
           },
-          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-        },
-        {
-          "navigateOnClick": {
-            "url": "https://www.google.com",
-            "navType": "window"
-          },
-          "icon": {
-            "position": "right",
-            "image": {
-              "title": "arrow",
-              "url": "assets/gerry/arrow_134x30.png",
-              "originalWidth": 134,
-              "originalHeight": 30,
-              "alt": "arrow"
-            }
-          },
-          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-        },
-        {
-          "navigateOnClick": {
-            "url": "https://www.google.com",
-            "navType": "window"
-          },
-          "icon": {
-            "position": "right",
-            "image": {
-              "title": "arrow",
-              "url": "assets/gerry/arrow_134x30.png",
-              "originalWidth": 134,
-              "originalHeight": 30,
-              "alt": "arrow"
-            }
-          },
-          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-        },
-        {
-          "navigateOnClick": {
-            "url": "https://www.google.com",
-            "navType": "window"
-          },
-          "icon": {
-            "position": "right",
-            "image": {
-              "title": "arrow",
-              "url": "assets/gerry/arrow_134x30.png",
-              "originalWidth": 134,
-              "originalHeight": 30,
-              "alt": "arrow"
-            }
-          },
-          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-        },
-        {
-          "navigateOnClick": {
-            "url": "https://www.google.com",
-            "navType": "window"
-          },
-          "icon": {
-            "position": "right",
-            "image": {
-              "title": "arrow",
-              "url": "assets/gerry/arrow_134x30.png",
-              "originalWidth": 134,
-              "originalHeight": 30,
-              "alt": "arrow"
-            }
-          },
-          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
-        },
-        {
-          "navigateOnClick": {
-            "url": "https://www.google.com",
-            "navType": "window"
-          },
-          "icon": {
-            "position": "right",
-            "image": {
-              "title": "arrow",
-              "url": "assets/gerry/arrow_134x30.png",
-              "originalWidth": 134,
-              "originalHeight": 30,
-              "alt": "arrow"
-            }
-          },
-          "content": "Leonardo Barbierato, «[in situ]: re-thinking the role of music improvisation performance in the context of ecological crisis”, RUUKKU, 2024."
+          "content": "Leonardo Barbierato, «Listening as improvisation, listening as artivism: site-specificinter-actions during [in situ] performance», simm-posium 9, 2024"
         }
       ]
     },

@@ -10,7 +10,8 @@ export interface ParagraphConfig {
   navigateOnClick?: {
     url: string;
     navType: 'router' | 'window';
-  }
+  };
+  hoverClass?: boolean
 }
 
 export type ParagraphType = 'PARAGRAPH';
