@@ -3,5 +3,4 @@
    production: false,
    appIds: "",
    jsonConfigPath: 'assets/jsonConfigs', // default value,
-   prodAppTabName: '' // only used in production
  };

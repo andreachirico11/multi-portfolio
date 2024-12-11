@@ -21,7 +21,7 @@ export class RouteInjectorService {
     return this.appIds.map((path) => {
       const output: MpRoute = {
         path,
-        title: path,
+        title: rootRouteData.tabTitle || path,
         data: { ...rootRouteData },
         resolve: {resolvedConfigs: ConfigResolver} ,
         loadChildren: () =>
@@ -39,9 +39,9 @@ export class RouteInjectorService {
     return [
       {
         ...route,
-        title: e.prodAppTabName,
+        title: rootRouteData.tabTitle,
         data: { ...rootRouteData },
-        resolve: {resolvedConfigs: ConfigResolver},
+        resolve: { resolvedConfigs: ConfigResolver },
       },
     ];
   }

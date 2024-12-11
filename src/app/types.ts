@@ -6,7 +6,7 @@ export type ComponentsConfigObject = {
 };
 
 export type ComponentConfigObject = {
-  rootRouteData: { componentId: string; childrenIds?: string[] };
+  rootRouteData: { componentId: string; childrenIds?: string[]; tabTitle?: string };
   components: ComponentsConfigObject;
 };
 

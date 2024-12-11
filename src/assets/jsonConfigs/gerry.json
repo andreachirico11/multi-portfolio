@@ -1,6 +1,7 @@
 {
   "rootRouteData": {
     "componentId": "root",
+    "tabTitle": "leonardobarbierato",
     "childrenIds": [
       "navbar_1",
       "navbar_2"
@@ -62,13 +63,13 @@
     "paragraph_list_1": {
       "paragraphs": [
         {
-          "content": "The attitude for experimentation and artistic research has led me fromthe very beginning to explore diverse, unconventional musical styles.Improvisation, interplay, blends of electronic and acoustic sounds,polyrhythmic explorations, and interdisciplinary incursions into nature,mathematics, and music are defining characteristics of my work."
+          "content": "The attitude for experimentation and artistic research has led me from the very beginning to explore diverse, unconventional musical styles. Improvisation, interplay, blends of electronic and acoustic sounds, polyrhythmic explorations, and interdisciplinary glimpses into nature, mathematics and music are defining feature of my work."
         },
         {
-          "content": "Born in Alessandria into a family of musicians, I first approached theviolin and later transitioned to electric bass and double bass. I studiedjazz at the Conservatories of Alessandria, Piacenza and Rome.Additionally, I earned a degree in Biological Sciences (Ecology) at theUniversità del Piemonte Orientale. These studies form the foundationupon which my artistic research journey began, leading me in 2022 towin a scholarship for the second-level AreMus Master's at the SantaCecilia Conservatory in Rome and, in 2023, to be selected for a doctoralprogram in artistic research at Roma Tre University/Santa Cecilia Conservatory."
+          "content": "Born in Alessandria into a family of musicians, I first approached the violin and later transitioned to electric bass and double bass. I studied jazz at the Conservatories of Alessandria, Piacenza and Rome. Additionally, I earned a degree in Biological Sciences (Ecology) at the Università del Piemonte Orientale. These studies form the foundation upon which my artistic research journey began, leading me in 2022 to win a scholarship for the second-level AReMus Master's at the Santa Cecilia Conservatory in Rome and, in 2023, to be selected for a doctoral program in artistic research at Roma Tre University/Santa Cecilia Conservatory."
         },
         {
-          "content": "My current research projects focus on the interrelations between improvisation and cultural/environmental ecology, materializing in post-human, site-specific improvisational performances where hybrids ofenvironmental and performative sounds emerge."
+          "content": "My current research projects focus on the interrelations between improvisation and cultural/environmental ecology, materializing in post-human, site-specific improvisational performances where hybrids of environmental and performative sounds emerge."
         }
       ]
     },
@@ -90,7 +91,7 @@
               "alt": "arrow"
             }
           },
-          "content": "Leonardo Barbierato, «[in situ] : re-thinking the role of musical improvisationperformance in the context of the ecological and cultural crisis», RUUKKU - Studiesin Artistic Research, Vol 21, 2024"
+          "content": "Leonardo Barbierato, «[in situ] : re-thinking the role of musical improvisation performance in the context of the ecological and cultural crisis», RUUKKU - Studiesin Artistic Research, Vol 21, 2024"
         },
         {
           "hoverClass": true,
@@ -108,7 +109,7 @@
               "alt": "arrow"
             }
           },
-          "content": "Leonardo Barbierato, «Listening as improvisation, listening as artivism: site-specificinter-actions during [in situ] performance», simm-posium 9, 2024"
+          "content": "Leonardo Barbierato, «Listening as improvisation, listening as artivism: site-specific inter-actions during [in situ] performance», simm-posium 9, 2024"
         }
       ]
     },
@@ -117,7 +118,7 @@
       "cards": [
         {
           "title": "[insita]",
-          "content": "An album of photography and music, to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.            tracklist: 1/ e(oi)ncrypted; 2/ suburbs; 3/ suprematism; 4/ lines; 5/ selfsimilarity; 6/ ocean; 7/ lag; 8/ free                                                      line-up: gianpiero malfatto - trombone; lorenzo morra - synth, piano; leonardo barbierato - bass; riccardo marchese - drums. ",
+          "content": "An album of photography and music to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.                                                tracklist:                      1/ e(oi)ncrypted;                  2/ suburbs;                        3/ suprematism;                    4/ lines;                          5/ selfsimilarity;                 6/ ocean;                          7/ lag;                            8/ free                               line-up:                        gianpiero malfatto - trombone; lorenzo morra - synth, piano; leonardo barbierato - bass; riccardo marchese - drums. ",
           "topImg": {
             "title": "Insita Cover",
             "url": "assets/gerry/album-cover_624x628.png",
@@ -128,7 +129,7 @@
         },
         {
           "title": "MEGA",
-          "content": "An album capable of transcending passing trends and looking beyond the prevailing musical dynamics, leading to the discovery of elegant and meticulously crafted soundscapes, with an international flavor but a well-defined personality. With their debut album MEGA, SLWJM demonstrate that they know exactly who they are and where they want to go with their music. (La Repubblica)                            tracklist: 1/ floods; 2/ no longer love; 3/ nothing but you; 4/ story of my life; 5/ interlude #2; 6/ step memories; 7/ hold on; 8/ purple in the sky; 9/ day 'n' night                             line-up: paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass; davide mancini - drums",
+          "content": "An album capable of transcending passing trends and looking beyond the prevailing musical dynamics, leading to the discovery of elegant and meticulously crafted soundscapes, with an international flavor but a well-defined personality. With their debut album MEGA, SLWJM demonstrate that they know exactly who they are and where they want to go with their music. (La Repubblica)                                                              tracklist:                    1/ floods;                        2/ no longer love;                3/ nothing but you;               4/ story of my life;              5/ interlude #2;                  6/ step memories;                 7/ hold on;                        8/ purple in the sky;              9/ day 'n' night                                                         line-up:                        paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass;        davide mancini - drums",
           "topImg": {
             "title": "Mega Cover",
             "url": "https://lh3.googleusercontent.com/d/12y_L-OQBWr_T-VW4yDO0F68ZWD9pP9rk?authuser=1/view",
@@ -140,7 +141,7 @@
         },
         {
           "title": "undone I",
-          "content": "EP.                                   tracklist: 1/ hamlet; 2/ mirrors; 3/ interluude #1; 4/ Nine Eight; 5/ B.S.T.; 6/ 4life.                                                            line-up: paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass; davide mancini: drums.",
+          "content": "EP.                         tracklist:                     1/ hamlet;                         2/ mirrors;                        3/ interluude #1;                  4/ Nine Eight;                     5/ B.S.T.;                         6/ 4life.                                                                line-up:                        paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass;        davide mancini: drums.",
           "topImg": {
             "title": "Undone I Cover",
             "url": "https://lh3.googleusercontent.com/d/1-Gx6SJ9ZcthyVePkRGJe-Dy0x385Lvbd?authuser=1/view",
@@ -234,7 +235,7 @@
     },
     "project_card_insita": {
       "title": "patterns for transcendence // [insita]",
-      "content": "Patterns for Transcendence is the project in which I pursue an artisticexploration of the interrelationships between improvisation andenvironmental/cultural context.[insita], the first recorded work, materializes as a fusion of photographicand musical imagery, blending electronic and acoustic sounds, seeking abalance between composition, rationality, spontaneity, and instinctiveness,reflecting on the immanence and human-ecological mentaltranscendence. Patterns for Transcendence is an audio-visual project inwhich eight photographs, containing urban and natural elements, serve asthe starting point from which sounds emerge, transforming images,patterns, and abstractions into suggestions for as many musicalcompositions, blending synthetic-electronic and acoustic sonic elements.Images born from places (and non-places) in different contexts, at variouslatitudes, give life to eight original compositions, ranging from freeimprovisation to electronics, from noise to jazz.Line-up:Leonardo Barbierato: electric bassAttilio Sepe: alto saxophoneGianpiero Malfatto: tromboneLorenzo Morra: piano/synthesizerRiccardo Marchese: drums",
+      "content": "Patterns for Transcendence is the project in which I pursue an artistic exploration of the interrelationships between improvisation and environmental/cultural context.[insita], the first recorded work, materializes as a fusion of photographic and musical imagery, blending electronic and acoustic sounds, seeking a balance between composition, rationality, spontaneity, and instinctiveness,reflecting on the immanence and human-ecological transcendence. Patterns for Transcendence is an audio-visual project in which eight photographs, containing urban and natural elements, serve as the starting point from which sounds emerge, transforming images, patterns and abstractions into suggestions for as many musical compositions, blending synthetic-electronic and acoustic sonic elements. Images born from places (and non-places) in different contexts, at various latitudes, give life to eight original compositions, ranging from free improvisation to electronics, from noise to jazz.                      Line-up:                             Leonardo Barbierato: electric bass     Attilio Sepe: alto saxophone           Gianpiero Malfatto: trombone           Lorenzo Morra: piano/synthesizer       Riccardo Marchese: drums",
       "cardSlideshow": {
         "position": "right",
         "images": [
@@ -258,7 +259,7 @@
     },
     "project_card_insitu": {
       "title": "patterns for transcendence // [in situ]",
-      "content": "Patterns for Transcendence is the project in which I pursues an artisticexploration of the interrelationships between improvisation and environmental/cultural context.[in situ] is a site-specific improvisation performances in pristine or degradedecosystems. This project stems from the need to explore the space betweensocial ecology, post-human environmentalism and improvisation. Theecosystem in which the improvisation takes place, with its human, more-than-human, living, and non-living elements, is a fundamental aspect of theimprovisation in [in situ], making each performance a unique andunrepeatable event, a complex system linked to the place, the audience,myself, and the time. The fundamental idea of [in situ] is a collective ,brieftopic, ecotonal improvisation in which all the elements, human or other-than-human, are free to participate and be considered ‘performative’.",
+      "content": "Patterns for Transcendence is the project in which I pursues an artistic exploration of the interrelationships between improvisation and environmental/cultural context. [in situ] is a site-specific improvisation performances in pristine or degraded ecosystems. This project stems from the need to explore the space between social ecology, post-human environmentalism and improvisation. The ecosystem in which the improvisation takes place, with its human, other-than-human, living and non-living elements is a fundamental aspect of the improvisation in [in situ], making each performance a unique and unrepeatable event, a complex system linked to the place, the audience, myself, and the time. The fundamental idea of [in situ] is a collective, brieftopic, ecotonal improvisation in which all the elements, human or other-than-human, are free to participate and be considered ‘performative’.",
       "cardSlideshow": {
         "position": "right",
         "images": [
@@ -290,7 +291,7 @@
     },
     "project_card_conferenzabalaam": {
       "title": "conferenza balaam",
-      "content": "Collective made up of one musician and four actors/actress. their artistic research explores the liminalitybetween kindness and violence, human and post-human/other-than human beings, organic and inorganicelements.line-up:Leonardo Barbierato, Alessandra Cocorullo, AlessandroDe Giovanni, Beatrice Fedi, Marco Té",
+      "content": "Collective made up of one musician and four actors/actress. their artistic research explores the liminality between kindness and violence, human and post-human/other-than human beings, organic and inorganic elements.                                                           line-up:                               Leonardo Barbierato,                   Alessandra Cocorullo,                  Alessandro De Giovanni,                Beatrice Fedi,                         Marco Té",
       "cardSlideshow": {
         "position": "right",
         "images": [
@@ -408,6 +409,10 @@
       "title": "live",
       "anchors": [
         {
+          "label": "2025",
+          "routerLink": "2025"
+        },
+        {
           "label": "2024",
           "routerLink": "2024"
         },
@@ -434,30 +439,18 @@
         {
           "label": "2018",
           "routerLink": "2018"
+        }
+      ]
+    },
+    "paragraph_list_live_2025": {
+      "title": "2025",
+      "flexAlignment": "left",
+      "paragraphs": [
+        {
+          "content": "- leonardo barbierato // patterns for transcendence: unTubo (SI) | 20/2"
         },
         {
-          "label": "2017",
-          "routerLink": "2017"
-        },
-        {
-          "label": "2016",
-          "routerLink": "2016"
-        },
-        {
-          "label": "2015",
-          "routerLink": "2015"
-        },
-        {
-          "label": "2014",
-          "routerLink": "2014"
-        },
-        {
-          "label": "2013",
-          "routerLink": "2013"
-        },
-        {
-          "label": "2012",
-          "routerLink": "2012"
+          "content": "- slwjm: cernusco sul naviglio (MI) | 22/6"
         }
       ]
     },
@@ -536,57 +529,122 @@
     "paragraph_list_live_2022": {
       "title": "2022",
       "flexAlignment": "left",
-      "paragraphs": []
+      "paragraphs": [
+        {
+          "content": "- slwjm: diavolo rosso (AT) | 2/5;"
+        },
+        {
+          "content": "- slwjm: douja d'or (AT) | 13/9;"
+        },
+        {
+          "content": "- leonardo barbierato // patterns for transcendence: Jazzino (CA) | 23/11;"
+        }
+      ]
     },
     "paragraph_list_live_2021": {
       "title": "2021",
       "flexAlignment": "left",
-      "paragraphs": []
+      "paragraphs": [
+        {
+          "content": "- slwjm: maddog (TO) | 23/6;"
+        },
+        {
+          "content": "- sottobinario (AT) | 3/7;"
+        },
+        {
+          "content": "- slwjm: casa del popolo (AT) | 4/9;"
+        },
+        {
+          "content": "- leonardo barbierato // patterns for transcendence: monfrà jazz festival (AL) | 5/9;"
+        },
+        {
+          "content": "- leonardo barbierato // riccardo marchese duo: fuoriluogo festival (BI) | 1/10;"
+        }
+      ]
     },
     "paragraph_list_live_2020": {
       "title": "2020",
       "flexAlignment": "left",
-      "paragraphs": []
+      "paragraphs": [
+        {
+          "content": "- a lifelong journey: teatro mastroianni (PV) | 8/2;"
+        },
+        {
+          "content": "- slwjm: magazzino sul po (TO) | 20/2;"
+        },
+        {
+          "content": "- a lifelong journey: teatro oasi (MI) | 21/2;"
+        },
+        {
+          "content": "- slwjm: aim festival (MI) | 24/8;"
+        },
+        {
+          "content": "- alpaca: monfrà jazz festival (AL) | 5/9;"
+        },
+        {
+          "content": "- slwjm: bonsai beat festival (TO) | 10/9;"
+        },
+        {
+          "content": "- alpaca: borghi in jazz (CB) | 24-26/9;"
+        }
+      ]
     },
     "paragraph_list_live_2019": {
       "title": "2019",
       "flexAlignment": "left",
-      "paragraphs": []
-    },
-    "paragraph_list_live_2018": {
-      "title": "2018",
-      "flexAlignment": "left",
-      "paragraphs": []
-    },
-    "paragraph_list_live_2017": {
-      "title": "2017",
-      "flexAlignment": "left",
-      "paragraphs": []
-    },
-    "paragraph_list_live_2016": {
-      "title": "2016",
-      "flexAlignment": "left",
-      "paragraphs": []
-    },
-    "paragraph_list_live_2015": {
-      "title": "2015",
-      "flexAlignment": "left",
-      "paragraphs": []
-    },
-    "paragraph_list_live_2014": {
-      "title": "2014",
-      "flexAlignment": "left",
-      "paragraphs": []
-    },
-    "paragraph_list_live_2013": {
-      "title": "2013",
-      "flexAlignment": "left",
-      "paragraphs": []
-    },
-    "paragraph_list_live_2012": {
-      "title": "2012",
-      "flexAlignment": "left",
-      "paragraphs": []
+      "paragraphs": [
+        {
+          "content": "- slwjm ft federico sacchi: torino jazz festival | 5/4;"
+        },
+        {
+          "content": "- slwjm: citabiunda (CN) | 19/4;"
+        },
+        {
+          "content": "slwjm: circolo al pino (AT) | 25/4;"
+        },
+        {
+          "content": "a lifelong journey: teatro volta (PV) | 27/4;"
+        },
+        {
+          "content": "slwjm: diavolo rosso (AT) |  1/5;"
+        },
+        {
+          "content": "slwjm: neon noon festival (LI) | 11/5;"
+        },
+        {
+          "content": "slwjm: legend club (MI) | 19/5;"
+        },
+        {
+          "content": "slwjm: torino jazz club (TO) | 24/5;"
+        },
+        {
+          "content": "slwjm: gulla (AT) | 2/6;"
+        },
+        {
+          "content": "alpaca: zio live music club (MI) | 5/6;"
+        },
+        {
+          "content": "alpaca: monfrà jazz festival (AL) | 21/6;"
+        },
+        {
+          "content": "with camilla musso - davide mancini: festival contro (AT) | 25/8;"
+        },
+        {
+          "content": "slwjm: officina (AL) | 19/10;"
+        },
+        {
+          "content": "slwjm: off-topic (TO) | 23/10;"
+        },
+        {
+          "content": "alpaca: area m (MI) | 27/10;"
+        },
+        {
+          "content": "slwjm:  cortile cafè (BO) | 28/10;"
+        },
+        {
+          "content": "slwjm: arterìa (AL) | 20/12;"
+        }
+      ]
     }
   }
 }
