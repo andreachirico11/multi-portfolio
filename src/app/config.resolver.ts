@@ -1,7 +1,11 @@
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, Params, ResolveFn } from '@angular/router';
 import { MpTransferState } from './mpTransferState.service';
-import { ComponentsConfigObject, isMpRouteData, MpRouteDataExtended, ResolvedConfigs } from './types';
+import {
+  ComponentsConfigObject,
+  isMpRouteData,
+  ResolvedConfigs,
+} from './types';
 
 const addParametersToPath = (componentId: string, pathParameters: string[], routeParams: Params) =>
   pathParameters.reduce(
@@ -18,10 +22,13 @@ export const ConfigResolver: ResolveFn<ResolvedConfigs> = ({
   if (pathParameters && pathParameters.length)
     componentId = addParametersToPath(componentId, pathParameters, params);
   const tState = inject(MpTransferState);
-  const componentConfig = tState.getSingleComponentConfig(componentId);
+  const componentConfig =
+    componentId === 'root'
+      ? tState.getRootComponentConfig()
+      : tState.getSingleComponentConfig(componentId);
   const childrenConfigs = (childrenIds || []).reduce(
     (acc, id) => ({ ...acc, [id]: tState.getSingleComponentConfig(id) }),
     {} as ComponentsConfigObject
   );
-  return {componentConfig, ...(childrenConfigs && { childrenConfigs }) };
+  return { componentConfig, ...(childrenConfigs && { childrenConfigs }) };
 };

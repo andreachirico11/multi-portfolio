@@ -1,6 +1,6 @@
 import { Directive, inject, Input, OnInit, Optional } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MpRouteDataExtended } from '../../../../../src/app/types';
+import { MpRouteDataExtended, RootComponentConfigObject } from '../../../../../src/app/types';
 import { CustomComponentsConfig } from '../components/custom/custom.config';
 import { ComponentConfigs } from '../types,interfaces/ComponentConfigs';
 
@@ -19,7 +19,7 @@ export class ConfigDirective {
     this._childrenIdIndex = value;
   }
 
-  getConfig<CTYpe extends ComponentConfigs | CustomComponentsConfig>() {
+  getConfig<CTYpe extends ComponentConfigs | CustomComponentsConfig | RootComponentConfigObject>() {
     const {
       resolvedConfigs: { componentConfig, childrenConfigs },
       childrenIds,

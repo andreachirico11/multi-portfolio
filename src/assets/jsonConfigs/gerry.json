@@ -2,6 +2,7 @@
   "rootRouteData": {
     "componentId": "root",
     "tabTitle": "leonardobarbierato",
+    "favicon": "gerry",
     "childrenIds": [
       "navbar_1",
       "navbar_2"

@@ -1,17 +1,25 @@
-import { ActivatedRouteSnapshot, Data, Route } from '@angular/router';
+import { Data, Route } from '@angular/router';
 import { ComponentConfigs } from '../../projects/gerry/src/app/types,interfaces/ComponentConfigs';
+import { ComponentConfigurationBase } from '../../projects/gerry/src/app/types,interfaces/ComponentConfigurationBase';
 
 export type ComponentsConfigObject = {
   [componentId: string]: ComponentConfigs;
 };
 
+export type RootComponentConfigObject = ComponentConfigurationBase & {
+  componentId: string;
+  childrenIds?: string[];
+  tabTitle?: string;
+  favicon: string;
+};
+
 export type ComponentConfigObject = {
-  rootRouteData: { componentId: string; childrenIds?: string[]; tabTitle?: string };
+  rootRouteData: RootComponentConfigObject;
   components: ComponentsConfigObject;
 };
 
 export const defaultConfig: ComponentConfigObject = {
-  rootRouteData: { componentId: 'root' },
+  rootRouteData: { componentId: 'root', favicon: 'favicon' },
   components: {},
 } as const;
 
@@ -26,9 +34,9 @@ export type MpRouteData = {
 };
 
 export type ResolvedConfigs = {
-    componentConfig: ComponentConfigs;
-    childrenConfigs?: ComponentsConfigObject;
-  };
+  componentConfig: ComponentConfigs;
+  childrenConfigs?: ComponentsConfigObject;
+};
 
 export type MpRouteDataExtended = MpRouteData & {
   resolvedConfigs: ResolvedConfigs;

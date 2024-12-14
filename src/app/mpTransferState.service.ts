@@ -1,5 +1,5 @@
 import { Injectable, TransferState, makeStateKey } from '@angular/core';
-import { ComponentConfigObject, defaultConfig } from './types';
+import { ComponentConfigObject, defaultConfig, RootComponentConfigObject } from './types';
 import { ComponentConfigs } from '../../projects/gerry/src/app/types,interfaces/ComponentConfigs';
 
 const COMPONENTS_CONFIGURATION = makeStateKey<ComponentConfigObject>('COMPONENTS_CONFIGURATION');
@@ -14,6 +14,10 @@ export class MpTransferState {
 
   getSingleComponentConfig<Config extends ComponentConfigs>(compoId: string) {
     return { ...this.getAppComponentsConfig().components[compoId] } as Config;
+  }
+
+  getRootComponentConfig() {
+    return { ...this.getAppComponentsConfig().rootRouteData } as RootComponentConfigObject;
   }
 
   setAppComponentsConfig(value: ComponentConfigObject) {

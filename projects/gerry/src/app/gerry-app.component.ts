@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { NgOptimizedImage } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { RootDirective } from '../../../../src/app/root.directive';
+import { ConfigDirective } from './application-config/config.directives';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 @Component({
   selector: 'gerry-root',
@@ -20,6 +22,15 @@ import { NgOptimizedImage } from '@angular/common';
       <router-outlet></router-outlet>
     </div>
   `,
+  hostDirectives: [ConfigDirective, RootDirective],
   styleUrl: './gerry-app.component.scss',
 })
-export class GerryAppComponent {}
+export class GerryAppComponent implements OnInit {
+  // private readonly sharedState = inject(MpSharedState);
+  // private readonly configDirective = inject(ConfigDirective);
+
+
+  ngOnInit() {
+    // this.sharedState.setFavicon(this.configDirective.getConfig<RootComponentConfigObject>());
+  }
+}

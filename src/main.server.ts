@@ -4,6 +4,7 @@ import {
   ApplicationConfig,
   mergeApplicationConfig,
   PLATFORM_ID,
+  Renderer2,
 } from '@angular/core';
 import { bootstrapApplication, provideClientHydration } from '@angular/platform-browser';
 import { provideServerRendering } from '@angular/platform-server';
