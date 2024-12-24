@@ -1,3 +1,4 @@
+import { NavigationAction } from "../../../../../../../src/app/types";
 import { ComponentConfigurationBase } from "../../../types,interfaces/ComponentConfigurationBase";
 
 export interface NavbarConfig extends ComponentConfigurationBase {
@@ -5,7 +6,7 @@ export interface NavbarConfig extends ComponentConfigurationBase {
   title?: string;
   anchors: {
     label: string;
-    routerLink?: string;
+    action: NavigationAction
   }[];
 }
 

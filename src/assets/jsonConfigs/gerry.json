@@ -7,7 +7,9 @@
       "navbar_1",
       "navbar_2"
     ],
-    "preconnections": ["https://drive.google.com"]
+    "preconnections": [
+      "https://drive.google.com"
+    ]
   },
   "components": {
     "404_component": {
@@ -19,21 +21,42 @@
       "anchors": [
         {
           "label": "about",
-          "routerLink": "/about"
+          "action": {
+            "url": "/about",
+            "navType": "router"
+          }
         },
         {
           "label": "mail",
-          "routerLink": "/contact"
+          "action": {
+            "url": "/contact",
+            "navType": "router"
+          }
         },
         {
-          "label": "bandcamp"
+          "label": "bandcamp",
+          "action": {
+            "url": "https://leonardobarbierato.bandcamp.com",
+              "navType": "window",
+              "targetBlank": true
+          }
         },
         {
-          "label": "spotify"
+          "label": "spotify",
+          "action": {
+            "url": "https://open.spotify.com/intl-it/artist/5fmhfrotoGX7sn34carJXD?si=g3PeTIKvSwyVCCTGtiqj2w",
+            "navType": "window",
+            "targetBlank": true
+          }
         },
         {
           "label": "vimeo",
-          "routerLink": "/vimeo"
+          "routerLink": "/vimeo",
+          "action": {
+            "url": "https://vimeo.com/user207638489",
+              "navType": "window",
+              "targetBlank": true
+          }
         }
       ]
     },
@@ -42,23 +65,38 @@
       "anchors": [
         {
           "label": "project",
-          "routerLink": "/projects"
+          "action": {
+            "url": "/projects",
+            "navType": "router"
+          }
         },
         {
           "label": "releases",
-          "routerLink": "/releases"
+          "action": {
+            "url": "/releases",
+            "navType": "router"
+          }
         },
         {
           "label": "live",
-          "routerLink": "/live"
+          "action": {
+            "url": "/live",
+            "navType": "router"
+          }
         },
         {
           "label": "papers",
-          "routerLink": "/papers"
+          "action": {
+            "url": "/papers",
+            "navType": "router"
+          }
         },
         {
           "label": "lessons",
-          "routerLink": "/lessons"
+          "action": {
+            "url": "/lessons",
+            "navType": "router"
+          }
         }
       ]
     },
@@ -130,7 +168,7 @@
           },
           "imgNavigation": {
             "url": "https://open.spotify.com/intl-it/album/6OXenzUX04SNbqh18RVrWr?si=l4Hvt0wiTj6G7XSUtH41dg",
-            "navType":"window",
+            "navType": "window",
             "targetBlank": true
           }
         },
@@ -432,35 +470,56 @@
       "anchors": [
         {
           "label": "2025",
-          "routerLink": "2025"
+          "action": {
+            "url": "2025",
+            "navType": "router"
+          }
         },
         {
           "label": "2024",
-          "routerLink": "2024"
+          "action": {
+            "url": "2024",
+            "navType": "router"
+          }
         },
         {
           "label": "2023",
-          "routerLink": "2023"
+          "action": {
+            "url": "2023",
+            "navType": "router"
+          }
         },
         {
           "label": "2022",
-          "routerLink": "2022"
+          "action": {
+            "url": "2022",
+            "navType": "router"
+          }
         },
         {
           "label": "2021",
-          "routerLink": "2021"
+          "action": {
+            "url": "2021",
+            "navType": "router"
+          }
         },
         {
           "label": "2020",
-          "routerLink": "2020"
+          "action": {
+            "url": "2020",
+            "navType": "router"
+          }
         },
         {
           "label": "2019",
-          "routerLink": "2019"
+          "action": {
+            "url": "2019",
+            "navType": "router"
+          }
         },
         {
           "label": "2018",
-          "routerLink": "2018"
+          "action": {"url": "2018", "navType": "router"}
         }
       ]
     },

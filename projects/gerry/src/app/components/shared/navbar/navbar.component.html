@@ -1,12 +1,12 @@
 @if (navbarConfig.title) {
-  <h1>{{navbarConfig.title}}</h1>
+  <h1 class="navbar-title">{{navbarConfig.title}}</h1>
 }
 
 <nav class="text-primary">
   <ul>
     @for (anchor of navbarConfig.anchors; track anchor.label) {
     <li>
-      <a [routerLink]="anchor.routerLink && [ './' +  anchor.routerLink] || null">
+      <a (click)="anchorPressed(anchor.action)">
         {{anchor.label}}
       </a>
     </li>

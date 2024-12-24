@@ -7,6 +7,10 @@
     text-align: right;
   }
 
+  a {
+    cursor: pointer;
+  }
+
   &.full-screen {
     nav {
       ul {
@@ -46,7 +50,7 @@
     }
 
     li:nth-child(even) {
-      text-align: right;
+      text-align: left;
     }
 
     @include media_desktop {

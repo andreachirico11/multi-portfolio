@@ -6,7 +6,10 @@ import { NavbarComponent } from '../shared/navbar/navbar.component';
   selector: 'mp-card-slideshow',
   standalone: true,
   imports: [NavbarComponent],
-  template: `<mp-nav/>`,
+  template: `
+    <mp-nav />
+  `,
   hostDirectives: [ScrollIntoViewDirective],
+  styleUrl: './lives.component.scss'
 })
 export class LivesComponent {}

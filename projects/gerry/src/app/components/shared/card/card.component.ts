@@ -27,9 +27,10 @@ export class CardComponent {
       ? 'slideshow ' + this.cardConfig.cardSlideshow.position
       : this.cardConfig.leftImg
       ? 'left-icon'
-      : '') + this.cardConfig.imgNavigation
+      : '') +
+     ( !!this.cardConfig.imgNavigation
       ? ' img-navigation'
-      : '';
+      : '');
   }
 
   onImageClick() {
