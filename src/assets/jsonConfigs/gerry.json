@@ -37,8 +37,8 @@
           "label": "bandcamp",
           "action": {
             "url": "https://leonardobarbierato.bandcamp.com",
-              "navType": "window",
-              "targetBlank": true
+            "navType": "window",
+            "targetBlank": true
           }
         },
         {
@@ -54,8 +54,8 @@
           "routerLink": "/vimeo",
           "action": {
             "url": "https://vimeo.com/user207638489",
-              "navType": "window",
-              "targetBlank": true
+            "navType": "window",
+            "targetBlank": true
           }
         }
       ]
@@ -158,7 +158,7 @@
       "cards": [
         {
           "title": "[insita]",
-          "content": "An album of photography and music to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.                                                tracklist:                      1/ e(oi)ncrypted;                  2/ suburbs;                        3/ suprematism;                    4/ lines;                          5/ selfsimilarity;                 6/ ocean;                          7/ lag;                            8/ free                               line-up:                        gianpiero malfatto - trombone; lorenzo morra - synth, piano; leonardo barbierato - bass; riccardo marchese - drums. ",
+          "content": "An album of photography and music to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.\n\nTracklist:\n1/ e(oi)ncrypted\n2/ suburbs\n3/ suprematism\n4/ lines\n5/ selfsimilarity\n6/ ocean;\n7/ lag\n8/ free\n\nLine-up:\n - gianpiero malfatto - trombone\n - lorenzo morra - synth, piano\n - leonardo barbierato - bass\n - riccardo marchese - drums.",
           "topImg": {
             "title": "Insita Cover",
             "url": "https://drive.google.com/thumbnail?id=1JWISUINXTp0WQtTJj5e2LllaeQAR0hI9&sz=w500",
@@ -174,7 +174,7 @@
         },
         {
           "title": "MEGA",
-          "content": "An album capable of transcending passing trends and looking beyond the prevailing musical dynamics, leading to the discovery of elegant and meticulously crafted soundscapes, with an international flavor but a well-defined personality. With their debut album MEGA, SLWJM demonstrate that they know exactly who they are and where they want to go with their music. (La Repubblica)                                                              tracklist:                    1/ floods;                        2/ no longer love;                3/ nothing but you;               4/ story of my life;              5/ interlude #2;                  6/ step memories;                 7/ hold on;                        8/ purple in the sky;              9/ day 'n' night                                                         line-up:                        paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass;        davide mancini - drums",
+          "content": "An album capable of transcending passing trends and looking beyond the prevailing musical dynamics, leading to the discovery of elegant and meticulously crafted soundscapes, with an international flavor but a well-defined personality. With their debut album MEGA, SLWJM demonstrate that they know exactly who they are and where they want to go with their music. (La Repubblica)\n\nTracklist:\n - 1/ floods\n - 2/ no longer love\n - 3/ nothing but you\n - 4/ story of my life\n - 5/ interlude #2\n - 6/ step memories\n - 7/ hold on\n - 8/ purple in the sky\n - 9/ day 'n' night\n\nLine-up:\n - paolo longhini - voice, guitar\n - lorenzo morra - synth, piano\n - leonardo barbierato - bass\n - davide mancini - drums",
           "topImg": {
             "title": "Mega Cover",
             "url": "https://drive.google.com/thumbnail?id=1qXSFGe-DCSNYpFRSzr0cIriIBzJqmBi0&sz=w500",
@@ -191,7 +191,7 @@
         },
         {
           "title": "undone I",
-          "content": "EP.                         tracklist:                     1/ hamlet;                         2/ mirrors;                        3/ interluude #1;                  4/ Nine Eight;                     5/ B.S.T.;                         6/ 4life.                                                                line-up:                        paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass;        davide mancini: drums.",
+          "content": "EP.\n\nTracklist:\n - 1/ hamlet\n - 2/ mirrors\n - 3/ interluude #1\n - 4/ Nine Eight\n - 5/ B.S.T.\n - 6/ 4life\n\nLine-up:\n - paolo longhini - voice, guitar\n - lorenzo morra - synth, piano\n - leonardo barbierato - bass\n - davide mancini: drums",
           "topImg": {
             "title": "Undone I Cover",
             "url": "https://drive.google.com/thumbnail?id=1vGdM8K2JIRFWUyZ3xEcZi_0HA723usmV&sz=w500",
@@ -290,7 +290,7 @@
     },
     "project_card_insita": {
       "title": "patterns for transcendence // [insita]",
-      "content": "Patterns for Transcendence is the project in which I pursue an artistic exploration of the interrelationships between improvisation and environmental/cultural context.[insita], the first recorded work, materializes as a fusion of photographic and musical imagery, blending electronic and acoustic sounds, seeking a balance between composition, rationality, spontaneity, and instinctiveness,reflecting on the immanence and human-ecological transcendence. Patterns for Transcendence is an audio-visual project in which eight photographs, containing urban and natural elements, serve as the starting point from which sounds emerge, transforming images, patterns and abstractions into suggestions for as many musical compositions, blending synthetic-electronic and acoustic sonic elements. Images born from places (and non-places) in different contexts, at various latitudes, give life to eight original compositions, ranging from free improvisation to electronics, from noise to jazz.                      Line-up:                             Leonardo Barbierato: electric bass     Attilio Sepe: alto saxophone           Gianpiero Malfatto: trombone           Lorenzo Morra: piano/synthesizer       Riccardo Marchese: drums",
+      "content": "Patterns for Transcendence is the project in which I pursue an artistic exploration of the interrelationships between improvisation and environmental/cultural context.[insita], the first recorded work, materializes as a fusion of photographic and musical imagery, blending electronic and acoustic sounds, seeking a balance between composition, rationality, spontaneity, and instinctiveness,reflecting on the immanence and human-ecological transcendence. Patterns for Transcendence is an audio-visual project in which eight photographs, containing urban and natural elements, serve as the starting point from which sounds emerge, transforming images, patterns and abstractions into suggestions for as many musical compositions, blending synthetic-electronic and acoustic sonic elements. Images born from places (and non-places) in different contexts, at various latitudes, give life to eight original compositions, ranging from free improvisation to electronics, from noise to jazz. \n\nLine-up:\n - Leonardo Barbierato: electric bass\n - Attilio Sepe: alto saxophone\n - Gianpiero Malfatto: trombone\n - Lorenzo Morra: piano/synthesizer\n - Riccardo Marchese: drums",
       "cardSlideshow": {
         "position": "right",
         "images": [
@@ -346,7 +346,7 @@
     },
     "project_card_conferenzabalaam": {
       "title": "conferenza balaam",
-      "content": "Collective made up of one musician and four actors/actress. their artistic research explores the liminality between kindness and violence, human and post-human/other-than human beings, organic and inorganic elements.                                                           line-up:                               Leonardo Barbierato,                   Alessandra Cocorullo,                  Alessandro De Giovanni,                Beatrice Fedi,                         Marco Té",
+      "content": "Collective made up of one musician and four actors/actress. their artistic research explores the liminality between kindness and violence, human and post-human/other-than human beings, organic and inorganic elements.\n\nLine-up:\n - Leonardo Barbierato\n - Alessandra Cocorullo\n - Alessandro De Giovanni\n - Beatrice Fedi\n - Marco Té",
       "cardSlideshow": {
         "position": "right",
         "images": [
@@ -519,7 +519,10 @@
         },
         {
           "label": "2018",
-          "action": {"url": "2018", "navType": "router"}
+          "action": {
+            "url": "2018",
+            "navType": "router"
+          }
         }
       ]
     },

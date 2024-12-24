@@ -65,7 +65,7 @@
     @include media_desktop {
       display: grid;
       gap: 1em 5em;
-      grid-template-columns: auto auto;
+      grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr 1fr;
 
       .top-img-container {
