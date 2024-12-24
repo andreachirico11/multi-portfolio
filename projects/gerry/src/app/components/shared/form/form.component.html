@@ -1,15 +1,18 @@
-<div class="container">
+@if (formService.initialized) {
+  <div class="container">
 
-  @for (control of config.controls; track control.name) {
-    <mp-form-control [config]="control" />
-  }
+    @for (control of config.controls; track control.name) {
+      <mp-form-control [config]="control" />
+    }
 
-  @for (actionButton of config.actionButtons; track actionButton.label) {
-    <button>
+    @for (actionButton of config.actionButtons; track actionButton.label) {
+    <button (click)="onAction(actionButton.actionType)"
+    [disabled]="formService.formGroup.invalid">
       <h3>
         {{actionButton.label}}
       </h3>
     </button>
-  }
+    }
 
-</div>
+  </div>
+}

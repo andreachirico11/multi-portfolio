@@ -45,3 +45,5 @@ export type MpRouteDataExtended = MpRouteData & {
 export function isMpRouteData(d: Data): d is MpRouteData {
   return typeof d === 'object' && d !== null && 'componentId' in d;
 }
+
+export type ActionType = "accept" | "reject" | "back" | "continue"
