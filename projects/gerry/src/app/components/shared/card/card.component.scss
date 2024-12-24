@@ -27,6 +27,8 @@
 
   &.slideshow {
     height: 100vh;
+    padding: 2em;
+
     .title {
       margin-top: 2em;
     }
@@ -34,6 +36,9 @@
     .paragraph {
       font-size: 12px;
       width: 80vw;
+      height: 30vh;
+      overflow-y: scroll;
+      padding: 3em 0;
     }
   }
 
@@ -64,9 +69,10 @@
   &:not(.left-icon) {
     @include media_desktop {
       display: grid;
-      gap: 1em 5em;
+      gap: 0 5em;
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr 1fr;
+      padding: 0 2em;
 
       .top-img-container {
         grid-row: 1 / -1;
@@ -77,7 +83,6 @@
       .paragraph {
         display: flex;
         grid-column: 2;
-        height: 100%;
       }
 
       .title {
@@ -88,7 +93,7 @@
       .paragraph {
         grid-row: 2;
         align-items: flex-start;
-        max-height: 7em;
+        max-height: 14em;
         overflow-y: scroll;
       }
 
@@ -99,13 +104,15 @@
           width: 40vw;
           height: 80vh;
           margin: 0;
+          display: flex;
+          align-items: center;
         }
 
         .title {
           grid-column: 1;
           margin: 0;
+          padding: 0;
           font-size: 56px;
-          margin-bottom: 2em;
         }
         .paragraph {
           margin: 0;
@@ -113,6 +120,7 @@
           grid-row: 2;
           grid-column: 1;
           width: 40vw;
+          padding: 0;
         }
       }
     }
