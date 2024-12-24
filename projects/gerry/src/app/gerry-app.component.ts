@@ -11,7 +11,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
   imports: [RouterOutlet, NavbarComponent, NgOptimizedImage],
   template: `
     <div class="img-container">
-      <img [ngSrc]="'assets/gerry/nav.png'" fill />
+      <img [ngSrc]="'https://drive.google.com/thumbnail?id=1ruht-LGQ9qPlTLcn2G27BaT5HF4vMnIu&sz=w1500'" fill />
       <div class="navbar-container">
         <mp-nav [childrenIdIndex]="0" class="nav-1"></mp-nav>
         <h3 class="text-primary footer">scroll down</h3>
@@ -26,11 +26,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
   styleUrl: './gerry-app.component.scss',
 })
 export class GerryAppComponent implements OnInit {
-  // private readonly sharedState = inject(MpSharedState);
-  // private readonly configDirective = inject(ConfigDirective);
 
 
   ngOnInit() {
-    // this.sharedState.setFavicon(this.configDirective.getConfig<RootComponentConfigObject>());
   }
 }

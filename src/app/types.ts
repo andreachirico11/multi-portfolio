@@ -11,6 +11,7 @@ export type RootComponentConfigObject = ComponentConfigurationBase & {
   childrenIds?: string[];
   tabTitle?: string;
   favicon: string;
+  preconnections?: string[]
 };
 
 export type ComponentConfigObject = {
@@ -46,4 +47,10 @@ export function isMpRouteData(d: Data): d is MpRouteData {
   return typeof d === 'object' && d !== null && 'componentId' in d;
 }
 
-export type ActionType = "accept" | "reject" | "back" | "continue"
+export type ActionType = "accept" | "reject" | "back" | "continue";
+
+export type NavigationAction  = {
+  url: string;
+  navType: 'router' | 'window';
+  targetBlank?: boolean
+};

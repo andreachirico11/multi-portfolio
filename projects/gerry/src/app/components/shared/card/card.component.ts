@@ -23,10 +23,20 @@ export class CardComponent {
   }
 
   @HostBinding('class') get classes() {
-    return this.cardConfig.cardSlideshow
+    return (this.cardConfig.cardSlideshow
       ? 'slideshow ' + this.cardConfig.cardSlideshow.position
       : this.cardConfig.leftImg
       ? 'left-icon'
+      : '') + this.cardConfig.imgNavigation
+      ? ' img-navigation'
       : '';
+  }
+
+  onImageClick() {
+    if (!this.cardConfig.imgNavigation) {
+      return;
+    } else if (this.cardConfig.imgNavigation.navType === 'window') {
+      window.open(this.cardConfig.imgNavigation.url, '_blank');
+    }
   }
 }

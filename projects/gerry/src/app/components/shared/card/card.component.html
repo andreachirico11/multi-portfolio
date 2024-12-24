@@ -1,15 +1,17 @@
 @if (cardConfig.topImg){
 <div class="top-img-container">
   <img [ngSrc]="cardConfig.topImg.url" [width]="cardConfig.topImg.originalWidth"
-    [height]="cardConfig.topImg.originalHeight" [alt]="cardConfig.topImg.alt">
+    priority [height]="cardConfig.topImg.originalHeight"
+    [alt]="cardConfig.topImg.alt" (click)="onImageClick()">
 </div>
 }
 
 @if (cardConfig.leftImg){
 <div class="left-img-container">
   <img [ngSrc]="cardConfig.leftImg.url"
-    [width]="cardConfig.leftImg.originalWidth"
-    [height]="cardConfig.leftImg.originalHeight" [alt]="cardConfig.leftImg.alt">
+    [width]="cardConfig.leftImg.originalWidth" loading="eager"
+    [height]="cardConfig.leftImg.originalHeight" [alt]="cardConfig.leftImg.alt"
+    (click)="onImageClick()">
 </div>
 }
 
@@ -29,7 +31,7 @@
 <div class="card-slideshow-container">
   @for (image of cardConfig.cardSlideshow.images; track image.title) {
   <img [ngSrc]="image.url" [width]="image.originalWidth" loading="eager"
-    [height]="image.originalHeight" [alt]="image.alt">
+    [height]="image.originalHeight" [alt]="image.alt" (click)="onImageClick()">
   }
 </div>
 

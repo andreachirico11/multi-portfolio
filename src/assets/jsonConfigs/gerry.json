@@ -6,7 +6,8 @@
     "childrenIds": [
       "navbar_1",
       "navbar_2"
-    ]
+    ],
+    "preconnections": ["https://drive.google.com"]
   },
   "components": {
     "404_component": {
@@ -122,10 +123,15 @@
           "content": "An album of photography and music to listen to and to watch, to admire and to immerse oneself in: sounds and images encapsulate soundscapes, urban and natural geographies, to tell new stories about the relationships between improvisation, environment, and ecology.                                                tracklist:                      1/ e(oi)ncrypted;                  2/ suburbs;                        3/ suprematism;                    4/ lines;                          5/ selfsimilarity;                 6/ ocean;                          7/ lag;                            8/ free                               line-up:                        gianpiero malfatto - trombone; lorenzo morra - synth, piano; leonardo barbierato - bass; riccardo marchese - drums. ",
           "topImg": {
             "title": "Insita Cover",
-            "url": "assets/gerry/album-cover_624x628.png",
-            "originalWidth": 624,
-            "originalHeight": 628,
+            "url": "https://drive.google.com/thumbnail?id=1JWISUINXTp0WQtTJj5e2LllaeQAR0hI9&sz=w500",
+            "originalWidth": 500,
+            "originalHeight": 500,
             "alt": "Insita Cover"
+          },
+          "imgNavigation": {
+            "url": "https://open.spotify.com/intl-it/album/6OXenzUX04SNbqh18RVrWr?si=l4Hvt0wiTj6G7XSUtH41dg",
+            "navType":"window",
+            "targetBlank": true
           }
         },
         {
@@ -133,11 +139,16 @@
           "content": "An album capable of transcending passing trends and looking beyond the prevailing musical dynamics, leading to the discovery of elegant and meticulously crafted soundscapes, with an international flavor but a well-defined personality. With their debut album MEGA, SLWJM demonstrate that they know exactly who they are and where they want to go with their music. (La Repubblica)                                                              tracklist:                    1/ floods;                        2/ no longer love;                3/ nothing but you;               4/ story of my life;              5/ interlude #2;                  6/ step memories;                 7/ hold on;                        8/ purple in the sky;              9/ day 'n' night                                                         line-up:                        paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass;        davide mancini - drums",
           "topImg": {
             "title": "Mega Cover",
-            "url": "https://lh3.googleusercontent.com/d/12y_L-OQBWr_T-VW4yDO0F68ZWD9pP9rk?authuser=1/view",
+            "url": "https://drive.google.com/thumbnail?id=1qXSFGe-DCSNYpFRSzr0cIriIBzJqmBi0&sz=w500",
             "isExternal": true,
-            "originalWidth": 1440,
-            "originalHeight": 1440,
-            "alt": "Insita Cover"
+            "originalWidth": 500,
+            "originalHeight": 500,
+            "alt": "mega Cover"
+          },
+          "imgNavigation": {
+            "url": "https://open.spotify.com/intl-it/album/0uqyu74of38zO1TJ5AYixG?si=HFMKA4pfQnmz0a4IAIqHQQ",
+            "navType": "window",
+            "targetBlank": true
           }
         },
         {
@@ -145,11 +156,16 @@
           "content": "EP.                         tracklist:                     1/ hamlet;                         2/ mirrors;                        3/ interluude #1;                  4/ Nine Eight;                     5/ B.S.T.;                         6/ 4life.                                                                line-up:                        paolo longhini - voice, guitar; lorenzo morra - synth, piano; leonardo barbierato - bass;        davide mancini: drums.",
           "topImg": {
             "title": "Undone I Cover",
-            "url": "https://lh3.googleusercontent.com/d/1-Gx6SJ9ZcthyVePkRGJe-Dy0x385Lvbd?authuser=1/view",
+            "url": "https://drive.google.com/thumbnail?id=1vGdM8K2JIRFWUyZ3xEcZi_0HA723usmV&sz=w500",
             "isExternal": true,
-            "originalWidth": 1535,
-            "originalHeight": 1535,
-            "alt": "Mega Cover"
+            "originalWidth": 500,
+            "originalHeight": 500,
+            "alt": "undone Cover"
+          },
+          "imgNavigation": {
+            "url": "https://open.spotify.com/intl-it/album/0B3P3HzmD7hY7hzdbnh9LJ?si=Y43EnEN7To6o2K15Wdi8fQ",
+            "navType": "window",
+            "targetBlank": true
           }
         }
       ]

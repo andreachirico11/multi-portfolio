@@ -17,16 +17,28 @@ export class RootDirective implements OnInit {
   }
 
   ngOnInit() {
-    this.setFavicon(this.configDirective.getConfig<RootComponentConfigObject>());
+    if (isPlatformBrowser(this.platformId)) {
+      const {favicon, preconnections} = this.configDirective.getConfig<RootComponentConfigObject>();
+      this.addPreconnectTags(preconnections)
+      this.setFavicon(favicon);
+    }
   }
 
-  setFavicon({ favicon }: RootComponentConfigObject) {
-    if (isPlatformBrowser(this.platformId)) {
+  addPreconnectTags(preconnections: string[] = []) {
+    preconnections.forEach((preconnection) => {
+      const link = this.renderer.createElement('link');
+      this.renderer.setAttribute(link, 'rel', 'preconnect');
+      this.renderer.setAttribute(link, 'href', preconnection);
+      this.renderer.appendChild(document.head, link);
+    });
+
+  }
+
+  setFavicon(favicon : string) {
       this.renderer.setAttribute(
          document.querySelector('link[rel="icon"]'),
         'href',
         `favicon/${this.isDark ? 'dark' : 'light'}/${favicon}.ico`
       );
     }
-  }
 }

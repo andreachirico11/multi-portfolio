@@ -1,3 +1,4 @@
+import { NavigationAction } from "../../../../../../../src/app/types";
 import { ComponentConfigurationBase } from "../../../types,interfaces/ComponentConfigurationBase";
 import { MpImageConfig } from "../../../types,interfaces/MpImageConfig";
 
@@ -11,6 +12,7 @@ export interface CardConfig extends ComponentConfigurationBase {
     position: Position;
     images: MpImageConfig[];
   };
+  imgNavigation?: NavigationAction
 }
 
 
