@@ -394,73 +394,93 @@
       "vertical": true,
       "cards": [
         {
-          "content": "Felix pastorius solo transcription",
+          "content": "Felix Pastorius Liberty City solo transcription",
           "leftImg": {
             "title": "doc",
             "url": "assets/gerry/icons/document.png",
             "originalWidth": 106,
             "originalHeight": 141,
             "alt": "doc"
+          },
+          "imgNavigation": {
+            "url": "https://drive.google.com/file/d/15R7vOu4m_tiC4Fx-BO6fJMDMmSy7HqqM/view?usp=drive_link",
+            "navType": "window",
+            "targetBlank": true
           }
         },
         {
-          "content": "Felix pastorius solo transcription",
+          "content": "Felix Pastorius Liberty City solo transcription",
           "leftImg": {
             "title": "youtube",
             "url": "assets/gerry/icons/youtube.png",
             "originalWidth": 183,
             "originalHeight": 183,
             "alt": "youtube"
+          },
+          "imgNavigation": {
+            "url": "https://www.youtube.com/watch?v=bXWilRm7cLs&t=4s",
+            "navType": "window",
+            "targetBlank": true
           }
         },
         {
-          "content": "Felix pastorius solo transcription",
+          "content": "Micheal Pipoquinha bass solo transcription",
           "leftImg": {
             "title": "doc",
             "url": "assets/gerry/icons/document.png",
             "originalWidth": 106,
             "originalHeight": 141,
             "alt": "doc"
+          },
+          "imgNavigation": {
+            "url": "https://drive.google.com/file/d/1qVrC5w84Kjf8tj9q8u7Fl3NS-KDeVwuA/view?usp=drive_link",
+            "navType": "window",
+            "targetBlank": true
           }
         },
         {
-          "content": "Felix pastorius solo transcription",
+          "content": "Micheal Pipoquinha bass solo transcription",
           "leftImg": {
             "title": "youtube",
             "url": "assets/gerry/icons/youtube.png",
             "originalWidth": 183,
             "originalHeight": 183,
             "alt": "youtube"
+          },
+          "imgNavigation": {
+            "url": "https://www.youtube.com/watch?v=07XG9-iaTpQ",
+            "navType": "window",
+            "targetBlank": true
           }
         },
         {
-          "content": "Felix pastorius solo transcription",
+          "content": "Rich Brown Twice solo transcription",
           "leftImg": {
             "title": "doc",
             "url": "assets/gerry/icons/document.png",
             "originalWidth": 106,
             "originalHeight": 141,
             "alt": "doc"
+          },
+          "imgNavigation": {
+            "url": "https://drive.google.com/file/d/1eSKXQKVdDVjD5Ab-dvgYYybfAq0syX1S/view?usp=drive_link",
+            "navType": "window",
+            "targetBlank": true
           }
         },
         {
-          "content": "Felix pastorius solo transcription",
+          "content": "Rich Brown Twice solo transcription",
           "leftImg": {
             "title": "youtube",
             "url": "assets/gerry/icons/youtube.png",
             "originalWidth": 183,
             "originalHeight": 183,
             "alt": "youtube"
-          }
-        },
-        {
-          "content": "Felix pastorius solo transcription",
-          "leftImg": {
-            "title": "youtube",
-            "url": "assets/gerry/icons/youtube.png",
-            "originalWidth": 183,
-            "originalHeight": 183,
-            "alt": "youtube"
+          },
+          "imgNavigation": {
+            "url": "https://www.youtube.com/watch?v=HQubBKMXnU4",
+            "navType": "window",
+            "targetBlank": true
           }
         }
       ]

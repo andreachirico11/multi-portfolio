@@ -14,6 +14,3 @@ export interface CardConfig extends ComponentConfigurationBase {
   };
   imgNavigation?: NavigationAction
 }
-
-
-export type CardType = 'CARD';
