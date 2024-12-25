@@ -21,6 +21,11 @@ export class ParagraphListComponent implements OnInit {
     return this.config.flexAlignment || '';
   }
 
+  @HostBinding('style') get bg() {
+    if (!this.config.backgroundImage) return '';
+    return `background-image: url('${this.config.backgroundImage}')`;
+  }
+
   ngOnInit() {
     this.config = this.configDirective.getConfig<ParagraphListComponentConfig>();
   }

@@ -8,6 +8,9 @@
     height: 100vh;
     flex-direction: column;
 
+    background-position: top;
+    background-repeat: no-repeat;
+
     &.left {
       align-items: flex-start;
       padding-left: 5em;

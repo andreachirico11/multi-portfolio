@@ -4,7 +4,8 @@ import { ParagraphConfig } from "../../shared/paragraph/paragraph.config";
 export interface ParagraphListComponentConfig extends ComponentConfigurationBase {
   paragraphs: ParagraphConfig[],
   title?: string,
-  flexAlignment?: 'left'
+  flexAlignment?: 'left';
+  backgroundImage?: string;
 }
 
 
