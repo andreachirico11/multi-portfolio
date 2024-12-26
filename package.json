@@ -9,7 +9,6 @@
     "start": "npm run generate-environment.ts && npm run serve || echo Stopping Serve Process",
     "ng-build": "ng build --configuration production",
     "build": "npm run generate-environment.ts && npm run ng-build",
-    "build-gerry": "set APP_IDS=gerry && set PRODUCTION=true && npm run build",
     "serve:ssr:multi-portfolio": "node dist/multi-portfolio/server/server.mjs",
     "serve:ssr:gerry": "node dist/gerry/server/server.mjs"
   },
